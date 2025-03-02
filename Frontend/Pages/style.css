@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.container {
+ .container {
     display: flex;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -24,9 +24,12 @@ body {
 }
 .left {
     flex: 1;
-    background: url('Frontend/assets/image.png') no-repeat center/cover;
+    background: url('image.png');
     opacity: 0.8;
-}
+     background-size: cover; /* Ensure the image covers the entire space */  
+     opacity: 1;
+} 
+ 
 .right {
     flex: 1;
     padding: 30px;
