@@ -3,40 +3,47 @@ import os
 import torch
 from sentence_transformers import SentenceTransformer, util
 
-# Ensure the script can access project modules
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# Ensure the script can access the project directory
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
 
-# Load sentence transformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def extract_key_sentences(sentences, top_n=5):
-    """Extracts the most important sentences using embeddings and ranks them by importance."""
+    """Ranks sentences by importance and returns the most relevant ones."""
     if not sentences:
         return []
     
-    num_sentences = len(sentences)
-    if num_sentences <= top_n:
-        return sentences  # Return all sentences if fewer than `top_n`
-
-    # Convert sentences into vector embeddings
     embeddings = model.encode(sentences, convert_to_tensor=True)
+    scores = util.pytorch_cos_sim(embeddings, embeddings).mean(dim=1)  # Compute centrality
 
-    # Compute similarity scores (measuring how central each sentence is)
-    similarity_matrix = util.pytorch_cos_sim(embeddings, embeddings)
-    scores = similarity_matrix.mean(dim=1)  # Compute centrality of each sentence
-
-    # Sort sentences by importance and select the top N
     top_indices = scores.argsort(descending=True)[:top_n]
-    
     return [sentences[i] for i in top_indices]
 
-# Test the function independently
 if __name__ == "__main__":
-    from scripts.text_processing import process_input  # Import text processing module
+    from scripts.text_processing import extract_text  # Import text extraction
 
-    test_file = "data/Hack the Future.pdf"  # Change to actual file path
-    key_sentences = extract_key_sentences(process_input(test_file))
+    test_file = "data/sample.pdf"
 
-    print("\n🔹 Extracted Key Sentences:")
-    for i, sent in enumerate(key_sentences, 1):
-        print(f"{i}. {sent}")
+    print(f"🔍 Checking file existence: {test_file}")
+    import os
+    if not os.path.exists(test_file):
+        print("❌ ERROR: File not found!")
+    else:
+        print("✅ File found. Extracting text...")
+
+    sentences = extract_text(test_file)
+
+    if sentences:
+        print(f"✅ Extracted {len(sentences)} sentences. Running key sentence extraction...")
+        key_sentences = extract_key_sentences(sentences)
+
+        if key_sentences:
+            print("\n🔹 Extracted Key Sentences:")
+            for i, sent in enumerate(key_sentences, 1):
+                print(f"{i}. {sent}")
+        else:
+            print("❌ No key sentences extracted!")
+    else:
+        print("❌ No sentences extracted! Check PDF content.")
