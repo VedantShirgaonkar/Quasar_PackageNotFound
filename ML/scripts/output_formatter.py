@@ -34,5 +34,7 @@ def extract_mcq_components(mcq_text):
 
 def format_mcqs_to_json(mcqs):
     """Converts a list of MCQs to JSON format."""
+
+    # CALLING THE extract_mcq_components(mcq) --> to obtain string which is later converted into JSON format
     formatted_mcqs = [extract_mcq_components(mcq) for mcq in mcqs if mcq]
     return json.dumps(formatted_mcqs, indent=4)

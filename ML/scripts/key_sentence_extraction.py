@@ -8,16 +8,23 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
+# A small and efficient transformer model from the Sentence-BERT (SBERT) family
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
+
+# Passing the Number of Sentences to be obtained 
 def extract_key_sentences(sentences, top_n=5):
     """Ranks sentences by importance and returns the most relevant ones."""
     if not sentences:
         return []
     
+    # Converting to Matrix Form
     embeddings = model.encode(sentences, convert_to_tensor=True)
+
+    # Caculating the Scores for the Sentences --> Ranking
     scores = util.pytorch_cos_sim(embeddings, embeddings).mean(dim=1)  # Compute centrality
 
+    # Ordering of the Sentences
     top_indices = scores.argsort(descending=True)[:top_n]
     return [sentences[i] for i in top_indices]
 
