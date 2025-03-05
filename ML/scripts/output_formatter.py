@@ -3,16 +3,15 @@ import json
 
 def extract_mcq_components(mcq_text):
     """Extracts structured MCQ components from raw model output."""
-    print(f"🔍 Parsing MCQ Text:\n{mcq_text}\n")  # Debugging print
-
-    # Improved regex to extract question, options, and answer
+    
+    # Strict regex to enforce correct MCQ format
     pattern = (
-        r'Question:\s*(.+?)\s*\n'
-        r'A[\.\)]\s*(.+?)\s*\n'
-        r'B[\.\)]\s*(.+?)\s*\n'
-        r'C[\.\)]\s*(.+?)\s*\n'
-        r'D[\.\)]\s*(.+?)\s*\n'
-        r'Answer:\s*([A-D])'
+        r'Question:\s*(.+?)\s*\n'  # Capture question
+        r'A\)\s*(.+?)\s*\n'  # Capture option A
+        r'B\)\s*(.+?)\s*\n'  # Capture option B
+        r'C\)\s*(.+?)\s*\n'  # Capture option C
+        r'D\)\s*(.+?)\s*\n'  # Capture option D
+        r'Answer:\s*([A-D])'  # Capture correct answer
     )
 
     match = re.search(pattern, mcq_text, re.DOTALL)
@@ -29,8 +28,7 @@ def extract_mcq_components(mcq_text):
             "answer": correct_answer.strip()
         }
 
-    print("❌ Failed to extract MCQ components! Likely incorrect format.")
-    return None
+    return None  # No match means format is incorrect
 
 def format_mcqs_to_json(mcqs):
     """Converts a list of MCQs to JSON format."""

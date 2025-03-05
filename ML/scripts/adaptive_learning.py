@@ -1,19 +1,32 @@
-import random
+import textstat
+import json
 
-class AdaptiveDifficulty:
-    def __init__(self):
-        self.user_difficulty = 0.5  # Start at medium difficulty
+def categorize_difficulty(sentence):
+    """Determines MCQ difficulty based on text complexity."""
+    score = textstat.flesch_reading_ease(sentence)
 
-    def update_difficulty(self, correct_responses):
-        """Adjusts difficulty based on correct answers."""
-        if correct_responses > 3:
-            self.user_difficulty = min(1.0, self.user_difficulty + 0.1)
-        elif correct_responses < 2:
-            self.user_difficulty = max(0.1, self.user_difficulty - 0.1)
+    if score > 60:
+        return "Easy"
+    elif 30 <= score <= 60:
+        return "Medium"
+    else:
+        return "Hard"
 
-    def get_difficulty(self):
-        """Returns an adaptive difficulty level for MCQ generation."""
-        difficulty_levels = ["easy", "medium", "hard"]
-        return random.choices(difficulty_levels, weights=[0.4, 0.4, 0.2])[0]
+def adjust_difficulty(mcqs, user_performance):
+    """
+    Adjusts difficulty levels based on user performance.
+    
+    user_performance: Dictionary tracking correct/incorrect attempts
+                      { "question_text": "correct"/"incorrect" }
+    """
+    for mcq in mcqs:
+        question_text = mcq["question"]
+        if question_text in user_performance:
+            result = user_performance[question_text]
 
-adaptive_engine = AdaptiveDifficulty()
+            if result == "correct" and mcq["difficulty"] != "Hard":
+                mcq["difficulty"] = "Medium" if mcq["difficulty"] == "Easy" else "Hard"
+            elif result == "incorrect" and mcq["difficulty"] != "Easy":
+                mcq["difficulty"] = "Medium" if mcq["difficulty"] == "Hard" else "Easy"
+
+    return mcqs

@@ -20,30 +20,3 @@ def extract_key_sentences(sentences, top_n=5):
 
     top_indices = scores.argsort(descending=True)[:top_n]
     return [sentences[i] for i in top_indices]
-
-if __name__ == "__main__":
-    from scripts.text_processing import extract_text  # Import text extraction
-
-    test_file = "data/sample.pdf"
-
-    print(f"🔍 Checking file existence: {test_file}")
-    import os
-    if not os.path.exists(test_file):
-        print("❌ ERROR: File not found!")
-    else:
-        print("✅ File found. Extracting text...")
-
-    sentences = extract_text(test_file)
-
-    if sentences:
-        print(f"✅ Extracted {len(sentences)} sentences. Running key sentence extraction...")
-        key_sentences = extract_key_sentences(sentences)
-
-        if key_sentences:
-            print("\n🔹 Extracted Key Sentences:")
-            for i, sent in enumerate(key_sentences, 1):
-                print(f"{i}. {sent}")
-        else:
-            print("❌ No key sentences extracted!")
-    else:
-        print("❌ No sentences extracted! Check PDF content.")

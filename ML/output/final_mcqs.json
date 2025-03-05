@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is one significant application of Artificial Intelligence (AI) in the healthcare industry?",
+        "options": [
+            "Analyzing vast amounts of financial data",
+            "Replacing human doctors",
+            "Improving food production methods",
+            "Analyzing medical images for disease detection"
+        ],
+        "answer": "Analyzing medical images for disease detection"
+    },
+    {
+        "question": "What is one major application of Artificial Intelligence (AI) in the healthcare industry mentioned in the text?",
+        "options": [
+            "Data entry",
+            "Medical transcription",
+            "Disease identification through medical imaging",
+            "Drug development"
+        ],
+        "answer": "Disease identification through medical imaging"
+    },
+    {
+        "question": "In which of the following areas is Artificial Intelligence (AI) significantly contributing to healthcare?",
+        "options": [
+            "Finance",
+            "Retail",
+            "Medical Imaging",
+            "Agriculture"
+        ],
+        "answer": "Medical Imaging"
+    },
+    {
+        "question": "What is one major application of Artificial Intelligence (AI) in the healthcare industry?",
+        "options": [
+            "Analyzing financial data for insurance claims",
+            "Improving traffic management systems",
+            "Enhancing entertainment industry productions",
+            "Analyzing medical images to detect diseases such as cancer, pneumonia, and brain tumors"
+        ],
+        "answer": "Analyzing medical images to detect diseases such as cancer, pneumonia, and brain tumors"
+    },
+    {
+        "question": "What is one significant application of Artificial Intelligence (AI) in the field of healthcare?",
+        "options": [
+            "A. AI in managing hospital finances",
+            "B. AI in enhancing food production efficiency",
+            "C. AI in analyzing vast amounts of medical data and detecting patterns that might be overlooked by human doctors",
+            "D. AI in maintaining cleaning schedules for hospitals"
+        ],
+        "answer": "C. AI in analyzing vast amounts of medical data and detecting patterns that might be overlooked by human doctors"
+    },
+    {
+        "question": "What is one significant application of Artificial Intelligence (AI) in the healthcare industry?",
+        "options": [
+            "Analyzing financial data for insurance claims",
+            "Improving food production techniques",
+            "Enhancing entertainment through better special effects",
+            "Analyzing medical images such as X-rays and MRIs to detect diseases"
+        ],
+        "answer": "Analyzing medical images such as X-rays and MRIs to detect diseases"
+    },
+    {
+        "question": "What is one significant application of Artificial Intelligence (AI) in the healthcare industry?",
+        "options": [
+            "Analyzing financial data for insurance claims",
+            "Providing personalized nutrition advice",
+            "Assisting in the manufacturing of pharmaceuticals",
+            "Identifying diseases such as cancer, pneumonia, and brain tumors in medical imaging"
+        ],
+        "answer": "Identifying diseases such as cancer, pneumonia, and brain tumors in medical imaging"
+    },
+    {
+        "question": "Which one of the following applications of Artificial Intelligence (AI) in healthcare is most closely related to the text?",
+        "options": [
+            "Financial forecasting",
+            "Self-driving cars",
+            "Predicting stock prices",
+            "Medical imaging"
+        ],
+        "answer": "Medical imaging"
+    },
+    {
+        "question": "What is one significant application of Artificial Intelligence (AI) in the healthcare industry?",
+        "options": [
+            "Analyzing vast amounts of financial data",
+            "Enhancing food production efficiency",
+            "Improving diagnostics in medical imaging",
+            "Automating factory assembly lines"
+        ],
+        "answer": "Improving diagnostics in medical imaging"
+    }
+]

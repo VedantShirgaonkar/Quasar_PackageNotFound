@@ -1,18 +1,31 @@
 from scripts.mcq_generator import generate_mcq
-from scripts.key_sentence_extraction import extract_key_sentences
 from scripts.text_processing import extract_text
-from scripts.output_formatter import format_mcqs_to_json
+from scripts.adaptive_learning import adjust_difficulty
+import json
 
 if __name__ == "__main__":
-    input_file = "data/sample.pdf"
-    
-    sentences = extract_text(input_file)
-    key_sentences = extract_key_sentences(sentences, top_n=5)
+    input_pdf = "data/sample.pdf"
 
-    mcqs = [generate_mcq(sent) for sent in key_sentences]
-    json_output = format_mcqs_to_json(mcqs)
+    # Extract structured sentences
+    print("🚀 Starting MCQ generation...")
+    sentences = extract_text(input_pdf)
+    print(f"✅ Extracted {len(sentences)} sentences.")
 
-    with open("output/mcq_data.json", "w") as f:
-        f.write(json_output)
+    # Generate MCQs using Mistral via Ollama
+    mcqs = [generate_mcq(input_pdf) for sent in sentences]
+    mcqs = [mcq for mcq in mcqs if mcq]  # Remove None values
 
-    print("✅ MCQs generated and saved as JSON!")
+    # Example user performance data
+    user_performance = {
+        "What is the main purpose of machine learning?": "correct",
+        "Which algorithm is best for supervised learning?": "incorrect",
+    }
+
+    # Adjust difficulty based on user performance
+    updated_mcqs = adjust_difficulty(mcqs, user_performance)
+
+    # Save final structured MCQs
+    with open("output/final_mcqs.json", "w") as f:
+        json.dump(updated_mcqs, f, indent=4)
+
+    print("Final MCQs saved to output/final_mcqs.json")

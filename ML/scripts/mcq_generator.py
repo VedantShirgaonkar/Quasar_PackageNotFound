@@ -1,65 +1,55 @@
-import sys
+import subprocess
+import json
+from scripts.key_sentence_extraction import extract_key_sentences  # Import extraction function
+from scripts.text_processing import extract_text  # Import text extraction
 import os
-import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-# Ensure the script can access the project directory
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+def generate_mcq(text):
+    """Generates an MCQ based on extracted key sentences using Mistral via Ollama (subprocess)."""
+    
+    sentences = extract_text(text)  # Extract text from PDF
+    key_sentences = extract_key_sentences(sentences)  # Extract important sentences
 
-from scripts.key_sentence_extraction import extract_key_sentences
-from scripts.text_processing import extract_text
-from scripts.output_formatter import format_mcqs_to_json
-
-# Load TinyLlama model & tokenizer (offline mode)
-MODEL_PATH = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.float16, device_map="auto")
-
-def generate_mcq(sentence):
-    """
-    Generates an MCQ from a given sentence using TinyLlama with a strict format.
-    """
-    prompt = f"Generate a multiple-choice question based on this sentence:\n'{sentence}'\n\nQuestion:"
-
-    try:
-        inputs = tokenizer(prompt, return_tensors="pt").to("mps")  # Optimized for Mac M1/M2
-        output = model.generate(**inputs, max_length=150, num_return_sequences=1, do_sample=True, top_p=0.9, temperature=0.7)
-
-        mcq_text = tokenizer.decode(output[0], skip_special_tokens=True)
-
-        print(f"✅ Raw Generated MCQ:\n{mcq_text}\n")  # Debugging print
-        return mcq_text
-
-    except Exception as e:
-        print(f"❌ Error generating MCQ: {e}")
+    if not key_sentences:
+        print("Error: No key sentences extracted.")
         return None
 
-# Test MCQ generation
+    prompt = f"""
+    Generate a multiple-choice question from the given text.
+    Ensure the output is strictly in JSON format with the following keys:
+    {{
+        "question": "MCQ Question",
+        "options": ["Option A", "Option B", "Option C", "Option D"],
+        "answer": "Correct Option"
+    }}
+
+    Text: "{' '.join(key_sentences)}"
+    """
+
+    # Run Ollama via subprocess
+    try:
+        response = subprocess.run(
+            ["ollama", "run", "mistral", prompt],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        mcq_response = response.stdout.strip()
+
+        # Ensure valid JSON format
+        mcq_json = json.loads(mcq_response)
+        return mcq_json
+    except json.JSONDecodeError:
+        print("Error: Model did not return valid JSON.")
+        return None
+    except subprocess.CalledProcessError as e:
+        print("Error running Ollama:", e)
+        return None
+
+# Example Usage
 if __name__ == "__main__":
-    test_file = "data/sample.pdf"
-
-    print(f"🔍 Checking file existence: {test_file}")
-    if not os.path.exists(test_file):
-        print("❌ ERROR: File not found!")
-    else:
-        print("✅ File found. Extracting text...")
-
-    sentences = extract_text(test_file)
-    key_sentences = extract_key_sentences(sentences)
-
-    if key_sentences:
-        print(f"\n✅ Extracted {len(key_sentences)} key sentences. Starting MCQ generation...\n")
-        mcqs = [generate_mcq(sent) for sent in key_sentences]
-
-        # Ensure at least one MCQ is generated
-        if any(mcqs):
-            json_output = format_mcqs_to_json(mcqs)
-            with open("output/mcq_data.json", "w") as f:
-                f.write(json_output)
-
-            print("\n✅ MCQs generated and saved as JSON!")
-        else:
-            print("\n❌ No MCQs were generated. Check for model issues.")
-
-    else:
-        print("\n❌ No key sentences found. MCQ generation skipped.")
+    sample_text = "data/sample.pdf"
+    mcq = generate_mcq(sample_text)
+    if mcq:
+        print(json.dumps(mcq, indent=4))
