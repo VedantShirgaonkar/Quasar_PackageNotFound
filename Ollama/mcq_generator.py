@@ -7,7 +7,6 @@ MODEL_NAME = "gemma:2b"  # Change to 'phi2' or 'tinyllama' if needed
 num = 10
 domain = "Integral Caculus"
 
-# Define the structured prompt
 PROMPT = f"""
 You are an expert in {domain}. Generate {num} domain-specific multiple-choice questions (MCQs) in JSON format.
 Each MCQ should follow this exact JSON structure:
