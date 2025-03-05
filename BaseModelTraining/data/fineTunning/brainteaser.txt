@@ -1,0 +1,679 @@
+#Q Which of these is true about the sleep of zebras?
+^ They sleep standing up.
+A All of these
+B They sleep standing up.
+C They would fall asleep every 5 to 6 hours.
+D They need more than 12 hours of sleep a day.
+
+#Q A farmer had 12 sheep and 3 cows. All of the animals except 9 sheep died. How many animals did he have left in his farm?
+^ 9 sheep
+A 5 cows and 1 sheep
+B 9 sheep
+C 2 cows
+D none
+
+#Q I dont speak, I cannot hear, but I always tell the truth.
+^ The Mirror
+A The watch
+B Fish
+C The Mirror
+D Old granny
+
+#Q Can a Roman Catholic man from California marry his widows sister who is from Texas?
+^ No
+A Yes
+B No
+
+#Q How does this proverb continue: The squeaking wheel gets ...
+^ The grease
+A The rust
+B Removed
+C The broken
+D The grease
+
+#Q An old man was looking at a photograph of a young man. Somebody asked him who it was. The mans answer was the following: Brothers and sisters, I have none. But that mans father is my fathers son. Who was in the photograph?
+^ His son
+A His cousin
+B His grandfather
+C His son
+D His nephew
+
+#Q A shepherd from a village tended the sheep of those of his fellow villagers who did not tend their own. However, he did not tend the sheep of those villagers who tended their own sheep. In that village, there was only one shepherd and he also had several sheep. Can all this be true?
+^ No
+A Yes
+B No
+
+#Q A famous story begins like that, It was a clear summer day and my family was preparing dinner for the New Years Eve. Can this story be true?
+^ Yes
+A Yes
+B No
+
+#Q In a basket there are five apples. We give the five apples to five kids so that each kid receives an apple. However, in the basket there is still one apple. Is this possible?
+^ Yes
+A Yes
+B No
+
+#Q Two days ago my son was three years old and next year he will be 6.  This could be a correct statement.
+^ True
+A False
+B True
+
+#Q The single difference between the two cities A and B was that the citizens of A always said the truth, while the citizens of B never did. Once, a man who had never been to either city arrived at one of them. Which question should the man have asked in order to identify the city he was in? Have in mind, that people from A often visited their friends in B and vice versa.
+^ Are you a citizen of this city?
+A How old are you?
+B Are you married?
+C Is this city A ?
+D Are you a citizen of this city?
+
+#Q You have two right triangles. The sides of the first one are 3 m, 4 m and 5 m. The sides of the second are 3 m, 4 m and 7 m. The area of the second triangle is bigger.
+^ False
+A True
+B False
+
+#Q What number comes next in the row - 31, 28, 31, 30, ?
+^ 31
+A 32
+B 31
+C 30
+D 29
+
+#Q If you were running a race and passed the person in second place, what place would you be in?
+^ 2nd
+A 1st
+B 2nd
+C 3rd
+D Out of the race
+
+#Q What number comes next: 1, 11, 21, 1211, 111221, 312211, 13112221?
+^ 1113213211
+A 131122211211
+B 11221311
+C 31221113112221
+D 1113213211
+
+#Q What is the largest number you can write out with numbers 1, 2, and 3?
+^ 10,460,353,203
+A 10,460,353,203
+B 6
+C 123
+D 321
+
+#Q John went to a party one night.  The next day he was asked if he met a lot people at the gathering.  Figure it out for yourself, John said.  Of the girls I spoke to, all but two were blondes, all but two were brunettes, and all but two were redheads.  How many girls did he talk to?
+^ 3
+A 3
+B 6
+C 4
+D 2
+
+#Q A kid found two old coins. The first coin said it was minted in 43 BC, while the other said it was minted during the reign of Emperor Nicholas I. Which of the coins was fake?
+^ Both
+A Neither one
+B Both
+C The one minted during the reign of Emperor Nicholas I
+D The one minted in 43 BC
+
+#Q A contestant on a TV show had to answer 26 questions. For each correct answer he received 8 points, while a wrong answer penalized him 5 points. How many answers did the man answer correctly, bearing in mind that he eventually had 0 points?
+^ 10
+A 12
+B 8
+C 16
+D 10
+
+#Q Lets suppose that I offer you a bet under the following conditions: I bet $1 and claim that if you give me $5 I will give you $99 in return. Will you gain something from this bet?
+^ No
+A Yes
+B No
+
+#Q You can put something between the digits 2 and 3 so that the resultant number is bigger than 2 and smaller than 3.
+^ True
+A True
+B False
+
+#Q A row consists of 10 letters. The first six are - Z, O, T, T, F, F.  Which is the tenth letter?
+^ N
+A T
+B E
+C S
+D N
+
+#Q You have a square and a circle and the perimeter of the square is equal to the circumference of the circle. Which of the two figures covers a bigger area?
+^ The circle
+A The square
+B The circle
+C No conclusion can be drawn from the given information.
+D Both cover the same are.
+
+#Q Sometimes we see 10 but say 22, see 4 but say 16.
+^ True
+A False
+B True
+
+#Q Can you build a house so that all its walls face north?
+^ Yes
+A Yes
+B No
+
+#Q At the beginning of the day, I was behind a car at a stoplight, whose vanity plate read: 4SBWIU.  What is the driver of this car most likely a fan of?
+^ Movies
+A NASCAR
+B Fly Fishing
+C Movies
+D Sports
+
+#Q My first stop was the supermarket.  When I had completed my shopping and was in the parking lot, I spied this snazzy auto with the following vanity plate: 10S42.  What sport is the driver of this vehicle most likely a fan of?
+^ Tennis
+A Golf
+B Badminton
+C Bowling
+D Tennis
+
+#Q My next errand took me all the way across town.  I decided to take a shortcut which put me on a boulevard of small, eclectic businesses.  One of these businesses I passed on my way was a fortune tellers shop.  A Cadillac was parked out front, which, I assume, belonged to the owner of the shop. What would be the most appropriate vanity plate for this automobile?
+^ N2IT
+A PASS  THE CASH
+B N2IT
+C N3IT
+D N4IT
+
+#Q On the on-ramp to the freeway, I was behind an auto with the following plate:  4IS.  What is the likely profession of the driver of this car?
+^ Optometrist
+A Zoologist
+B Optometrist
+C Biologist
+D Geologist
+
+#Q Well, I got caught in noon rush hour.  As luck would have it, I saw yet another vanity plate.  This one told me that the driver at least checks in his / her rear view mirror.  What plate did I see?
+^ OICU2
+A OIUC2
+B OIC3
+C RU2
+D OICU2
+
+#Q I went to my favorite restaurant to pick up some carry out for an early dinner.  I saw the owners car parked out front. The vanity plate asked a question.  What do you suppose the plate read?
+^ E10YET
+A N0TABL42
+B E10YET
+C RESORV8NS
+D 8ISENUF
+
+#Q I always go up and down the stairs without moving.
+^ A rug
+A A scarf
+B A curtain
+C A towel
+D A rug
+
+#Q If the mother of a boy spanks him and then his father comes and does the same, who hurts the most?
+^ The boy
+A The boys brother
+B The mother
+C The boy
+D The father
+
+#Q Which letter behaves as a selfish friend?
+^ P
+A S
+B A
+C P
+D D
+
+#Q You always wear these flowers.
+^ Tulips
+A Roses
+B Daises
+C Tulips
+D Poppies
+
+#Q 12 candles were alight. The wind blew out 5 of them. How many candles were left?
+^ 12
+A 0
+B 7
+C 12
+D 5
+
+#Q A team of two horses ran for 3 miles. How many miles did each of the horses run?
+^ 3
+A 1.5
+B 0
+C 3
+D 6
+
+#Q Nine passengers carried with them enough food for five days. Several other passengers joined the first group and they all shared the same food, which was now enough for three days. How many passengers joined the first group?
+^ 6
+A 7
+B 8
+C 6
+D 5
+
+#Q How many times does the digit 3 occur in the numbers from 1 to 50?
+^ 15
+A 15
+B 14
+C 10
+D 13
+
+#Q A pole is 20 m high. An ant is climbing it as follows - every day she ascends 5 m and every night she descends 4 m. In how many days will the ant be on the top of the post?
+^ 16
+A 16
+B 19
+C 15
+D 20
+
+#Q A butcher had to stick a total number of 50 sheep in a week. Every day he sticked an equal number of sheep and managed to fulfill the task. How many sheep did he kill per day?
+^ 10
+A 10
+B 4
+C 8
+D 7
+
+#Q In a basket there are three sorts of apples. How many apples do you have to  take from the basket to make sure you have at least 2 apples of the same sort?
+^ 4
+A 5
+B 4
+C 3
+D 2
+
+#Q An old potter was selling pots. Once, a woman came and bought a pot for its sticker price.  She had to pay $1 plus half its price.  What was the price?
+^ 2
+A 2
+B 4
+C 3
+D 1
+
+#Q Four glasses and a jug weigh as mush  as 17 iron balls do. The jug weighs as much as a glass and 7 balls. How many balls does the jug weigh?
+^ 9
+A 9
+B 8
+C 10
+D 5
+
+#Q Three cats can eat 3 mice in 1.5 hours. How long will it take 10 cats to eat 20 mice?
+^ 3 hours
+A 10 hours
+B 6 hours
+C 3 hours
+D 1.5 hour
+
+#Q Is there a way you can divide 7 identical pieces of bread equally among 12 people?
+^ Yes
+A No
+B Yes
+
+#Q A lion can eat a sheep in 2 hours, a wolf - in 3 hours, and a dog - in 6 hours. How long will it take the three animals to eat a sheep if they eat together?
+^ 1 hour
+A 2 hours
+B 8 hours
+C 1/2 hour
+D 1 hour
+
+#Q Two men were walking towards a river. There was a boat on one of the riverbanks. However, this boat could carry only one man at a time.  Nevertheless, both men managed to cross the river with the boat.  This is possible.
+^ True
+A True
+B False
+
+#Q Some of my relatives are 600 times younger than me. Can this be true?
+^ Yes
+A Yes
+B No
+
+#Q A man is carrying three croquet balls across a bridge. The bridge has a sign that says bridge can only hold 200 pounds. The man weighs 195 pounds and the croquet balls weigh 2 pounds each. The man ends up crossing the bridge in one trip and no one else helps him. This is possible.
+^ True
+A False
+B True
+
+#Q Which letter comes next in this series:
+W-L-C-N-I-T-?
+^ S
+A T
+B W
+C S
+D Z
+
+#Q A squirrel finds a hollow log with 9 ears of corn in it.  If he can carry out 3 ears every day, how many days will it take him to empty the log?
+^ 9
+A 6
+B 3
+C 9
+D None of these
+
+#Q Suppose youre taking a multiple-choice quiz.  One question has three choices - A, B, C.  You do not know the answer and guess A. The instructor then announces that C is incorrect. Should you switch to B before turning in your paper?
+^ Yes, this should help
+A No, it would be worse
+B Yes, this should help
+C It depends on when the announcement was made
+D It doesnt matter
+
+#Q A worm can gnaw through 1 mm of paper for a single day. On a bookshelf there are two volumes, each 4 cm thick. Each of the covers is 2 mm thick. How long will it take the warm to gnaw from the first page of the first volume to the last page of the second volume?
+^ 4 days
+A 60 days
+B 80 days
+C 14 days
+D 4 days
+
+#Q The train leaves in 2 minutes and the distance to the train station is 2 miles. If you drive the first mile at 30 miles/h, at what speed should you drive the second mile?
+^ It does not matter.
+A It does not matter.
+B 90 miles/h
+C 120 miles/h
+D 60 miles/h
+
+#Q A driver noticed that the dashboard showed he had driven a total number of 15951 miles. He thought that this was a strange number because no matter in what direction it was read (from left to right or from right to left) it was the same. However, in two hours, the dashboard showed a number that had that same characteristic. What was the speed of the car?
+^ 55
+A 110
+B 55
+C 65
+D 450
+
+#Q Three hunters, different in height, got stuck in a pit. They tried to get out of it and stepped one onto the other. However, the shortest, who was on top, could not reach the edge for just 5 cm. Can these three hunters ever get out of the pit without the help of anyone else or of any additional object?
+^ Yes
+A Yes
+B No
+
+#Q In the Middle Ages a thief went into a church and fell asleep on a pew. He dreamed about stealing the cross of the minister and being sentenced to execution for that. However, just as he was about to be executed, he was woken by a local lady. Immediately after that the thief died. Modern scientists say it was due to a heart attack. Is everything okay with the story?
+^ No
+A No
+B Yes
+
+#Q One of these pairs of numbers has this strange characteristic - when you subtract one of them from the other you get a number equal to what you will get if you divide one by the other. Can you spot it?
+^ 25/4 and 5/4
+A 25/4 and 5/4
+B 24/6 and 24/8
+C 3 and 2/12
+D 30/6 and 36/6
+
+#Q The local limo company have recently expanded their inventory and no longer have enough room for all of their limos. Fifteen of the limos have to be stored outside. If they decide to increase their garage space by 50%, this will give them enough room for all of their current limos, plus enough room to store another fifteen in the future. How many limos does the company currently own?
+^ 75
+A 60
+B 80
+C 85
+D 75
+
+#Q A horse is tied to a five meter rope in front of an old saloon. Six meters directly behind the horse is a bale of hay. Without breaking his rope, the horse is able to eat the hay whenever he chooses. Assuming the horse is perfectly normal, is this possible?
+^ Yes
+A No
+B Yes
+
+#Q A famous playboy explained to a beautiful woman his system for playing roulette: In each round, I always bet half of the money I have at the time on red. Yesterday, I counted and I had won as many rounds as I had lost. Over the course of the night, did the gambler win, lose or break even?
+^ lose
+A lose
+B break even
+C win
+D None of these
+
+#Q A horse travels a certain distance each day. Strangely enough, two of its legs travel 30 miles each day and the other two legs travel nearly 31 miles. Can this be true?
+^ Yes
+A Yes
+B No
+
+#Q A total of 15 delegates from Africa, Asia, America, and Europe meet at an international conference.
+Each continent sends a different number of delegates, and each is represented by at least 1 delegate.
+America and Asia send a total of 6 delegates.
+Asia and Europe send a total of 7 delegates.
+Which continent has sent 4 delegates?
+^ Asia
+A America
+B Africa
+C Asia
+D Europe
+
+#Q One kid has a toy car with a strange remote control- it has only one button on it. When the car is switched on, it starts moving forward and doesnt stop until its switched off. When the boy presses the button, the car makes a 60 degree turn clockwise. Considering that this is a very lazy boy, try calculating the smallest number of times he has to press the button so that the car travels back to him.
+^ 5
+A 4
+B 5
+C 7
+D 3
+
+#Q Here is something like a warm-up before you get to the next one. Three friends, Peter, Nick and Tom were competing in a race. After they finished, a person ,who was late for the race, asked them who was the winner. Tom said I didnt finish first and Peter didnt finish second. Then Nick said Tom didnt finish second either. Who was the winner?
+^ Peter
+A Peter
+B Nick
+C Its impossible
+D Tom
+
+#Q One watermelon weighs 10kg (22 lbs)  plus the half of its own weight. How much does it weigh?
+^ 20kg (44 lbs)
+A 10kg (22 lbs)
+B 25kg (55 lbs)
+C 5kg (11 lbs)
+D 20kg (44 lbs)
+
+#Q Try thinking out a random 3-digit number and writing it twice on a piece of paper, forming a 6-digit number (for example the number is  123, than you will have to put down 123123 on the paper). Now divide this 6-digit number by 7. There will be no remainder, I guarantee. Now divide the result by 11. No remainder again, I guarantee. Now divide the new result by 13.  What happened?
+^ The result is your original number
+A The result is your original number
+B The result is zero
+C There is remainder
+D The result is twice your original number
+
+#Q Two dice are randomly thrown. What is the possibility that the number, formed by the two digits that come form the dice, is a prime?
+^ 5:12
+A 5:12
+B 5:18
+C 19:36
+D 35:36
+
+#Q Yesterday I heard an interesting conversation in a shop:
+
+Client: How much is one?
+Salesman: Twenty cents.
+Client: What about ninety four?
+Salesman: Thirty cents.
+Client: OK, Ill buy twenty nine. How much is it?
+Salesman: Twenty cents.
+
+Is it possible that it was a real product they were talking about?
+^ Yes
+A No
+B Yes
+
+#Q 4, 7, 12, 19, 28, 39, ??
+^ 52
+A 11
+B 67
+C 78
+D 52
+
+#Q A man buys a horse for $60. After a while he sells it for 70$. Some time passes and the man regrets his decision and goes to buy the horse again. But now he has to pay $80 for it and he does. After a while he regrets to have bought the horse back and sells it for $90. Now in total, how much loss/profit did the man make from the three transactions?
+^ $10
+A $10
+B - $20
+C $20
+D 0
+
+#Q Somewhere, there is a very interesting village. And whats so interesting about it? Well, in this village there is a barber, a very special barber. He cuts the hair of everybody in the village that doesnt cut his own hair.  Who then cuts the barbers hair?
+^ Such village cannot exist, it is a paradox
+A The barber of another village
+B Noone
+C Himself
+D Such village cannot exist, it is a paradox
+
+#Q Two men were playing for title of  championship of the world for the checkers tournament. They each played five games and they each won three. There were no ties, is this possible?
+^ Yes
+A No
+B Yes
+
+#Q Take two apples from three apples and what do you have?
+^ two apples
+A no apples
+B two apples
+C three apples
+D one apple
+
+#Q A famous, well respected archaeologist went on a dig in Jerusalem. He found a coin dated 56 B.C. He was so excited, he rushed to the museum so it could be put on display. But the museum wouldnt accept the coin because they said it could not possibly be authentic. They said that the coin had to be a fake.
+^ True
+A True
+B False
+
+#Q In what country can your spouse be jailed along with you if you are caught drinking and driving?
+^ Malaysia
+A Pakistan
+B Germany
+C India
+D Malaysia
+
+#Q Approximately how much money does the taxpayer spend on a prisoner serving a life sentence in California?
+^ 1,550,000
+A 750,000
+B 500,000
+C 100,000
+D 1,550,000
+
+#Q What creature is responsible for the most human deaths?
+^ The mosquito
+A The brown recluse spider
+B The hippo
+C The great white shark
+D The mosquito
+
+#Q What is the largest county in the US?
+^ San Bernadino, CA
+A Bernalillo, NM
+B Maricopa, AZ
+C Dade, FL
+D San Bernadino, CA
+
+#Q Is it possible to test positive on a breathalyzer after drinking only a glass of milk?
+^ Yes
+A Yes
+B No
+
+#Q I have four legs in the morning, two legs in the afternoon and three legs in the evening. What am I?
+^ A human
+A A tortoise
+B A sloth
+C A human
+D A raven
+
+#Q Why do Chinese people eat more rice than Japanese people?
+^ Because Chinese people are more than Japanese people
+A Because Chinese rice ripens more quickly than Japanese rice
+B Because Chinese people are more than Japanese people
+C Because Japanese people export rice for other countries and the Chinese dont
+D Because Chinese rice is more delicious than Japanese rice
+
+#Q This is the smartest letter.
+^ Y
+A A
+B Y
+C C
+D W
+
+#Q Which is the month that allows women to talk the least?
+^ February
+A February
+B December
+C August
+D March
+
+#Q What is the number of men born last year in USA?
+^ None
+A None
+B 2 013 841
+C 6 914 381
+D 1 502 106
+
+#Q This is what you can see once in a minute, twice in a moment, but never in a thousand years.
+^ The letter M
+A The sun
+B An eclipse
+C A Solstice
+D The letter M
+
+#Q With a red beard, gray mustache and black sideburns, the man had a distinct HIRSUTE quality. What does hirsute mean?
+^ hairy, shaggy, covered in hair
+A hairy, shaggy, covered in hair
+B mysterious, always in disguise
+C eccentric
+D multicolored
+
+#Q Stacy was extremely annoyed by Jills PECCADILLO. Jill constantly ate food with her mouth open. What does the word peccadillo mean?
+^ a petty fault
+A chewing loudly
+B vegetarian
+C disgusting manners
+D a petty fault
+
+#Q DERIDE means to laugh at someone with contempt.
+^ True
+A False
+B True
+
+#Q Jerry was worried he would mumble and slur his words, so he had to go slowly and try to ENUNCIATE each word. Words might get lost if you dont enunciate. What does enunciate mean?
+^ pronounce articulately
+A shout and project
+B mask drunkenness
+C pronounce articulately
+D mime and gesticulate
+
+#Q Annas brother took his AVUNCULAR duties very seriously. He taught her children how to read, write and speak German. What does avuncular mean?
+^ Adjective of an uncle
+A Adjective of a mentor
+B Qualities of a Germanic monk
+C Adjective of a father
+D Adjective of an uncle
+
+#Q When Jack and Jill went to see The Notebook, Jill was surprised at Jacks obvious display of his LACHRYMOSITY. What was Jack doing?
+^ crying
+A talking loudly
+B crying
+C laughing
+D sleeping
+
+#Q A CHORTLE is an tool used to cut pastry dough.
+^ False
+A False
+B True
+
+#Q The rancid meat attracted flies and maggots and wafting from it was a FETID odor. What is the meaning of fetid?
+^ stinking
+A stinking
+B chemical
+C sweet
+D food
+
+#Q The king required FEALTY from all his vassals. What does the word fealty mean?
+^ allegiance
+A allegiance
+B food
+C payment, rent
+D livestock
+
+#Q The siblings were complete opposites. Tom was pedantic and read all the time and Lucy was LUDIC. She was always getting mud on her clothes. What is the meaning of ludic?
+^ playful
+A outdoor-loving
+B playful
+C clumsy
+D illiterate
+
+#Q The vegetable rhubarb is delicious but its leaves are poisonous. What did rhubarb originally mean?
+^ root of the barbarian
+A edible poison
+B beware
+C root of the barbarian
+D poisoned ruby
+
+#Q What modern slang term once meant a carnival worker who performed disgusting tasks such as biting off the heads of live chickens?
+^ Geek
+A Nerd
+B Geek
+C Dork
+D Freak
+
+#Q What is heavier a pound of bricks or a pound of feathers?
+^ Their weight is equal
+A There is no way to tell
+B The feathers
+C Their weight is equal
+D The bricks
+
+#Q A farmer had 20 sheep. All but 8 died. How many are still alive?
+^ 8
+A 0
+B 12
+C 15
+D 8
+
+#Q In a house with a maid, a mail receiver, and a chef, the owner was murdered on a Sunday morning. The police questioned all the 3 people (the chef, the mail receiver, and the maid). The chef said; I was making her breakfast. The mail receiver said; I was getting the mail., and finally the maid said; I was cleaning her living room. The police arrested one of them right after the interview. Who got arrested?
+^ The mail receiver
+A The maid
+B The mail receiver
+C The chef
+D She committed suicide

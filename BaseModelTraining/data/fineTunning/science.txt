@@ -1,0 +1,3505 @@
+#Q Clouds are made up of these.
+^ Water droplets and ice crystals
+A Carbon atoms
+B Water droplets and ice crystals
+C Oxygen ions
+D Dust mites
+
+#Q This formation is a conical hill or mountain. It is formed by mantle material being pressed through an opening in the Earths crust.
+^ A volcano
+A A volcano
+B A hill
+C An earthquake
+D A geyser
+
+#Q Japan suffers from this event very often. It is the sudden, light or violent movement of the earths surface caused by the release of energy in the earths crust.
+^ Earthquake
+A Volcano
+B Earthquake
+C Tide
+D Tsunami
+
+#Q It is the only continent that does not have land areas below sea level.
+^ Antarctica
+A Australia
+B South America
+C Antarctica
+D Arctica
+
+#Q It is the longest river in the world
+^ The Nile
+A Themes
+B The Amazon
+C The Nile
+D Danube
+
+#Q Why do travelers to La Paz, Bolivia, often become ill as soon as they arrive?
+^ Because of the altitude
+A Because of the high temperature
+B Because of the humidity
+C Because of the soil quality
+D Because of the altitude
+
+#Q In the US, why do we change our clocks on the daylight saving time dates in April and October?
+^ To conserve energy
+A To conserve energy
+B To increase the hours of the day
+C To extend the working day
+D Because the tourist period in most countries starts in May
+
+#Q These are places of arid land with really low rainfall and high tempertures variation. Their vegetation is insignificant and the population of people and animals is very limited.
+^ Deserts
+A Oceans
+B Raiforests
+C The equator
+D Deserts
+
+#Q This is a gemstone made by fossilized tree sap that is at least 30 million years old.
+^ Amber
+A Obsidian
+B Amber
+C Tourmaline
+D Malachite
+
+#Q This is the largest island on Earth and one third of it is a national park.
+^ Greenland
+A Greenland
+B Madagaskar
+C Australia
+D Alaska
+
+#Q Which of these organs has no known function in the human body?
+^ appendix
+A tonsils
+B appendix
+C uvula
+D pineal gland
+
+#Q The main function of this organ of respiration is to transport oxygen from the atmosphere into the bloodstream.
+^ lung
+A stomach
+B diaphragm
+C trachea
+D lung
+
+#Q This gland is shaped like a butterfly and helps regulate energy in the body.
+^ thyroid
+A parathyroid
+B thyroid
+C adrenal
+D thymus
+
+#Q The cerebellum section of the brain controls the fine movement and equilibrium, among other things.
+^ True
+A True
+B False
+
+#Q These organs are very sensitive and often fail in people with very high blood pressure or diabetes.
+^ kidneys
+A pancreas
+B kidneys
+C ovaries
+D lungs
+
+#Q Tooth enamel is the hardest substance in the body.
+^ True
+A False
+B True
+
+#Q This is one of the first signs of pregnancy.
+^ Missed period
+A Swollen Feet
+B Missed period
+C Hair loss
+D Waddling
+
+#Q This doctor takes care of you and your baby during pregnancy.
+^ Obstetrician
+A Psychologist
+B Periodontist
+C Obstetrician
+D Pediatrician
+
+#Q What is the most common method of child birth?
+^ Vaginal
+A Cesarean
+B Vaginal
+C Water birth
+D In Vitro Fertilization
+
+#Q The mother determines the sex of the baby.
+^ False
+A False
+B True
+
+#Q What are common side effects of pregnancy?
+^ All of the these
+A Stretch marks
+B Morning Sickness
+C All of the these
+D Weight gain
+
+#Q How far along are you approximately, when you feel the baby move for the first time?
+^ 20 weeks
+A 10 weeks
+B 35 weeks
+C 2 weeks
+D 20 weeks
+
+#Q What is suggested that you not do several hours before you go into labor?  It could get you embarrassed.
+^ Eat food
+A Eat fish
+B Have sex
+C Talk on the phone
+D Eat food
+
+#Q What is also delivered along with the baby or immediately after its birth?
+^ Placenta
+A Feet
+B Shoulders
+C Placenta
+D Handbook
+
+#Q These small bodies are considered left overs from the formation of the Solar system some 4.6 billion years ago.
+^ Asteroids
+A Comets
+B Stars
+C Planets
+D Asteroids
+
+#Q These are lumps of ice and dust.  When they get close enough to the Sun they gradually evaporate.  Jets of gas and dust create long tails that people can see from Earth.
+^ Comets
+A Asteroids
+B Comets
+C UFOs
+D Stars
+
+#Q This planet is slightly smaller than Earth and its closest neighbor (excluding the Moon).
+^ Venus
+A Venus
+B Uranus
+C Mars
+D Saturn
+
+#Q This planet is has the largest  group of moons - 31, but it is best known for its ring system.
+^ Saturn
+A Neptune
+B Mars
+C Saturn
+D Venus
+
+#Q This planet of the Solar System was named after a Greek god of the sea and earthquakes. The name is actually the Roman translation of the gods name.
+^ Neptune
+A Mercury
+B Neptune
+C Pluto
+D Uranus
+
+#Q As this is the closest planet to the Sun, its temperatures at the surface range between -300 and 800 F (hot enough for lead to melt).
+^ Mercury
+A Neptune
+B Mercury
+C Pluto
+D Venus
+
+#Q The surface of this planet is unique, it is the only one which has water in large quantities.
+^ Earth
+A Saturn
+B Pluto
+C Earth
+D Mars
+
+#Q Which Solar System celestial bodys revolution around the Sun takes 248 years?
+^ Pluto
+A Saturn
+B Pluto
+C Neptune
+D Uranus
+
+#Q This is the largest planet in our solar system. It is most famous for its Great Red Spot.
+^ Jupiter
+A Mars
+B Neptune
+C Saturn
+D Jupiter
+
+#Q Miranda, Ariel, Umbriel, Titania, Oberon, Caliban, and Sycorax are names of the icy moons of this planet.
+^ Uranus
+A Uranus
+B Jupiter
+C Saturn
+D Venus
+
+#Q The popular chat room abbreviation asl or a/s/l stands for age, sex, and location.
+^ True
+A True
+B False
+
+#Q An icon or animation to represent a participant used in Internet chat and games is referred to as this.
+^ Avatar
+A Bitmap
+B Cookie
+C Applet
+D Avatar
+
+#Q If you and I are chatting over the Internet and I write LOL, that means that I am doing this.
+^ Laughing
+A Crying
+B Laughing
+C Sleeping
+D Eating
+
+#Q The terms smiley and emoticon refer to one and the same thing.
+^ True
+A True
+B False
+
+#Q http://www.123facts.com/ is referred to as this.
+^ URL
+A TCP
+B WAP
+C URL
+D USB
+
+#Q One of the following pairs (chat abbreviation - its  meaning) is wrong.
+^ TTYL - To Tell You a Lie
+A BRB - Be Right Back
+B ATM - At The Moment
+C TTYL - To Tell You a Lie
+D TIA - Thanks In Advance
+
+#Q One of these things will not help you to get in touch with your neighbours PC.
+^ Cache server
+A Hub
+B Router
+C Cache server
+D Network card
+
+#Q If they call me a newbie then I am new to the Internet; and/or new to the subject in general.
+^ True
+A False
+B True
+
+#Q In chat jargon, the emoticon  [8-] refers to this person.
+^ Frankenstein
+A Elvis
+B Ronald Regan
+C Frankenstein
+D The Pope
+
+#Q The medical term cardio, deriving from a Greek word, refers to which organ of the human body?
+^ Heart
+A Brain
+B Liver
+C Lungs
+D Heart
+
+#Q The term arthro is of Greek origin. It refers to which part of the body?
+^ Joint
+A Head
+B Skin
+C Bone
+D Joint
+
+#Q Gastro is a common medical prefix, derived from the Greek word gastros which means what?
+^ Stomach
+A Gas
+B Brain
+C Cell
+D Stomach
+
+#Q The word hepato, which derives from Greek, refers to the kidney.
+^ False
+A False
+B True
+
+#Q Erythrocytes are a type of blood cells, consisting mainly of hemoglobin. What does the word erythro mean?
+^ Red
+A Red
+B Knowledge
+C Cell
+D White
+
+#Q The term thrombo, which comes from Greek, refers to a blood clot.
+^ True
+A False
+B True
+
+#Q The word adeno, deriving from Greek, refers to which to what body part?
+^ Gland
+A Flesh
+B Brain
+C Gland
+D Kidney
+
+#Q The two terms nephro and ren both refer to the kidneys.
+^ True
+A True
+B False
+
+#Q Onco, coming from the Greek word onkos refers to what?
+^ Tumor
+A Ear
+B Nerve
+C Eye
+D Tumor
+
+#Q The food colorants, cochineal and carmine, are made from what?
+^ A kind of insect
+A Frogs
+B A kind of insect
+C FDC Red Dye #40
+D None of these
+
+#Q Jell-O, the popular gelatin dessert, is made in part, from what?
+^ Bones and hides
+A Bones and hides
+B Red ants
+C None of these
+D Horses and cows hooves
+
+#Q Twinkies, the sponge cake with creamy filling, created by Hostess, have an indefinite shelf life.
+^ False
+A True
+B False
+
+#Q Which of these statements, related to the effects of eating turkey, is true?
+^ None of these
+A Turkey slows your metabolic rate which makes you drowsy
+B A turkey makes you sleepy as it contains the natural sedative L-tryptophan
+C Increased blood flow to the gastrointestinal tract makes one drowsy
+D None of these
+
+#Q The traditional Japanese dish, sushi, is always made with raw fish.
+^ False
+A True
+B False
+
+#Q What food results in negative calories when eaten?
+^ All of these
+A Carrots
+B Celery
+C All of these
+D Radishes
+
+#Q Chop Suey, a pasta dish consisting of short noodles, was originally made and served in which country?
+^ USA
+A Thailand
+B USA
+C China
+D Vietnam
+
+#Q Gatorade, a non-carbonated sports drink, was invented by researchers at the University of Florida and named in honor of the Florida Gators, the schools football team.
+^ True
+A False
+B True
+
+#Q In 2003, the FDA issued a warning about a possible connection between green onions and which disease?
+^ Hepatitis A
+A None of these
+B Gall stones
+C Hepatitis A
+D Cancer
+
+#Q In the USA, the color of the plastic tags, used to seal bread bags, indicates on what day the loaves were baked.
+^ True
+A True
+B False
+
+#Q Death of heart tissues due to loss of blood supply correctly describes the condition known as Myocardial Infarction.
+^ True
+A True
+B False
+
+#Q This progressive generative disease of the brain results in loss of cognitive ability and uncontrolled movements, called chorea, the Greek word for dance.
+^ Huntingtons Disease
+A Alzheimers Disease
+B Myasthenia Gravis
+C Multiple Sclerosis
+D Huntingtons Disease
+
+#Q Which of these is best describes the cause of Parkinsons disease?
+^ A decrease in a neurotransmitter
+A A brain injury
+B Changes in the myelin sheath of the neuron
+C Decreased blood flow to the brain
+D A decrease in a neurotransmitter
+
+#Q If your physician tells you that you have Presbycusis due to the normal process of aging, he may suggest that you need which of these?
+^ Hearing aid
+A Dentures
+B Glasses
+C A wheelchair
+D Hearing aid
+
+#Q Which of these medical terms means difficulty in swallowing.
+^ dysphagia
+A dyspepsia
+B dysuria
+C dyspnea
+D dysphagia
+
+#Q Does the condition known as Hypoglycemia imply that blood sugar levels in the body are too high?
+^ No
+A Yes
+B No
+
+#Q If you have hyperthyroidism, your body is overproducing what hormone?
+^ Thyroxine
+A Estrogen
+B Thyroxine
+C Glucagon
+D Thyrocalcitonin
+
+#Q Which of these most accurately describes the medical term, necrosis?
+^ Death of living tissue
+A Irregular heartbeat
+B Death of living tissue
+C Decrease in white blood cells
+D Liver damage
+
+#Q Your physician has ordered an electroencephalogram (EEG), the graphic recording of the electrical activity of what organ?
+^ Brain
+A Muscles
+B Liver
+C Heart
+D Brain
+
+#Q In the US, what was the average street cost of a lid (3/4 ounce bag) of marijuana in the mid 1970s?
+^ $15.00
+A $20.00
+B $10.00
+C $15.00
+D $5.00
+
+#Q Marijuana is known by many names, including all of these but one. Which is the odd name?
+^ Janu
+A Mary Jane
+B Weed
+C Pot
+D Janu
+
+#Q What is marijuanas primary active ingredient?
+^ THC
+A THC
+B TCB
+C TAC
+D TBC
+
+#Q How many different chemicals can be found in marijuana?
+^ More than 400
+A 150
+B Less than 5
+C More than 400
+D 200
+
+#Q According to anonymous researches, conducted in the USA in 2002, most teenagers aged 12-17 have at least tried Marijuana.
+^ False
+A False
+B True
+
+#Q Which side effect is not related to the use of marijuana?
+^ Violent behaviour
+A Silly and causeless giggling
+B Red, bloodshot eyes
+C Dizziness and staggering
+D Violent behaviour
+
+#Q Marijuana is produced from parts of the male cannabis plants.
+^ False
+A True
+B False
+
+#Q With the passage of the Marijuana Tax Act, the United States effectively banned recreational and medicinal use of cannabis. What year was this act adopted?
+^ 1937
+A 1945
+B 1937
+C 1972
+D 1965
+
+#Q By amending its Opium Act in 1976, the government of which country decided to treat possession of up to 30 grams of marijuana as an activity not for prosecution, detection or arrest?
+^ Holland
+A Columbia
+B Holland
+C Canada
+D USA
+
+#Q What US state enacted Proposition 215, the Compassionate Use Act, which allowed sick and dying patients to legally use marijuana for medicinal purposes?
+^ California
+A Alabama
+B Hawaii
+C California
+D Ohio
+
+#Q The sphygmomanometer is a device invented by Samuel Siegfried Karl Ritter von Basch, used to measure what?
+^ Blood pressure
+A Blood pressure
+B Myopia
+C Intensity of headaches
+D Heart murmurs
+
+#Q This disorder, from a Greek word meaning failure to put in order, is characterised by lack of muscular coordination, and often occurs when parts of the nervous system which control movement are damaged.
+^ Ataxia
+A Narcolepsy
+B Dyslexia
+C Hyperkinesis
+D Ataxia
+
+#Q This disorder is the abnormal accumulation of cerebrospinal fluid in the ventricles of the brain.
+^ Hydrocephalus
+A Spina bifida
+B Multiple sclerosis
+C Epilepsy
+D Hydrocephalus
+
+#Q Tourette syndrome is a neurological disorder, characterized by tics -- involuntary, rapid, movements or vocalizations.
+^ True
+A False
+B True
+
+#Q This is the colloquial equivalent of the medical term Herpes zoster, which is used to define a condition, caused by the varicella zoster virus.
+^ Shingles
+A Cold sores
+B Sementia
+C Mumps
+D Shingles
+
+#Q Pre-eclampsia, thought to be caused by inflammatory mediators, is a medical condition associated with which of these?
+^ Pregnancy
+A Pregnancy
+B Eye infections
+C Brain tumor
+D Bronchitis
+
+#Q Down Syndrome, named after Dr. John Langdon Down, is actually a chromosomal defect.
+^ True
+A True
+B False
+
+#Q What medical term is synonym of jaundice, a condition characterized by yellowing of the skin, sclera and mucous membranes?
+^ Icterus
+A Icterus
+B Ascites
+C Anorexia
+D Nausea
+
+#Q The presence of gallstones in the gallbladder is defined by what medical term?
+^ Cholelithiasis
+A Dysentery
+B Hepatitis
+C Cholelithiasis
+D Cirrhosis
+
+#Q Arthralgia is a severe heart disorder.
+^ False
+A False
+B True
+
+#Q The term encephalon, defined as the brain of a vertebrate, derives from a Greek word which means what?
+^ In the head
+A In the mind
+B Forehead
+C In the backbone
+D In the head
+
+#Q Carcino is a word of Greek origin which refers to the small intestines.
+^ False
+A True
+B False
+
+#Q The term blepharo derives from a Greek word and refers to which part of the body?
+^ Eyelid
+A Artery
+B Larynx
+C Eyelid
+D Lungs
+
+#Q An inguinal hernia occurs in the groin, the area between the abdomen and thigh.
+^ True
+A False
+B True
+
+#Q Which of these medical terms refers to air passages in the lungs?
+^ Bronchial tubes
+A Neurons
+B Axons
+C Terminals
+D Bronchial tubes
+
+#Q The word phlebo is of Greek origin, which comes from the root phlein, meaning to gush or to overflow.  What part of the body does this word refer to?
+^ Veins
+A Aorta
+B Arteries
+C Capillaries
+D Veins
+
+#Q The medical prefix bucco refers to which part of the head?
+^ Cheek
+A Forehead
+B Eye
+C Cheek
+D Nose
+
+#Q The medical prefix oophoro, which derives from Greek, refers to which part of the body?
+^ Ovary
+A Muscle
+B Uterus
+C Abdomen
+D Ovary
+
+#Q The prefix neuro, which in Greek means sinew or string, is related to the nervous system.
+^ True
+A True
+B False
+
+#Q The prefix of Greek origin, oto is used in medical terminology to refer to what body part?
+^ Ear
+A Nose
+B Mouth
+C Ear
+D Eye
+
+#Q Scientists differentiate what three basic types of memory, based on the duration of memory retention?
+^ Sensory memory, short-term memory, and long-term memory
+A Episodic memory, procedural memory, and semantic memory
+B Temporary memory, average memory, and permanent memory
+C Momentary memory, short-term memory, and permanent memory
+D Sensory memory, short-term memory, and long-term memory
+
+#Q To which of these essential human abilities is memory closely related?
+^ All of these
+A All of these
+B Learning
+C Understanding
+D Speaking
+
+#Q Procedural Memory, a category of the long-term memory, refers to which of these basic human abilities?
+^ The ability to acquire and develop skills
+A The ability to gain and store general knowledge and information
+B The ability to consciously retrieve stored facts and information
+C The artistic and creative abilities
+D The ability to acquire and develop skills
+
+#Q Typically, how many random items can human short-term memory store?
+^ 6-8
+A 3-4
+B 9-11
+C 6-8
+D 15-17
+
+#Q Déjà Vu is one of the curios brain phenomenon. Which of these most accurately describes the term?
+^ A sensation of something seen or experienced before
+A A sensation of something seen or experienced before
+B A spontaneous involuntary creation of a false memory
+C A sudden flash of a long forgotten memory
+D The feeling that something familiar was never seen before
+
+#Q Nearly everybody has experienced the tip-of-the-tongue situation when one is eagerly trying to think of a relatively familiar fact, name or word and is just about to recall it, but it constantly eludes him.  What is the explanation of this strange experience?
+^ Another item is blocking the recollection
+A Aging brain cells
+B Mineral deficiency
+C Unpleasant experience associated with the memory
+D Another item is blocking the recollection
+
+#Q Which of these most accurately explains the controversial issue of  false memories?
+^ Memories formed under the influence of misleading suggestions and clues
+A Memories formed under the influence of misleading suggestions and clues
+B None of these
+C Memories lacking coherent and logical rationale
+D Memories causing false sensations
+
+#Q One of the most basic characteristics of our memory is the ability to forget, which is considered to be this type of function.
+^ Adaptive function
+A Developing function
+B Adaptive function
+C Cognitive function
+D Protective function
+
+#Q Amnesia, the loss of significant amount of important information, is a memory impairment which happens as a result of which of these?
+^ All of these
+A Specific malfunctions in the brain
+B Physical injury
+C Psychological trauma
+D All of these
+
+#Q In the study of memory, what does the term mnemonist refer to?
+^ Individual with exceptional memory
+A Individual with exceptional memory
+B Individual with severe memory disorders
+C Individual who tends to create false memories
+D Individual who has recovered from amnesia
+
+#Q What is the main cause for most pandemics in history?
+^ The domestication of animals
+A The domestication of animals
+B Human negligence
+C Genetic experiments
+D The bad hygiene of the people
+
+#Q During which war did the first known pandemic take place?  It dates back to 430 BC.
+^ The Peloponnesian War
+A The Peloponnesian War
+B The Punic Wars
+C The Persian Wars
+D The Trojan War
+
+#Q Which Roman emperor died of Antonine plague? This plague was actually named after him.
+^ Marcus Aurelius
+A Marcus Aurelius
+B Vespasian
+C Claudius
+D Augustus
+
+#Q Is there a cure for the plague?
+^ Yes
+A Yes
+B No
+
+#Q At this stage of the plague, one of the the symptoms is the presence of black patches on the skin.
+^ Septicemic Plague
+A Plague of Justinian
+B Septicemic Plague
+C Pneumonic Plague
+D Bubonic Plague
+
+#Q This disease had 7 pandemics and is still causing epidemics.
+^ Cholera
+A Plague
+B Cholera
+C Typhus
+D Influenza
+
+#Q This terrible disease killed as much as 5% of the worlds population and affected almost 20% in just six months.
+^ Spanish Flu
+A Spanish Flu
+B Measles
+C Bubonic plague
+D Cholera
+
+#Q The smallpox isnt dangerous.
+^ False
+A True
+B False
+
+#Q Which of these countries did cholera affect most?
+^ Russia
+A USA
+B Italy
+C Russia
+D France
+
+#Q Cancer is considered a pandemic.
+^ False
+A False
+B True
+
+#Q This is one of the most common health problems that comes from being overweight.
+^ High blood pressure
+A Fainting
+B High blood pressure
+C Vertigo
+D Low blood pressure
+
+#Q In the USA, obesity is the second leading cause of preventable death after this one.
+^ Smoking
+A Stress
+B Drugs
+C Pollution
+D Smoking
+
+#Q How many people are overweight around the world?
+^ More than 1 billion
+A More than 3 million
+B More than 1 million
+C More than 5 million
+D More than 1 billion
+
+#Q When starting a diet you have to consume at least this number of calories per day, otherwise you will lose muscle.
+^ 1200
+A 2000
+B 1000
+C 1500
+D 1200
+
+#Q Which of the following has the most fat?
+^ American Blue Cheese
+A Cottage Cheese
+B Feta
+C American Blue Cheese
+D Parmesan
+
+#Q Body Mass Index (BMI) is the relation between body mass and height.  If your BMI is in this range then you are considered overweight.
+^ 25 to 29.9
+A 25 to 29.9
+B 20 to 24.9
+C 15 - 19.9
+D 10 - 14.9
+
+#Q This is the most recommended activity that helps prevent or fight obesity.
+^ Getting exercise
+A Quitting alcohol
+B Getting exercise
+C Eating salads only
+D Drinking a lot of water
+
+#Q At what time in a womans life is she most likely to gain the most weight?
+^ During pregnancy
+A After the age of 60
+B During pregnancy
+C Before her menstruation
+D During menopause
+
+#Q Women become overweight easier than men.
+^ True
+A False
+B True
+
+#Q What does being obese in some countries with food shortages symbolizes?
+^ Wealth
+A Wealth
+B Wisdom
+C Divinity
+D Well-being
+
+#Q Jason has 3 quarters, 8 nickels, 6 dimes and 3 pennies. How much money does he have?
+^ $1.78
+A $0.35
+B $1.78
+C $2.58
+D $1.93
+
+#Q What is the next number in the following sequence: 42, 48, 54, __?
+^ 60
+A 64
+B 50
+C 58
+D 60
+
+#Q In the following division problem, the quotient is 2: 
+
+12 / 6 = 2.
+^ True
+A True
+B False
+
+#Q 6 is a multiple of 2 and 3, 9 is a multiple of 3 only, 10 is a multiple of 5 and what other number?
+^ 2
+A 10
+B 2
+C 15
+D 5
+
+#Q How would you write 236,598 out in words?
+^ Two hundred, thirty-six thousand, five hundred ninety-eight
+A Two million, thirty-six thousand, five hundred ninety-eight
+B Two hundred, thirty-six thousand, five hundred ninety-eight
+C Three hundred, thirty-six thousand, six hundred ninety-eight
+D Two hundred, three thousand, five hundred ninety-seven
+
+#Q The eyes of males are bigger than those of females.
+^ True
+A False
+B True
+
+#Q The eyes of a baby weigh about 1/400 of its entire body mass. How much do the eyes of an adult weigh?
+^ 1/4000 of the body mass
+A 1/1000 of the body mass
+B 1/4000 of the body mass
+C 1/20000 of the body mass
+D 1/10000 of the body mass
+
+#Q An adult salivates this much per day, on average.
+^ 1 liter (1/4 gallons)
+A 2 liters (1/2 gallons)
+B 0.1 liters (0.026gallons)
+C 1 liter (1/4 gallons)
+D 1.2 liters (0.32 gallons)
+
+#Q How long are the intestines of an average adult? (large and small)
+^ approx 8-9 meters (26-29.5 feet)
+A approx 1-2 meters (3-6.5 feet)
+B approx 19-20 meters (62-65 feet)
+C approx 8-9 meters (26-29.5 feet)
+D approx 15-16 meters (49-52.5 feet)
+
+#Q The growth hormone is released from this gland.
+^ Hypophysis
+A Pancreas
+B Hypophysis
+C Adrenal Gland
+D Pineal Gland
+
+#Q How many teeth does an average human have?
+^ 32
+A 28
+B 29
+C 34
+D 32
+
+#Q What can microexpressions, a type of tiny fleeting facial expressions, help you understand about the person you are talking with?
+^ All of these
+A Their real attitude towards the topic
+B Their emotional state
+C Whether they are telling the truth or not
+D All of these
+
+#Q Which one of these statements about facial microexpressions is not true?
+^ Microexpressions can be easily read by any person.
+A Microexpressions are involuntary.
+B Microexpressions can be controlled with certain types of chemicals.
+C Microexpressions contain much more information than common expressions.
+D Microexpressions can be easily read by any person.
+
+#Q Kismet, a complicated technological achievement, is a very important step in the understanding of human facial expressions and their role in socialising. What is actually Kismet?
+^ A sociable humanoid robot
+A A technique for enhancing the ability of the face to conduct emotions
+B A set of tiny devices implanted under the skin, which detect microexpressions
+C A sociable humanoid robot
+D An advanced computer system, designed to analyze microexpressions
+
+#Q What British naturalist published the first major scientific study on facial communication in 1872?
+^ Charles Darwin
+A Leonardo Da Vinci
+B Alfred Brehm
+C James Edward Smith
+D Charles Darwin
+
+#Q In medicine, which of these brain disorders does the term prosopagnosia refer to?
+^ The Inability to recognize faces
+A The inability to express emotions
+B Misinterpretation of basic human expressions
+C Total indifference to others expressions
+D The Inability to recognize faces
+
+#Q In which of these countries is showing negative facial expressions considered impolite and is therefore avoided?  Negative expressions are instead usually masked with smile or laughter.
+^ Japan
+A Peru
+B Kenya
+C Indonesia
+D Japan
+
+#Q What emotional state does the gesture of narrowed eyes convey?
+^ Threat, distrust
+A Threat, distrust
+B Satisfaction, joy
+C Sadness, frustration
+D Anger, excitement
+
+#Q Experiments prove that men are usually better at decoding facial expressions than women.
+^ False
+A True
+B False
+
+#Q Laughter is one of the first expressions of emotions babies learn to convey.  At about what age do babies start to laugh?
+^ 4 months
+A 12 months
+B 7 months
+C 18 months
+D 4 months
+
+#Q This organ contains many bacteria, which begin to digest surrounding organs immediately after death.
+^ Intestines
+A Liver
+B Stomach
+C Intestines
+D Rectum
+
+#Q A large number of flies can appear around a dead body within the first 24 hours of death.  This is mainly because the flies lay eggs on the body, this multiplying their numbers.
+^ True
+A True
+B False
+
+#Q In average conditions, approximately how many hours does it take for the dead bodys temperature to equalize with the surrounding environment?
+^ 24
+A 12
+B 48
+C 26
+D 24
+
+#Q Which of the following happens three days after the moment of death?
+^ The body starts to swell
+A The body starts to shrink
+B The body starts to emit smell
+C The body starts to swell
+D The nails are so loose that they can be pulled off
+
+#Q Because of the substance present in these structures of the human body, they can be preserved for centuries avoiding decomposition.
+^ Teeth
+A Teeth
+B Nails
+C Eyelashes
+D Eyeballs
+
+#Q Which part of the body is decomposed last, but before the bones?
+^ Hair
+A Cartilages
+B Hair
+C Nails
+D Gall Bladder
+
+#Q The term rigor mortis means this.
+^ Stiffness of death
+A Stiffness of death
+B Swollen corpse
+C Blue corpse
+D Blue death
+
+#Q The skin goes purple and waxy about one hour from time of death.
+^ False
+A False
+B True
+
+#Q A death erection is a post-mortem erection which occurs when a male individual dies vertically or face-down.  What causes this condition?
+^ Gravity causes the genitalia to fill up with blood
+A Having intercourse before death
+B Gravity causes the genitalia to fill up with blood
+C The body swells up
+D Bladder and Intestines empty
+
+#Q The face of the person becomes difficult to recognize 24 hours after death.
+^ True
+A False
+B True
+
+#Q Due to this, there is almost no atmosphere on the Moon.
+^ Weak gravity
+A Lack of oxygen
+B Cold temperature
+C Excessive sunshine
+D Weak gravity
+
+#Q The side of the Moon that we see is this.
+^ The same every night
+A Different every night
+B Different every two weeks
+C Different every month
+D The same every night
+
+#Q The distance between the Moon and the Earth is approximately this much.
+^ 238,897 miles (384,467km)
+A 238,897 miles (384,467km)
+B 62,000 miles (100,000km)
+C 155,342 miles (250,000 km)
+D 260,975 miles (420,000 km)
+
+#Q The Moon is changing its position it relation to the Earth. In what way?
+^ Moving away
+A Getting closer
+B Moving along the Earths Y axis
+C Moving away
+D Moving along the Earths X axis
+
+#Q Which factor ensures that many of the craters on the Moons surface remain well preserved in comparison to those on Earth?
+^ The lack of atmosphere
+A The strong solar rays
+B The rotating movement
+C The lack of atmosphere
+D The influence of Earths gravity
+
+#Q When was the Moon formed?
+^ About 4.5 billion years ago
+A About 5.7 billion years ago
+B About 4.5 billion years ago
+C About 300,000 years ago
+D About 1 billion years ago
+
+#Q Moons shape is not quite round. What does it resemble?
+^ Egg
+A Egg
+B Kiwi
+C Pear
+D Lemon
+
+#Q A compass cannot be used on the Moon.  What factor is responsible for this?
+^ Lack of a magnetic field
+A Lack of a magnetic field
+B Influence of Earths gravity
+C Asteroid impacts
+D Lack of gravity on the Moon
+
+#Q The Moon is taken into consideration when calculating the day of this religious celebration.
+^ Easter
+A Thanksgiving
+B Memorial Day
+C Christmas
+D Easter
+
+#Q The Moons diameter is approximately this long.
+^ 2,154 miles (3,476 km)
+A 2,796 miles (4,500 km)
+B 2,154 miles (3,476 km)
+C 5,567 miles (8,960 km)
+D 7,145 miles (11,500 km)
+
+#Q A large exposition at the Royal Observatory, Greenwich is devoted to horology, a science that studies what?
+^ time
+A time
+B navigation
+C lenses
+D comets
+
+#Q These animals are the subject of study of coleopterology, which is a subfield of entomology.
+^ beetles
+A jaguars
+B tigers
+C snakes
+D beetles
+
+#Q A King Cobra and a frog would be subjects of study of what science?
+^ herpetology
+A autecology
+B astacology
+C reptology
+D herpetology
+
+#Q This species, considered to have colonized almost every landmass on Earth, is studied by myrmecology.
+^ ants
+A bees
+B ants
+C flies
+D hornets
+
+#Q This material on the surface of a lithosphere is the subject of study of pedology.
+^ soil
+A turf
+B rock
+C rain
+D soil
+
+#Q This country, known for the worlds longest continuously used written language system, is the subject of study of sinology.
+^ China
+A China
+B Singapore
+C Japan
+D Korea
+
+#Q What national symbols are subject of study of vexillology?
+^ flags
+A flags
+B seals
+C national emblems
+D coat of arms
+
+#Q What is the subject of study of thanatology, personified in Greek mythology by Thanatos?
+^ death
+A death
+B plague
+C birth
+D grave
+
+#Q This astral body, known as Earths only natural satellite, is the subject of study selenology.
+^ Moon
+A Sun
+B Venus
+C Jupiter
+D Moon
+
+#Q This contractile tissue of the body is the subject of study of myology.
+^ muscles
+A blood cells
+B bones
+C hairs
+D muscles
+
+#Q What term is used to designate a hurricanes calm, low-pressure center around which winds of high velocity spin?
+^ Eye
+A Outer rim
+B Eye wall
+C Rain bands
+D Eye
+
+#Q A swallow hole is an unnatural depression in earths surface formed by the collapse of a large building.
+^ False
+A True
+B False
+
+#Q What term refers to electric power produced by running or falling water?
+^ Hydroelectric power
+A Nuclear power
+B Aquatic power
+C Hydrothermal power
+D Hydroelectric power
+
+#Q What term do scientists use to denote the gradual warming of the planet due to absorption of infrared radiation by the atmosphere?
+^ Greenhouse effect
+A Greenhouse effect
+B Ozone depletion
+C Atmospheric termoincrease
+D Global dimming
+
+#Q The geological area called The Ring of Fire is located along the borders of the Pacific Ocean.
+^ True
+A False
+B True
+
+#Q Will two tectonic plates sliding away from each other result in an earthquake?
+^ Yes
+A Yes
+B No
+
+#Q Sinkholes, natural depressions in the surface topography, may vary largely in size.
+^ True
+A True
+B False
+
+#Q There are many different theories of how the Milky Way galaxy was born.
+^ True
+A True
+B False
+
+#Q These biological poisons damage bio systems on contact. The injuries they cause resemble burns.
+^ Corrosives
+A Oxidizers
+B Halides
+C Corrosives
+D Neurotoxins
+
+#Q Arsenic poisoning mainly disrupts this system.
+^ Digestive system
+A Cardiovascular system
+B Digestive system
+C Endocrine system
+D Nervous system
+
+#Q Poisoning by this substance is often referred to as painters colic.
+^ Lead
+A Lead
+B Thallium
+C Barium
+D Chromium
+
+#Q Nicotine can be found in tomatoes, potatoes, green peppers, coca plants and tobacco.
+^ True
+A True
+B False
+
+#Q Troops who are likely to be attacked with chemical weapons often carry auto-injectors with this substance.
+^ Atropine
+A Solanine
+B Digoxin
+C Digitoxin
+D Atropine
+
+#Q Strychnine poisoning produces some of the most terrifying and painful symptoms imaginable.
+^ True
+A False
+B True
+
+#Q Three of these snakes produce venom, lethal to humans.  Which one does not?
+^ Desert Kingsnake
+A King Cobra
+B Desert Kingsnake
+C Mamba
+D Rattlesnake
+
+#Q In medical parlance, what is an A-line?
+^ Arterial line
+A Anatomic line
+B Analog line
+C Afferent line
+D Arterial line
+
+#Q After reading the following, what will a doctor conclude? Pt presents 3 d S/P TURP, with c/o HA x 2 d.
+^ The patient has a headache.
+A The patient has a headache.
+B The patient recently had abdominal surgery.
+C The patient has no current complaints.
+D The patient is female.
+
+#Q What do abbreviations Rx, Tx, Hx and Sx mean?
+^ Prescription, Treatment, History and Symptom
+A Pharmacy, Treatment Room, Hospital and Sanitorium
+B Renal, Thyroid, Uterine and Splenic
+C Prescription, Treatment, History and Symptom
+D Rectal, Thyroglossal, Hepatic and Splenic
+
+#Q In medical jargon, what are PMH, PSH, SH and FH?
+^ Past medical history, Past surgical history, Social history and Family history
+A Past medical history, Past surgical history, Social history and Family history
+B Post-medical healing, Post-surgical healing, Surgical healing and Functional healing
+C Posterior middle hyoid, Posterior superior hyoid, Superficial hyoid and Foramen hyoidium
+D Patient mental hospital, Patient surgical hospital, Social hospital, and Female hospital
+
+#Q If the doctor writes, CNs 2-12 intact, which of the following would be true?
+^ The patient is able to close and open the eyes.
+A The patient is a man.
+B The cervical nerves are all functioning normally.
+C The patient is able to close and open the eyes.
+D All of the lymph nodes in the cervical chain are normal.
+
+#Q In medical parlance, what is an AKA?
+^ The removal of a limb
+A An alcoholic
+B An antibiotic
+C The removal of a limb
+D A patient
+
+#Q If the doctor orders an EKG, what part of the body is going to be examined?
+^ Heart
+A Heart
+B Brain
+C Peripheral Nerves
+D Abdomen
+
+#Q In medical jargon, FH: CAD (M), DM (F) implies what?
+^ The patients mother had heart disease and the patients father had diabetes.
+A The patients mother died of an aneurysm, and the patients father died of a myocardial infarction.
+B The patients mother had a stroke, and the patients father had diabetes mellitus.
+C The patients mother had heart disease and the patients father had diabetes.
+D The patients mother was an engineer and the patients father was a computer programmer.
+
+#Q In medical terms, what is a CVA?
+^ A stroke
+A An aneurysm
+B A type of accountant
+C A heart attack
+D A stroke
+
+#Q At a party, a doctor asked a nurse: Are you an RN or an LPN?  The nurse replied: Im an RN. I got my BSN at Georgetown. Are you an MD or a DO?  The doctor replied: Im a DO. Which of the following statements can be concluded from this conversation?
+^ The doctor was trained in osteopathic manipulation.
+A The doctor is going to get lucky tonight.
+B The doctor is not really a doctor at all.
+C The doctor was trained in osteopathic manipulation.
+D The doctor is a chiropractor.
+
+#Q If you were taking a course in entomology, what would you be studying?
+^ Insects
+A Rocks
+B Snakes
+C Mold
+D Insects
+
+#Q This science studies signs, both individually and grouped in sign systems.
+^ Semiology
+A Anthology
+B Semiology
+C Linguistics
+D Theology
+
+#Q Etymologists study the history of languages and how the forms and meanings of different words changed.
+^ True
+A True
+B False
+
+#Q What part of the human body does the science periodontics study?
+^ Gums and mouth
+A Gums and mouth
+B Eyes
+C Finger and toes
+D Ears
+
+#Q Ichthyology is the study of biting insects such a fleas, mosquitoes and wasps.
+^ False
+A False
+B True
+
+#Q What scientists study recent or fossilized skeletal remains in order to find traces of ancient diseases?
+^ Paleopathologists
+A Mycologists
+B Parapsychologists
+C Paleopathologists
+D Epidemiologists
+
+#Q People who suffer from this condition tend to be self-destructive. They may use drugs, or engage in promiscuous sexual activities.
+^ Borderline Personality Disorder
+A Obsessive Compulsive Disorder
+B Panic Disorder
+C Borderline Personality Disorder
+D Generalized Anxiety Disorder
+
+#Q People with this disorder engage in idiosyncratic behaviors, such as wearing an odd-looking hat every day, or wearing their pants backwards.
+^ Schizotypal Personality Disorder
+A Antisocial Personality Disorder
+B Narcissistic Personality Disorder
+C Schizotypal Personality Disorder
+D Histrionic Personality Disorder
+
+#Q This disorder, also known as manic depression, involves high risk of death through suicide.
+^ Bipolar Disorder
+A Dependent Personality Disorder
+B Antisocial Personality Disorder
+C Bipolar Disorder
+D Schizophrenia
+
+#Q People suffreing from this mental illness manifest a psychiatric condition as a physical complaint.
+^ Somatization Disorder
+A Agoraphobia
+B Kleptomania
+C Somatization Disorder
+D Munchausen Syndrome
+
+#Q A person with this disorder has fluctuating levels of orientation.
+^ Delirium
+A Dementia
+B Psychosis
+C Delusional State
+D Delirium
+
+#Q An old adage states, Neurotics build castles in the sand. Psychotics live in them.  Which one of the following disorders is not considered a neurosis?
+^ Schizoid Personality Disorder
+A Schizoid Personality Disorder
+B Obsessive-Compulsive Disorder
+C Panic Disorder
+D Agoraphobia
+
+#Q According to statistics, which of the following people is most likely to commit suicide?
+^ A middle-aged divorced man.
+A A recovering alcoholic.
+B A middle-aged divorced man.
+C A middle-aged divorced woman living alone.
+D A teenage boy who smokes marijuana.
+
+#Q Depression can cause brain damage.
+^ True
+A False
+B True
+
+#Q Three of the following four disorders are actually different names for the same disease. Which is the odd one?
+^ Maniac
+A Antisocial Personality
+B Psychopath
+C Maniac
+D Sociopath
+
+#Q People with this disorder have difficulty engaging in everyday human interaction.
+^ Autism
+A Autism
+B Huntingtons Disease
+C Cerebral Palsy
+D Addisons Disease
+
+#Q Located in the upper anterior portion of the chest cavity, the thymus is an organ belonging to which system of the human body?
+^ Lymphatic System
+A Endocrine system
+B Integumentary system
+C Lymphatic System
+D Nervous system
+
+#Q Which are the endocrine systems so-called instant messengers used to affect distant cells within specific organs?
+^ Hormones
+A Nephrons
+B Neurons
+C Acids
+D Hormones
+
+#Q In humans, which of these organs belongs to the integumentary system?
+^ Skin
+A Skin
+B Tonsils
+C Liver
+D Pharynx
+
+#Q Mucus is a slippery secretion of the lining of various membranes typical for which system of the human body?
+^ All of these
+A All of these
+B Reproductive system
+C Digestive system
+D Respiratory system
+
+#Q Which of the following is not a function of the circulatory system?
+^ Excretion of unwanted substances
+A Excretion of unwanted substances
+B Stabilizing body temperature
+C Maintaing pH
+D Transport of vital substances
+
+#Q Comparing a newborn babys skeletal system to an adults skeletal system, we will find out that the baby has about 60 bones more that the already completely developed person.
+^ True
+A True
+B False
+
+#Q Emphysema is a chronic disease affecting the organs of which system of the body?
+^ Respiratory system
+A Respiratory system
+B Skeletal system
+C Urinary system
+D Digestive system
+
+#Q In humans, the nervous system is divided into a central nervous system and a peripheral nervous system. The peripheral nervous system has two more divisions. The first one is the autonomic nervous system. What is the second one?
+^ Somatic nervous system
+A Sympathetic nervous system
+B Parasympathetic nervous system
+C Enteric nervous system
+D Somatic nervous system
+
+#Q In the female body the breasts are organs of the reproductive system.
+^ True
+A False
+B True
+
+#Q Australopithecus were early hominids that differed in many ways from modern-day humans -- they were short, and their brain-case was much smaller. In 1924, Raymond Dart found the first remains of an Australopithecus on this continent.
+^ Africa
+A Africa
+B Australia
+C Asia
+D Europe
+
+#Q The most complete Australopithecus skeleton, dubbed Lucy,  was found in 1974.  She was 1.10m (3 7) tall and weighed about 30kg (66lbs).  Anthropologists named the skeleton after this Lucy.
+^ Lucy from The Beatles song Lucy in the Sky with Diamonds
+A Lucille Ball from the TV show I Love Lucy
+B Lucy of Lucy Clothing Manufacturers
+C Lucy from The Beatles song Lucy in the Sky with Diamonds
+D Actress Lucy Liu
+
+#Q Ancient footsteps found in Tanzania prove that there were bipedal hominids as early as 3.8 million years ago.
+^ True
+A False
+B True
+
+#Q Although the Australopithecus were much more intelligent and sophisticated than other animals at that time, they were still closer to monkeys than humans. Later, a new genus developed -- the Homo genus. The first Homo genus specie diverged from the Australopithecus and was called this.
+^ Homo habilis
+A Homo sapiens
+B Homo erectus
+C Homo neanderthalensis
+D Homo habilis
+
+#Q There is evidence that Sinanthropus pekinensis used tools and was able to light a fire. Unfortunately, the teeth of the Sinanthropus are still considered medicine and are sold in some pharmacies in its home country.
+^ China
+A China
+B Zimbabwe
+C France
+D Japan
+
+#Q There are theories that Neanderthals actually buried their dead.
+^ True
+A True
+B False
+
+#Q About 230,000 years ago one highly sophisticated and relatively intelligent specie of the Homo genus appeared; homo Neanderthalus was very well adapted to cold - it was short and muscular (many modern day heavy-weight champions would envy an average Neanderthal) and had a large nose. In 1983 the hyoid bone of a Neanderthal was found and that raised many disputes. What did this tiny bone prove?
+^ That Neanderthals probably had sophisticated language
+A That Neanderthals were cannibals
+B That Neanderthals probably had sophisticated language
+C That they were possibly more intelligent than modern people
+D That they were vegetarians
+
+#Q Neanderthals are the ancestors of modern-day humans.
+^ False
+A False
+B True
+
+#Q Which part of a building is also a computer operating system name?
+^ Windows
+A Doors
+B Windows
+C Balcony
+D Loggia
+
+#Q Which animal can be connected to a computer USB port?
+^ Mouse
+A Dog
+B Mouse
+C Rat
+D Cat
+
+#Q Which of these is a popular database name?
+^ Oracle
+A Mosque
+B Oracle
+C Shrine
+D Church
+
+#Q Which bathroom item is also a communication protocol?
+^ SOAP
+A BRUSH
+B GEL
+C SOAP
+D COMB
+
+#Q Which wall is used for computer protection in the Internet or other networks?
+^ Firewall
+A Firewall
+B Wooden wall
+C Brickwall
+D Protective wall
+
+#Q Which celestial body is also a name of a big American vendor of computers, computer components and software?
+^ Sun
+A Sun
+B Venus
+C Moon
+D Pluto
+
+#Q Which commercial building can also store data?
+^ Warehouse
+A Warehouse
+B Super market
+C Store
+D Shop
+
+#Q The name of which animal group is also a collective name for software errors?
+^ Bugs
+A Insects
+B Spiders
+C Ants
+D Bugs
+
+#Q Which of these is a computer for bulk data processing?
+^ Mainframe
+A A-frame
+B Body-on-frame
+C Window-frame
+D Mainframe
+
+#Q Which hat is a distribution of the Linux operating system?
+^ Red Hat
+A Black Hat
+B White Hat
+C Red Hat
+D Blue Hat
+
+#Q The name of which Native American group is also a name of an open source organization?
+^ Apache
+A Iroquois
+B Navajo
+C Cherokees
+D Apache
+
+#Q The name of which island is also a computer programming language name?
+^ Java
+A Cuba
+B Jamaica
+C Java
+D Malta
+
+#Q How many bones (on average) does the human body contain?
+^ 206
+A 207
+B 206
+C 208
+D 205
+
+#Q A tendon is a tough band of fibrous connective tissue that connects a muscle to a bone.
+^ True
+A False
+B True
+
+#Q This extremely vital nerve is responsible for such varied tasks as heart rate, gastrointestinal peristalsis and sweating. It also controls quite a few muscle movements in the mouth, including speech and keeping the larynx open for breathing.
+^ Vagus nerve
+A Oculomotor nerve
+B Vagus nerve
+C Facial nerve
+D Hypoglossal nerve
+
+#Q This organ, which is the largest gland in the human body, plays a major role in metabolism and has a variety of functions, including glycogen storage, plasma protein synthesis, and drug detoxification.
+^ Liver
+A Gall Bladder
+B Pancreas
+C Liver
+D Kidney
+
+#Q Which statement correctly describes the superior vena cava?
+^ It is a large, yet short vein that carries de-oxygenated blood from the upper half of the body to the hearts right atrium.
+A II is the large vein that carries de-oxygenated blood from the lower half of the body into the heart.
+B It is the largest artery in the human body, originating from the left ventricle of the heart and bringing oxygenated blood to all parts of the body
+C It is a vein that carries oxygen-rich blood from the lungs to the left atrium of the heart and is the only vein in the post-fetal human body that carries oxygenated blood.
+D It is a large, yet short vein that carries de-oxygenated blood from the upper half of the body to the hearts right atrium.
+
+#Q Diarthrosis joints permit a variety of movement and can be divided into six classes. The femur and hip connection would be considered which joint class?
+^ Ball-and-socket joint (enarthrosis, spheroidal joint)
+A Ball-and-socket joint (enarthrosis, spheroidal joint)
+B Hinge joint (ginglymus)
+C Pivot joint (trochoid joint, rotary joint)
+D Condyloid joint (condyloid articulation, ellipsoidal joint)
+
+#Q There is no square root of two.
+^ False
+A False
+B True
+
+#Q There are twelve apples on a table. You take four. How many apples do you have now?
+^ 4
+A 12
+B 8
+C 0
+D 4
+
+#Q What is the only number with no reciprocal?
+^ 0
+A 1
+B -1
+C 0
+D Pi
+
+#Q Octo is a prefix meaning eight.  An Octopus has eight legs. An octagon has exactly 8 sides.  An Octogenarian is at least 8 decades old.  What is the eighth month?
+^ August
+A November
+B August
+C October
+D September
+
+#Q How fast is a mile a minute?
+^ 60 miles an hour
+A The speed of the fastest human runner
+B 60 kilometers and hour
+C 60 yards an hour
+D 60 miles an hour
+
+#Q The Shaanxi earthquake is regarded as the deadliest recorded earthquake, killing approximately 830,000 people. It occurred on February 14, 1556 in this country.
+^ China
+A Thailand
+B Japan
+C Russia
+D China
+
+#Q Teleseisms are ground motions caused by a distant earthquake.
+^ True
+A False
+B True
+
+#Q The theory of plate tectonics explains the movement of lithospheric plates. Tectonics comes from the Greek word tekton, meaning this.
+^ one who constructs
+A one who destroys
+B one who constructs
+C one who floats
+D one who moves
+
+#Q Earthquakes that occur at the boundaries of tectonic plates are called interplate. The less frequent type of earthquakes, called this, occur in the interior of the lithospheric plates.
+^ Intraplate
+A Innerplate
+B Non-interplate
+C Ultraplate
+D Intraplate
+
+#Q The Good Friday Earthquake, which occurred on March 27, 1964, is the most powerful earthquake in U.S. history. It killed approximately 13,000 people.
+^ False
+A False
+B True
+
+#Q The Mercalli scale classifies the intensity of earthquakes by examining this aspect.
+^ The effects of the earthquake on people and structures
+A The energy a quake generates
+B The degree of shift at the Equator
+C The effects of the earthquake on people and structures
+D The effect of the earthquake on 1 liter of water spread over a surface of 1 square meter
+
+#Q The San Francisco earthquake is one of the most ill-famed earthquakes in history.  It happened in this year.
+^ 1906
+A 1908
+B 1916
+C 1910
+D 1906
+
+#Q Seismic waves are classified in four types - P-waves (primary), S-waves (secondary), Love waves (surface waves) and this type.
+^ Rayleigh waves
+A F-waves
+B L-waves
+C Rayleigh waves
+D Richter waves
+
+#Q This earthquake occurred on August 17, 1999, and had a magnitude of 7.4. The reported number of casualties was approximately 17,000. Where did this disaster take place?
+^ Turkey
+A China
+B Spain
+C Turkey
+D The United States
+
+#Q The 2004 Indian Ocean earthquake was an undersea earthquake that generated a tsunami, which claimed the lives of more than 150,000 people (this is true). The earthquake lasted nearly ten minutes.
+^ True
+A False
+B True
+
+#Q Elder mothers have higher chances of conceiving twins.
+^ True
+A True
+B False
+
+#Q A mother will give birth to this kind of twins if a single fertilized egg splits after conception.
+^ Monozygotic twins
+A Monozygotic twins
+B Dizygotic twins
+C Conjoined twins
+D Twins of two
+
+#Q The first recorded successful operation to separate a pair of conjoined twins took place in this year.
+^ 1689
+A 1889
+B 1976
+C 1689
+D 1989
+
+#Q The term Siamese twins comes from the famous case of Eng and Chang Bunker, who were conjoined twin brothers, born in Thailand in 1811.
+^ True
+A True
+B False
+
+#Q The chances of having twins in the 21st century are ...?
+^ 3 in 100
+A 15 in 100
+B 3 in 100
+C 10 in 100
+D 5 in 100
+
+#Q The case of identical twins of different sex is extremely rare. The development of their gender starts 5 weeks after the moment of conceiving.
+^ False
+A True
+B False
+
+#Q A twin fetus which does not develop during pregnancy is called this.
+^ Vanishing twin
+A Conjoined twin
+B Vanishing twin
+C Multiple twin
+D Fraternal twin
+
+#Q This celebrity had a twin brother who died at birth.
+^ Elvis Presley
+A Madonna
+B Michael Jackson
+C Elton John
+D Elvis Presley
+
+#Q The family of Fyodor Vassilyev from Russia had a record number of children. His wife gave birth to this number of twin couples.
+^ 16
+A 28
+B 16
+C 9
+D 23
+
+#Q It is said that twins develop their own language, called this.
+^ Idioglossia
+A Idioglossia
+B Sindarin
+C Quenya
+D Klingon
+
+#Q If a doctor prescibes a medicine and the prescription reads, Instill 2 - 3 gtts in OD bid.  What does OD mean?
+^ Right eye
+A Left ear
+B Right ear
+C Right eye
+D Left eye
+
+#Q What color is Arterial Blood?
+^ Bright Red
+A Purple
+B Bright Red
+C Reddish Purple
+D Dark Red
+
+#Q What lobe in the brain is responsible for retaining verbal memory?
+^ Left Temporal Lobe
+A Left Parietal Lobe
+B Left Temporal Lobe
+C Right Temporal Lobe
+D Right Parietal Lobe
+
+#Q The aorta carries deoxygenated blood from the heart to the rest of the body.
+^ False
+A True
+B False
+
+#Q Which of the following disorders is not of the Endocrine System?
+^ Parkinsons Disease
+A Parkinsons Disease
+B Hyperthyroidism
+C Diabetes
+D Osteoporosis
+
+#Q The XY chromosome(s) determines that an embryo is developed into a baby girl.
+^ False
+A True
+B False
+
+#Q Which part of th eye captures light rays and converts the rays into electrical impulses?
+^ Retina
+A Retina
+B Iris
+C Cornea
+D Pupil
+
+#Q How many vertebrae make up the thoracic region of the spinal column?
+^ 12
+A 5
+B 7
+C 10
+D 12
+
+#Q The ileum is located in this part of the body.
+^ Small Intestine
+A Small Intestine
+B Spinal cord
+C Brain
+D Large intestine
+
+#Q This country has more Internet Service Providers than any other non-English speaking country.
+^ Czech republic
+A Russia
+B Czech republic
+C Romania
+D Brazil
+
+#Q Development of a global computer network was first proposed in this year, by J.C.R. Licklider.
+^ 1962
+A 1972
+B 1982
+C 1962
+D 1952
+
+#Q This was the first popular WWW browser. Microsofts Internet Explorer is also based on it.
+^ NCSA Mosaic
+A Opera
+B lynx
+C NCSA Mosaic
+D Netscape Navigator
+
+#Q Cables are essential for the transfer of data. The first cable to transfer instantaneous communications across the ocean was laid in this year.
+^ 1858
+A 1950
+B 1924
+C 1908
+D 1858
+
+#Q It was the Internets progenitor and the first large geographically separated network.
+^ ARPANET
+A ARPANET
+B NSFNET
+C UUCP
+D CSNET
+
+#Q The first e-mail message was sent in this year by Ray Tomlinson.
+^ 1971
+A 1979
+B 1964
+C 1983
+D 1971
+
+#Q This person wrote HTTP, the language in which browsers and web servers communicate.
+^ Tim Berners-Lee
+A Steve Jobs
+B Bill Gates
+C Tim Berners-Lee
+D Douglas Engelbart
+
+#Q This is how long it took the Internet to attract 50 million users.
+^ 4 years
+A 4 years
+B 20 years
+C 10 years
+D 5 years
+
+#Q This program pretends to be useful, while executing malicious code.
+^ Trojan horse
+A Logic bomb
+B Worm
+C Trojan horse
+D Virus
+
+#Q In 1995, this famous American computer outlaw was caught while stealing electronic mail and software.  In 1996 he released the book Takedown: The Pursuit and Capture of Americas Most Wanted Computer Outlaw -- By The Man
+^ Kevin Mitnick
+A Robert Morris
+B Vladimir Levin
+C Tsutomu Shimomura
+D Kevin Mitnick
+
+#Q About 95% of the rocks which form the upper part of the Earths crust are Igneous Rocks.
+^ True
+A False
+B True
+
+#Q Gold carats measure purity, whereas diamond carats measure this quality.
+^ Weight
+A Color
+B Weight
+C Hardness
+D Clarity
+
+#Q When magma cools and becomes solid below Earths surface, the resultant rocks are called Plutonic, but when when magma reaches the surface and crystallizes there, formed rocks are called this.
+^ Volcanic
+A Volcanic
+B Mercuric
+C Surfaced
+D Veneric
+
+#Q The Lunar seas are actually plains of gabbro and this rock. The same rock is also a main component of the surface of Mars.
+^ Basalt
+A Basalt
+B Obsidian
+C Andesite
+D Granulite
+
+#Q This moon is the most volcanic object in the solar system. Its volcanoes erupt sulfur, sulfur dioxide and silicate rock,  constantly resurfacing it.
+^ Io
+A Titania
+B Io
+C Ganymede
+D Europa
+
+#Q What do we call this sequence of numbers:  1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ...?
+^ Fibonacci
+A Lucas
+B Gauss
+C Euler
+D Fibonacci
+
+#Q What was the name of the man who invented logarithms?
+^ John Napier
+A Rene Descartes
+B John Napier
+C Blaise Pascal
+D Robert Recorde
+
+#Q Sir Isaac Newton developed his calculus and physics at what college?
+^ None
+A Oxford
+B None
+C Trinity
+D Cambridge
+
+#Q Who was the teacher of Plato?
+^ Socrates
+A Thales
+B Socrates
+C Aristotle
+D Archimedes
+
+#Q Who wrote the first textbook on Geometry?
+^ Euclid
+A Thales
+B Euclid
+C Archimedes
+D Van Nostrand
+
+#Q In order to boost their math department , the University of Virginia, a great school, imported the great British mathematician J.J. Sylvester to become a part of the school.  He  agreed.  Almost everyone loved him, his lectures, his motivational talks, etc. Everyone, except for the only student who got a C from him. Besides some lewd talk and anti-semitic rants, the student took a stump and attacked Sylvester. What happened next ?
+^ Sylvester beat the heck out of the student. Sylvester was a good 40 older than the student, but took no guff.
+A The students father demanded a duel with Sylvester because he had had the student arrested. Sylvester left for France the next night.
+B The student  was arrested for assault, sent to prison for three years. Sylvester returned to England physically broken.
+C Sylvester beat the heck out of the student. Sylvester was a good 40 older than the student, but took no guff.
+D After a short beating, Sylvesters students broke up the fight. Sylvester spent a month in the hospital and returned to his duties.
+
+#Q What sign flew over the school of Aristotle?
+^ Let no one unfamiliar with geometry enter
+A Know Thyself
+B Es Will De garnish helfen
+C Let no one unfamiliar with geometry enter
+D All for Knowledge
+
+#Q Of all of the Postulates of Euclid, one stood out as a big sticking point. To this day it involves such things as space travel, physics, and triangles. Which postulate was it?
+^ 5
+A 2
+B 3
+C 4
+D 5
+
+#Q We all know what acute angles, obtuse angles, right angles, and straight angles are, but what is a reflex angle?
+^ An angle greater than 180 degrees but less than 360 degrees.
+A The angle a telescope makes with the Earth
+B An angle greater than 180 degrees but less than 360 degrees.
+C Any angle greater than 360 degrees
+D The angle you need to look a fish in the eye.
+
+#Q How many of these statements are true: 
+- negative one has no square root
+- the logarithm of negative one is negative
+- the reciprocal of negative one is positive one
+- positive one to the negative one power is one.
+^ 1
+A 1
+B 3
+C 2
+D 0
+
+#Q If a woman has these pains, they almost always disappear when she becomes pregnant.
+^ Arthritic pains
+A Stomach aches
+B Neural pains
+C Arthritic pains
+D Migraine pains
+
+#Q This organ expands up to 500 times its normal size during the pregnancy.
+^ The uterus
+A The stomach
+B The uterus
+C The ovaries
+D The bladder
+
+#Q During this month of the pregnancy women go through a lot of mood swings like being easily irritated or start crying when they hear a song on the radio.
+^ 1st month
+A 7th month
+B 1st month
+C 9th month
+D 4th month
+
+#Q The fingerprints of the baby begin forming in this week of pregnancy. The baby also starts grasping and sucking its thumb at this time.
+^ 18th
+A 21st
+B 35th
+C 18th
+D 10th
+
+#Q This common side effect is caused by the hormone, progesterone, which relaxes the valve that separates your esophagus from your stomach, allowing gastric acids to seep back up, which causes this uncomfortable sensation.
+^ Heartburn
+A Heartburn
+B Back pain
+C Constipation
+D Nausea
+
+#Q After week 27 you can do the following experiment: switch on a flashlight against your belly and the baby will move towards the light.   What allows this to happen?
+^ it opens its eyes
+A its head can move
+B its hearing started functioning
+C its brain started growing quickly
+D it opens its eyes
+
+#Q During pregnancy the following symptoms happen to what part of the body: grow larger, tender, swollen, and darkened areolas.
+^ Breast
+A Hands
+B Breast
+C Stomach
+D Face
+
+#Q A common complaint among pregnant women are swollen legs.  Feet actually swell because of this.
+^ Water retention
+A Tight Shoes
+B Constipation
+C Indigestion
+D Water retention
+
+#Q During what period does your sleep become almost impossible and interrupted.
+^ The third trimester
+A The second trimester
+B The first month of the pregnancy
+C The first trimester
+D The third trimester
+
+#Q During the last period of the pregnancy, the fetus drops towards the opening of the pelvis and this part of the body changes its shape.
+^ The abdomen
+A The hips
+B The abdomen
+C The breasts
+D The uterus
+
+#Q The human facial skull consists of double as well as single bones. Which of the following bones is not a facial bone?
+^ Calcaneus
+A Zygomatic bone
+B Calcaneus
+C Vomer bone
+D Mandible
+
+#Q What is the other name for the Achilles tendon, which acts as a connection between the calf and the heel in humans?
+^ Calcaneal tendon
+A Glenohumeral joint
+B Calcaneal tendon
+C Teres major
+D Chordae tendinae
+
+#Q When the arm is bent in the elbow joint humans use the biceps branchii musle and the triceps is used when it is extended. What is the name of the muscle that abducts the arm in the shoulder?
+^ Deltoid muscle
+A Teres minor muscle
+B Deltoid muscle
+C Latissimus dorsi muscle
+D Pectoralis major
+
+#Q What is the function of the thalamus, a part of the human brain with an egg-like shape?
+^ It deals with the various types of sensory information.
+A It deals with the various types of sensory information.
+B It regulates the organisms automatic functions.
+C It helps humans to keep their balance.
+D It is not known.
+
+#Q The extrapyramidal system in human brain, which consists of related neurons is not responsible for what?
+^ The aural memory
+A Decrease of the erratic motions
+B Muscle tone
+C Stability of the human body
+D The aural memory
+
+#Q This gland, located in the base of the human skull, is the central gland in the endocrine regulation and is as large as a pea.
+^ The pituitary gland
+A The thyroid gland
+B The thymus
+C The pituitary gland
+D Erbers gland
+
+#Q What are the main components of the stomach juice, which is secreted by gastric glands?
+^ Hydrochloric acid, enzymes and mucus
+A Enzymes and hydrochloric acid
+B Mucus and hydrochloric acid
+C Hydrochloric acid, enzymes and mucus
+D Enzymes and lymph
+
+#Q Two large vessels enter the right atrium of the human heart - the superior and inferior vena cava. They carry blood from the whole body and that is why this blood is dark red.
+^ True
+A False
+B True
+
+#Q The human heart has its own automation but its activity is regulated by the needs of the whole body. The nerves which accelerate the heart rate are called parasympathetic.
+^ False
+A False
+B True
+
+#Q Pathogenic microorganisms which get into the human body are called antigens because they cause the formation of antibodies. The antibodies are produced by what blood cells?
+^ Lymphocites
+A Keratinocytes
+B Lymphocites
+C Thrombocytes
+D Erythrocytes
+
+#Q Cryptozoology is a branch of Zoology, which deals with what?
+^ Animals that are considered to exist but there is no proof for their existence
+A The animals in the order Acarina - mites and ticks
+B Marine animals
+C Spiders and arachnids
+D Animals that are considered to exist but there is no proof for their existence
+
+#Q Which term denotes the classification of organisms, based on their evolutionary descent?
+^ Phylogenetics
+A Ornithology
+B Neuroethology
+C Paleontology
+D Phylogenetics
+
+#Q This ancient Greek philosopher, who taught Alexander the Great, wrote a book on zoology entitled History of Animals.
+^ Aristotle
+A Aristotle
+B Plato
+C Socrates
+D Democritus
+
+#Q The term ethology, which refers to the study of animal behaviour, derives from a Greek word, which means what?
+^ Custom
+A Behaviour
+B Custom
+C Life cycle
+D Environment
+
+#Q What is the literal meaning of the word ecology, which derives from Greek?
+^ study of the household
+A study of life
+B None of these
+C study of the household
+D study of nature
+
+#Q What is the definition of the biological term ecotone, which in Greek means a place where ecologies are in tension?
+^ A transition area between two adjacent ecological communities
+A A transition area between two adjacent ecological communities
+B A natural unit that consists both of living and nonliving parts, interacting to form a stable system
+C Graphical representation of an ecosystem
+D Separation of groups of organisms as a result of changes in their ecology or in the environment where they live
+
+#Q What biological term refers to the organs, whose function is considered to have been lost or reduced during evolution?
+^ Vestigial organs
+A Undeveloped organs
+B Obsolete organs
+C Vestigial organs
+D Stunted organs
+
+#Q What is the definition of ontogeny (morphogenesis), one of the branches of developmental biology?
+^ A study that describes the organism from the embryo to adulthood
+A The study that deals with the relations between predators and their prey
+B A study that describes the organism from the embryo to adulthood
+C The relationships of groups of  organisms as reflected by their evolutionary history
+D The study that deals with the marine mammals
+
+#Q The formation of toes in salamanders, animals that typically have no such organs, is an example for what?
+^ Atavism
+A Atavism
+B Biometry
+C Disturbance
+D Biota
+
+#Q This Swedish botanist and physician, considered one of the fathers of modern ecology, initiated the method of binomial classification.
+^ Carolus Linnaeus
+A Alfred Nobel
+B Carolus Linnaeus
+C Nils Gabriel Sefstrom
+D Johan August Arfwedson
+
+#Q The word physics derives from the Greek - φ�?σις (phusis), which means this.
+^ Nature
+A Nature
+B Earth
+C Matter
+D Force
+
+#Q Laws of physics are properties, common to all material systems.
+^ True
+A True
+B False
+
+#Q The culture of physics research differs from the other sciences in the separation of these two.
+^ Theory and experiment
+A Abstract and real
+B Microscopic and macroscopic
+C Theory and experiment
+D Visible and invisible
+
+#Q One of these major subtopics is not part of classical mechanics.
+^ Kinetic theory
+A Chaos theory
+B Kinetic theory
+C Lagrangian mechanics
+D Fluid dynamics
+
+#Q Law of Inertia is also referred to as this.
+^ Newtons First Law
+A Newtons First Law
+B Newtons Third Law
+C Fundamental law of dynamics
+D Newtons Second Law
+
+#Q Plancks constant (h) is equal to this.
+^ 6.626068 × 10^(-34) m^2 kg / s
+A 6.626068 × 10^(-34) m^2 kg / s
+B 1.67262171 x 10^(-27) kg
+C 1.05457168 x 10^(-34) J s
+D 10973731.568 525 m^(-1)
+
+#Q This is the number of fundamental interactions.
+^ 4
+A 4
+B 2
+C 8
+D 6
+
+#Q These two additive primary colors should be combined in order to get the color yellow.
+^ Green and red
+A Green and red
+B Blue and green
+C White and red
+D Red and blue
+
+#Q Which of these most accurately describes the term, Solar System?
+^ The planetary system which our Sun along with the nine planets and other non-stellar objects form
+A A system of non-stellar objects orbiting a star
+B A system comprised of a star or group of stars
+C A system of one or more stars and non-stellar objects, connected in close gravitational association
+D The planetary system which our Sun along with the nine planets and other non-stellar objects form
+
+#Q Contrary to this celestial bodys true nature, the term asteroid means what according to its greek origins?
+^ Star-like
+A Cone-shaped
+B Planet-like
+C Drifting freely
+D Star-like
+
+#Q Where can an asteroid belt, a region of greatest concentration of orbiting asteroids, be found nearest to Earth?
+^ Between Mars and Jupiter
+A Between Jupiter and Saturn
+B Between Mars and Jupiter
+C Between Uranus and Neptune
+D Beyond Pluto
+
+#Q Which of these is a celestial body, which produces the effect known as shooting star?
+^ Meteoroid
+A Meteoroid
+B Asteroid
+C Comet
+D Another planets satellite
+
+#Q Hypergiants, the largest stars known to scientists, have a mass up to how many times that of the Sun?
+^ 100
+A 30
+B 10
+C 100
+D 2
+
+#Q Distances in the universe are enormous compared to those we are used to, so scientists use light years for measurement.  Approximately how many miles does a light year represent?
+^ Six trillion miles
+A Six zillion miles
+B Six trillion miles
+C Six million miles
+D Six billion miles
+
+#Q In astrophysics, which theorem defines what parameters black holes are characterized by?
+^ Black holes have no hair
+A No-ghost theorem
+B Brouwers Fixed point theorem
+C Hairy ball theorem
+D Black holes have no hair
+
+#Q In astronomy, the term binary star refers to which of these?
+^ A system of two stars both orbiting around their centers of mass
+A A large star which has drawn smaller star to orbit
+B A star made up from both matter and antimatter
+C A system of two stars both orbiting around their centers of mass
+D A star emitting electromagnetic waves at two different frequencies
+
+#Q What celestial formations are considered to be the birthplaces of stars?
+^ Nebulae
+A Galactic halos
+B Nebulae
+C Spiral galaxies
+D Galaxy cluster clouds
+
+#Q The discovery of cosmic object 2003 UB313 caused much stir in astronomers circles. Its discoverers declared 2003 UB313 to be what?
+^ The tenth planet in the Solar system
+A The tenth planet in the Solar system
+B A new galaxy
+C A possible black hole near the edge of the Solar system
+D A planetary system with signs of intelligent life
+
+#Q Which set contains triangular numbers?
+^ 1, 3, 6, 10, 15, 21, 28
+A 1, 10, 100, 1000, 10000, 100000, 1000000
+B 1, 2, 3, 5, 7, 11, 13, 17
+C 1, 4, 9, 16, 25, 36, 49
+D 1, 3, 6, 10, 15, 21, 28
+
+#Q Which set contains only  prime numbers?
+^ 2, 3, 5, 7,11,13, 17
+A 2, 3, 5, 7,11,13, 17
+B 1, 4, 11, 13, 15, 17
+C 2, 3, 5, 7, 9, 11, 37
+D 1, 3, 5, 7, 9, 11, 13
+
+#Q Johann Regiomontanus first introduced the plus sign, + , in this year.
+^ 1456
+A 1656
+B 1556
+C 1456
+D 1756
+
+#Q When was the multiplication sign, x, first used?
+^ 1631
+A 1731
+B 1631
+C 1531
+D 1831
+
+#Q In 1938, Edward  Kasner wrote a 1  followed by 100 zeros and showed it to his baby nephew.  What the baby said became the name of that written number. What did the kid say?
+^ Googol
+A Giggle
+B Dada
+C Gaga
+D Googol
+
+#Q What do mathematicians call any rectangular table of numbers?
+^ A matrix
+A A  Latin square
+B A polynomial
+C A matrix
+D A  factorial
+
+#Q Calculate 6!
+^ 720
+A 36
+B 21
+C 216
+D 720
+
+#Q To find the acceleration of a particle what would we do to the velocity ?
+^ Differentiate once
+A Differentiate once
+B Integrate twice
+C Differentiate twice
+D Integrate once
+
+#Q The sides of a triangle are 1 inch, 2 inches and 3 inches. What is the perimeter of the triangle.
+^ It has no perimeter
+A 6 cubic inches
+B It has no perimeter
+C 6 square inches
+D 6 inches
+
+#Q In a list of numbers what, is the mode?
+^ The number seen most frequently
+A The number seen most frequently
+B The number of items in the list
+C The biggest number minus the smallest number
+D The middle number
+
+#Q Where is the main Internet computer located?
+^ Nowhere
+A Greenwich, England
+B New York, New York, USA
+C Geneva, Switzerland
+D Nowhere
+
+#Q On the Internet, who or what is a server?
+^ The computer on which the programs of a web site run
+A The person who serves the hors doeuvres.
+B The computer on which the programs of a web site run
+C The person who serves the customers of an Internet Service Provider
+D The program which controls a web page
+
+#Q ICQ is a type of what?
+^ An instant messaging computer program
+A ISP
+B Bulletin Board
+C Intelligence
+D An instant messaging computer program
+
+#Q The pictures on a web page can be stored in more than one physical location.
+^ True
+A False
+B True
+
+#Q In Internet parlance, what is a cookie?
+^ Something stored on the client computer by a web pages program
+A Something stored on the client computer by a web pages program
+B Something tasty on a web page
+C Something made up (or cooked) on a web page
+D A portion of a program governing a web page
+
+#Q Web pages can be viewed on which of these devices?
+^ All of these
+A All of these
+B Cell phone
+C PDA
+D Personal Computer
+
+#Q What does WWW stand for?
+^ World Wide Web
+A Wild Wonderful World
+B World Wide Web
+C Whole World Web
+D World War Web
+
+#Q Pornography is illegal on the Internet.
+^ False
+A False
+B True
+
+#Q Internet Explorer, Opera and Mozilla are examples of what?
+^ Web browsers
+A Internet service providers
+B Hypertext transfer protocols
+C Web browsers
+D Search engines
+
+#Q In the web address http://www.microsoft.com, the com at the end means what?
+^ Commercial
+A Commercial
+B Complicated
+C Communication
+D Compensated
+
+#Q These particles form light, as you see it.
+^ Photons
+A Electrons
+B Quarks
+C Leptons
+D Photons
+
+#Q What is the speed of light in free space?
+^ 186,282 miles per second (~300,000 km/s)
+A 155,342 miles per second (~250,000 km/s)
+B 186,282 miles per second (~300,000 km/s)
+C 124,274 miles per second (~200,000 km/s)
+D 93,205 miles per second (~100,000 km/s)
+
+#Q What is the main purpose of pulleys?
+^ They decrease the force needed to lift something.
+A They are useless
+B They halve the needed force
+C They double the needed force
+D They decrease the force needed to lift something.
+
+#Q Astronauts age faster.
+^ False
+A True
+B False
+
+#Q Who came up with the laws of gravity?
+^ Newton
+A Pythagoras
+B Einstein
+C Newton
+D Archimedes
+
+#Q Referred to as the father of integral calculus, he initiated the sciences of hydrostatics, static mechanics and pycnometry (the measurement of the volume or density of an object). He was killed by a Roman soldier who did not know who he was.
+^ Archimedes
+A Isaac Newton
+B Pythagoras
+C Carl Friedrich Gauss
+D Archimedes
+
+#Q This device is used for dispersing light, reflecting it or refracting it.
+^ prism
+A sphere
+B monocle
+C prism
+D lens
+
+#Q He first developed the principle of relativity.
+^ Galileo
+A Michelson-Morley
+B Galileo
+C Einstein
+D H.A. Lorentz
+
+#Q The National Aeronautics and Space Administration was established on July 29, 1958 under which U.S.  President?
+^ Dwight Eisenhower
+A Dwight Eisenhower
+B Harry Truman
+C John Kennedy
+D Lyndon Johnson
+
+#Q On May 5, 1961, this man became the first U.S. astronaut in space.
+^ Alan Shepard
+A Buzz Aldrin
+B Neil Armstrong
+C John Glenn
+D Alan Shepard
+
+#Q In 2001, NASA sent this unmanned spacecraft to orbit Mars in search of signs of water and volcanic activity on the surface.
+^ Mars Odyssey
+A Mars Exploration Rover
+B Mars Reconnaissance Orbiter
+C Mars Pathfinder
+D Mars Odyssey
+
+#Q On January 19, 2006 NASA launched the unmanned mission New Horizons to explore Pluto, on a one-way trip of how many years?
+^ 9
+A 4
+B 9
+C 15
+D 13
+
+#Q The Vision for Space Exploration is the U. S. space program was announced on January 14, 2004 by President George W. Bush. According to this program, the moon will be explored by manned missions by what year?
+^ 2020
+A 2010
+B 2011
+C 2020
+D 2025
+
+#Q The International Space Station is a joint project of five space agencies, including NASA. Which Space Agency is not part of the project?
+^ China National Space Administration
+A Russian Federal Space Agency
+B Canadian Space Agency
+C China National Space Administration
+D Japan Aerospace Exploration Agency
+
+#Q The mission statement of NASA is to understand and protect our home planet; to explore the Universe and search for life; and to inspire the next generation of explorers.
+^ True
+A False
+B True
+
+#Q Which is the largest planet in the Solar System?
+^ Jupiter
+A Mars
+B Saturn
+C Venus
+D Jupiter
+
+#Q Which planet has been described as a sister planet to Earth?
+^ Venus
+A Mercury
+B Saturn
+C Venus
+D Mars
+
+#Q Which planet has been demoted from its planet status by scientists like Neil Tyson, Director of the Hayden Planetarium?
+^ Pluto
+A Neptune
+B Pluto
+C Uranus
+D Mercury
+
+#Q Which planet was named after the ancient Romans’ king of the gods?
+^ Jupiter
+A Mars
+B Jupiter
+C Neptune
+D Saturn
+
+#Q Which planet of the Solar System has been nicknamed The Red Planet?
+^ Mars
+A Mercury
+B Mars
+C Neptune
+D Venus
+
+#Q Which planet was named after the Roman god of war?
+^ Mars
+A Uranus
+B Mercury
+C Mars
+D Saturn
+
+#Q Io and Europa are two of the larger satellites of which Solar System planet?
+^ Jupiter
+A Pluto
+B Venus
+C Saturn
+D Jupiter
+
+#Q Which planet of the Solar System is nicknamed the Blue Planet?
+^ Earth
+A Earth
+B Neptune
+C Venus
+D Saturn
+
+#Q Which of the following planets is closest to the Sun?
+^ Mercury
+A Venus
+B Mars
+C Mercury
+D Earth
+
+#Q What is the distinctive feature of the sixth planet of the Solar System (counted from the Sun)?
+^ Its equatorial rings
+A Its gigantic craters
+B Its active volcanoes
+C Its equatorial rings
+D Its silver coloring
+
+#Q Which of the following Solar System planets are designated as gas planets?
+^ All of these
+A Saturn
+B All of these
+C Neptune
+D Jupiter and Neptune
+
+#Q Which planet of the Solar System is also known as The Evening Star?
+^ Venus
+A Mars
+B Venus
+C Earth
+D Uranus
+
+#Q Which of the following Solar System planets was not named after a Greek or Roman God?
+^ Earth
+A Mercury
+B Saturn
+C Uranus
+D Earth
+
+#Q Which is the largest of the so-called terrestrial planets of the Solar System?
+^ Earth
+A Mars
+B Venus
+C Earth
+D Jupiter
+
+#Q What does AFK mean in Internet slang?
+^ away from computer keyboard
+A almost french kissed
+B as far as i know
+C all friends are kooks
+D away from computer keyboard
+
+#Q What does BTDT mean in instant messaging language?
+^ been there, done that
+A but I thought you didnt tell
+B boy thats dirty talk
+C been there, done that
+D better than doing time
+
+#Q What does HAND mean in instant messaging language?
+^ have a nice day
+A hot always, never dull
+B handsome and nearly divine
+C have a nice day
+D had a neat dream
+
+#Q What does KIT mean in instant messaging language?
+^ keep in touch
+A kiss it tenderly
+B kook in training
+C keep in touch
+D kitchen
+
+#Q What does NP mean in instant messaging language?
+^ no problem
+A noogie patrol
+B no parents
+C no problem
+D new puppy
+
+#Q What does POS mean in instant messaging language?
+^ parent over shoulder
+A please open soon
+B passing off as stupid
+C parent over shoulder
+D pressing on solo (going it alone)
+
+#Q What does SYS mean when used in instant messaging ?
+^ see you soon
+A still your spouse
+B see your sister
+C system is down
+D see you soon
+
+#Q What does TIA mean in instant messaging language?
+^ thanks in advance
+A thats it already
+B thanks in advance
+C tony is awesome
+D typist is away
+
+#Q What does WFM mean when used in instant messaging?
+^ works for me
+A works for me
+B works for money
+C white female methodist
+D with fond memories
+
+#Q What does ZZZ mean in Internet slang?
+^ tired or bored
+A zz top is great
+B tired or bored
+C zero, zilch, zip
+D theres a bee in my house
+
+#Q Which time zone encompasses the least number of the continuous 48 United States?
+^ Pacific
+A Pacific
+B Eastern
+C Central
+D Mountain
+
+#Q Most of the land area of Tennessee is in the Eastern time zone.
+^ False
+A True
+B False
+
+#Q In which time zone would you find the state of West Virginia?
+^ Eastern
+A Central
+B Pacific
+C Mountain
+D Eastern
+
+#Q Kansas is entirely in the Central time zone.
+^ False
+A False
+B True
+
+#Q Idaho is one of many states divided by two different time zones. Which part of the state is in the Pacific time zone?
+^ Northern
+A Southern
+B Western
+C Northern
+D Eastern
+
+#Q In which time zone(s) is Lake Ontario located?
+^ Eastern
+A Central
+B Eastern
+C Central and Mountain
+D Eastern and Central
+
+#Q The Four Corners states of Arizona, Utah, New Mexico and Colorado are all in the same time zone.
+^ True
+A False
+B True
+
+#Q In which time zone(s) would you find the state of Florida?
+^ Eastern and Central
+A Central
+B Central and Mountain
+C Eastern
+D Eastern and Central
+
+#Q The state of Oregon in entirely in the Pacific time zone.
+^ False
+A False
+B True
+
+#Q While considered to be part of the Midwest, Ohio is actually in the Eastern time zone.
+^ True
+A False
+B True
+
+#Q Approximately how many years ago did the formation of the Earth take place?
+^ 4.6 billion years
+A 14.6 billion years
+B 4.6 billion years
+C 46 billion years
+D 4.6 trillion years
+
+#Q 2007 marked what approximate number of people living on our planet?
+^ 6,600,000,000
+A 60,000,000,000
+B 660,000,000,000
+C 6,600,000,000
+D 6,600,000,000,000
+
+#Q What continent has the highest human population density on Earth as estimated in 2007?
+^ Asia
+A Europe
+B North America
+C Asia
+D South America
+
+#Q By 2004, how many people had been outside Earths atmosphere?
+^ About 400
+A About 100
+B About 200
+C About 300
+D About 400
+
+#Q When was the United Nations founded?
+^ 1945
+A 1947
+B 1948
+C 1945
+D 1946
+
+#Q Which of these countries joined the United Nations organization in 2006?
+^ Montenegro
+A South Korea
+B Poland
+C None of these
+D Montenegro
+
+#Q Which of these terms refers to a bone surgeon?
+^ Orthopedist
+A Orthopedist
+B Osteopath
+C Allopath
+D Pediatrician
+
+#Q This physician has been trained in the diagnosis and management of kidney disease.
+^ Nephrologist
+A Neurologist
+B Nephrologist
+C Urologist
+D Proctologist
+
+#Q Which type of doctor deals with removing hemorrhoids?
+^ Proctologist
+A Endocrinologist
+B Urologist
+C Vascular surgeon
+D Proctologist
+
+#Q This kind of doctor is an expert in such diseases as Lupus, Sjogrens Syndrome, and Dermatomyositis.
+^ Rheumatologist
+A Otorrhinolaryngologist
+B Internist
+C Rheumatologist
+D Gastroenterologist
+
+#Q Which medical specialty largely replaced the old general practice specialty?
+^ Family Practice
+A Internal Medicine
+B General Surgery
+C Obstetrics
+D Family Practice
+
+#Q Which is the correct version of the joke about these four medical specialists?
+^ A psychiatrist knows nothing and does nothing.  An internist knows everything and does nothing. A surgeon knows nothing and does everything. A pathologist knows everything, and does everything--but too late!
+A A psychiatrist knows nothing and does nothing. An internist knows everything and does nothing. A pathologist knows nothing and does everything. A surgeon knows everything, and does everything--but too late!
+B A psychiatrist knows nothing and does nothing. A pathologist knows everything and does nothing. An internist knows nothing and does everything. A surgeon knows everything, and does everything--but too late!
+C A psychiatrist knows nothing and does nothing.  An internist knows everything and does nothing. A surgeon knows nothing and does everything. A pathologist knows everything, and does everything--but too late!
+D A psychiatrist knows nothing and does nothing. A pathologist knows everything and does nothing. A surgeon knows nothing and does everything.  An internist knows everything, and does everything--but too late!
+
+#Q While sitting at home talking with friends, you all of a sudden start slurring your words, and develop an inability to move your right arm and leg. The services of which of the following doctors are you likely to seek first?
+^ Emergency Medicine doctor
+A Neurologist
+B Neurosurgeon
+C Emergency Medicine doctor
+D Psychiatrist
+
+#Q Which of the following doctors is least likely to ever be on call?
+^ Emergency Physician
+A General Surgeon
+B Anesthesiologist
+C Emergency Physician
+D Family Practitioner
+
+#Q Which of these doctors is qualified to treat alcohol withdrawal?
+^ All of these
+A Family Practitioner
+B Psychiatrist
+C All of these
+D Internist
+
+#Q In the United States, which of the following doctors is likely to make the most money?
+^ Radiologist
+A Neurologist
+B Radiologist
+C General Internist
+D Psychiatrist
+
+#Q What do we call the ratio of a circles circumference to its diameter?
+^ Pi
+A i
+B e
+C Pi
+D log(x)
+
+#Q What do we call these numbers:  0, 1, 4, 9, 16, 25, 36, 49, etc?
+^ square numbers
+A algebraic numbers
+B cubic numbers
+C square numbers
+D prime numbers
+
+#Q What do we call the square root of negative one?
+^ i
+A log(x)
+B i
+C e
+D Pi
+
+#Q What do we call the base for natural logarithms ?
+^ e
+A i
+B e
+C Pi
+D 3^2
+
+#Q In general, mathematicians consider these three men to have been the greatest mathematicians of all times.
+^ Archimedes, Newton, Gauss
+A Archimedes, Newton, Gauss
+B Newton, Gauss, Einstein
+C Newton, Gauss, Euler
+D Archimedes, Newton, Einstein
+
+#Q Which of these could be an answer to a math problem involving volume?
+^ 8 cubic inches
+A 8 cubic inches
+B The are all the same
+C 8 inches
+D 8 square inches
+
+#Q Which great 20th century mathematician died because he refused to eat ?
+^ Kurt Godel
+A Robert Schatten
+B Paul Erdos
+C Kurt Godel
+D Paul Wittenberg
+
+#Q If you multiplied all the whole numbers together, what would the answer be ?
+^ 0
+A aleph zero
+B infinite
+C infinity
+D 0
+
+#Q Which of these three sets is the largest: the set of all whole numbers, the set of all even numbers, the set of  all odd numbers?
+^ They are the same size
+A The set of all even numbers
+B The set of all whole numbers
+C They are the same size
+D The set of all odd numbers
+
+#Q If you flip a fair coin three times what is the probability you will get three heads ?
+^ one out of eight
+A one out of eight
+B one out of six
+C one out of three
+D three out of eight
+
+#Q Going in a circle counter-clockwise is called left-handed. Why ?
+^ If you turn counter-clockwise your left hand is nearer the center
+A It is the way that hurricane winds blow
+B Newton called it that way so we follow his way
+C It is arbitrary
+D If you turn counter-clockwise your left hand is nearer the center
+
+#Q Which of the following medications treats depression?
+^ Zoloft (sertraline)
+A Zoloft (sertraline)
+B Augmentin (amoxicillin/clavulanic acid)
+C Benadryl (diphenhydramine)
+D Darvon (propoxyphene)
+
+#Q Which disease is treated by Synthroid (levothyroxine)?
+^ Hypothyroidism
+A Multiple Sclerosis
+B Congestive Heart Failure
+C Erectile Dysfunction
+D Hypothyroidism
+
+#Q Ambien (zolpidem) is used to treat which one of the following conditions?
+^ Insomnia
+A Migraine
+B Diabetes
+C Peripheral Neuropathy
+D Insomnia
+
+#Q Which one of the following medications treats Alzheimers Disease (dementia)?
+^ Aricept (donepezil)
+A Topamax (topiramate)
+B Effexor (venlafaxine)
+C Lanoxin (digoxin)
+D Aricept (donepezil)
+
+#Q Which of the following disease does Propecia (finasteride) treat?
+^ Hair loss
+A Nicotine addiction
+B Lead poisoning
+C Hair loss
+D Emphysema
+
+#Q Which of the following medications is for enuresis (bed-wetting)?
+^ DDAVP (Arginine Vasopressin)
+A Senokot (senna)
+B DDAVP (Arginine Vasopressin)
+C Sansert (methysergide)
+D THC (tetrahydrocannabinol)
+
+#Q Which of the following drugs thins the blood?  (That is, it decreases the ability of the blood to clot.)
+^ Coumadin (warfarin)
+A hydrochlorothiazide
+B Coumadin (warfarin)
+C Lexapro (escitalopram)
+D Biaxin (clarithromycin)
+
+#Q Valtrex (valacyclovir) treats which one of the following conditions?
+^ Genital herpes
+A Pityriasis alba
+B Genital herpes
+C HPV (genital warts)
+D Syphilis
+
+#Q Botox (botulinum toxin) is used to treat which one of the following diseases?
+^ Headache
+A Headache
+B Congestive heart failure
+C Pulmonary hypertension
+D Kidney failure
+
+#Q Which one of the following medications reduces cholesterol?
+^ Lipitor (atorvastatin)
+A erythromycin
+B Lipitor (atorvastatin)
+C Verelan (verapamil)
+D Imitrex (sumatriptan)
+
+#Q Where is the radial artery located?
+^ Forearm
+A Forearm
+B Abdomen
+C Behind the Knee
+D Neck
+
+#Q Which of these terms refer to the chambers of the heart -- the two on top and the two on the bottom respectively?
+^ Atria and Ventricles
+A Pericardia and Myocardia
+B Atria and Ventricles
+C Ventricles and Atria
+D Atria and Ventricle, Atria and Ventricle
+
+#Q All arteries carry oxygenated blood from the heart to the rest of the body.
+^ False
+A False
+B True
+
+#Q Where is the femoral artery located?
+^ Thigh
+A Thigh
+B Uterus
+C Calf
+D Along the spinal column
+
+#Q Name the anastomotic loop of vessels near the base of the brain.
+^ Circle of Willis
+A Zygomatic Process
+B Thoracic Circulation
+C Portal Circulation
+D Circle of Willis
+
+#Q Bones in the wrists are called by what name?
+^ Carpals
+A Tarsals
+B Carpals
+C Phalanges
+D Metatarsals
+
+#Q Tarsals are located in what part of the body?
+^ Foot or eyelid
+A None of these
+B Foot or eyelid
+C Elbows
+D Hands
+
+#Q Arterial blood is blue due to oxygenation. Venous blood is bright red and spurts when a person receives a cut.
+^ False
+A False
+B True
+
+#Q Portal circulation refers to the circulation of blood returning from the body and entering the heart through semilunar portals.
+^ False
+A False
+B True
+
+#Q Which of the following describes the route of pulmonary circulation?
+^ R. ventricle to R. and L. pulmonary arteries to R  L lung
+A L atria to R pulmonary artery to R lung
+B L. ventricle to L pulmonary artery to L lung
+C R ventricle to R pulmonary artery to R lung
+D R. ventricle to R. and L. pulmonary arteries to R  L lung
+
+#Q How long on average does it take for the suns rays to reach earth?
+^ just over 8 minutes
+A just over 8 hours
+B just over 80 minutes
+C just over 8 seconds
+D just over 8 minutes
+
+#Q What animal has the broadest visual color spectrum?
+^ Butterfly
+A Elephant
+B American Kestrel Falcon
+C Butterfly
+D Bumblebee
+
+#Q What place has the maximum amount of sunshine in the US?
+^ Yuma, Arizona
+A Anchorage, Alaska
+B Houston, Texas
+C St Petersburg, Florida
+D Yuma, Arizona
+
+#Q What is the largest number mentioned in the Bible?
+^ 1,000,000
+A 1,000,000
+B 30,000
+C 400,000
+D 100,000
+
+#Q Which animal has the longest gestation period?
+^ Black Salamander
+A Polar Bear
+B Black Salamander
+C Dung Beetle
+D Sumatran Rhino
+
+#Q How often does Halleys comet appear?
+^ Every 76 years
+A Every 100 years
+B Every 30 years
+C Every 25 years
+D Every 76 years
+
+#Q How much does human hair grow in a year?
+^ 9 inches
+A 9 inches
+B 7 inches
+C 12 inches
+D 4 inches
+
+#Q Which natural disaster claimed the most lives during the second millennium?
+^ influenza
+A earthquakes
+B influenza
+C tsunami
+D plague
+
+#Q Right-handed people live longer than left-handed people.
+^ True
+A False
+B True
+
+#Q Which of the following travels at the speed of light?
+^ All of these
+A All of these
+B Radio rays
+C Gamma rays
+D X rays
+
+#Q This term is commonly used to refer to a person who becomes overly upset or angry when confronted with an issue.
+^ defensive
+A defensive
+B repressed
+C caustic
+D sublime
+
+#Q This term refers to a division of the psyche dominated by the pleasure principle.
+^ id
+A id
+B superego
+C libido
+D ego
+
+#Q This complex is a phase in child development characterized by jealousy and rivalry with the same sex parent.
+^ Oedipal complex
+A Messianic complex
+B Electra complex
+C Castration complex
+D Oedipal complex
+
+#Q Sublimation means channeling an urge in another direction.
+^ True
+A True
+B False
+
+#Q This syndrome or disorder occurs after a very traumatic event and has intense symptoms such as reliving the event over and over.
+^ Post Traumatic Stress Disorder
+A Seasonal Affect Syndrome
+B Bi-Polar Disorder
+C Post Traumatic Stress Disorder
+D Attention Deficit Disorder
+
+#Q Of the four nucleotides that make up Deoxyribo-Nucleic Acid (DNA), which of the following is a purine?
+^ Adenine
+A Adenine
+B Cytosine
+C Proline
+D Thymine
+
+#Q How many paired DNA chromosomes are there in a human male?
+^ 23
+A 23
+B 18
+C 20
+D 24
+
+#Q Which of the following models of double-stranded DNA replication proved to be correct?
+^ Semiconservative replication
+A Semiconservative replication
+B Semidispersive replication
+C Conservative replication
+D Dispersive replication
+
+#Q What is the name for a unit of DNA usually consisting of regulatory regions and a protein-encoding region?
+^ Gene
+A Chromosome
+B Gene
+C Codon
+D Transcript
+
+#Q Transcription is the process of creating what from the DNA template?
+^ RNA
+A RNA
+B Fatty Acids
+C Protein
+D A Double Helix
+
+#Q How many nucleotides of DNA does it take to encode a single amino acid in a given protein?
+^ 3
+A 10
+B 3
+C 25
+D 1
+
+#Q This class of enzyme can cut DNA at a specific place, making biotechnology possible.
+^ Restriction Enzyme
+A Restriction Enzyme
+B Bayton Enzyme
+C Electrophoretic Enzyme
+D Limiting Enzyme
+
+#Q What is the three-letter acronym for the Nobel-winning process which allows DNA to be amplified?
+^ PCR
+A HCV
+B ATP
+C PCR
+D SRC
+
+#Q What makes retroviruses such as HIV so unusual with respect to DNA?
+^ They start with RNA and encode DNA, the reverse of what cells do.
+A Their DNA reads 3 to 5, the opposite direction from cellular DNA.
+B They capture the cellular DNA and transfer it to other cells.
+C They have no DNA, but their protein components directly encode for RNA.
+D They start with RNA and encode DNA, the reverse of what cells do.
+
+#Q When Dr. Craig Venters private company, Celera, declared that they would beat the Human Genome Project in sequencing all human DNA, what did Venter tell Dr. Francis Collins, director of the HGP?
+^ You can do mouse.
+A The private sector always wins.
+B You can do mouse.
+C Just send me all your grant money.
+D Why dont you try something easier?
+
+#Q The Golgi apparatus found in most eukaryotic cells participates in the sorting and modification of what type of organic compounds?
+^ Proteins
+A Water molecules
+B Carbohydrates
+C Lipids
+D Proteins
+
+#Q The cell has up to several thousands of these tiny organelles scattered in its cytoplasm. They are often called cellular power plants, because they convert organic materials into energy.
+^ Mitochondria
+A Mitochondria
+B Vacuoles
+C Chloroplasts
+D Ribosomes
+
+#Q Plastids are major cell organelles found in which of these groups of organisms?
+^ Plants and algae
+A Algae
+B Plants
+C Plants and animals
+D Plants and algae
+
+#Q The process of photosynthesis is carried out by which of these major cell organelles?
+^ Chloroplasts
+A Mitochondria
+B Ribosomes
+C Chloroplasts
+D Vacuoles
+
+#Q Which of these is not among the vacuoles functions in the cell?
+^ Production of ATP
+A Exporting unwanted substances
+B Capturing food materials
+C Production of ATP
+D Maintaining the internal pH
+
+#Q Typical for the animal cells only, lysosomes are organelles built in the Golgi apparatus that contain what type of enzymes?
+^ Digestive enzymes
+A Inhibitors
+B Digestive enzymes
+C Amylase enzymes
+D Restriction enzymes
+
+#Q Which organelle makes up the cells translational apparatus that translates Messenger RNA (mRNA) into polypeptide chains?
+^ Ribosome
+A Lysosome
+B Mitochondrion
+C Ribosome
+D Golgi apparatus
+
+#Q Cell nuclei have two primary functions in the cell. The first is to to store genetic information needed for cellular division. What is the second one?
+^ To control chemical reactions
+A To maintain an acidic internal pH
+B To remove unwanted structural debris surrounding the cell
+C To control chemical reactions
+D To maintain internal hydrostatic pressure
+
+#Q Which of the following organelles is typical for animal cells only?
+^ Melanosome
+A Nucleolus
+B Vacuole
+C Melanosome
+D Golgi apparatus
+
+#Q Which one of these organelles is a part of the endomembrane system of eukaryotic cells?
+^ Endoplasmic reticulum
+A Chloroplast
+B Mitochondrion
+C Endoplasmic reticulum
+D Nucleus
+
+#Q It is said that the average person has about six pounds of skin.
+^ True
+A True
+B False
+
+#Q What kind of cells carry oxygen around your body?
+^ red blood cells
+A fat cells
+B red blood cells
+C oxygen cells
+D blue cells
+
+#Q Name he glands that produce hormones.
+^ endocrine glands
+A salivary glands
+B sweat glands
+C endocrine glands
+D oil glands
+
+#Q This term refers to the organs that fill your abdominal cavity and chest.
+^ viscera
+A immune system
+B circulatory system
+C cementum
+D viscera
+
+#Q What is the biggest artery in the human body?
+^ aorta
+A umbilical
+B pulmonary
+C systemic
+D aorta
+
+#Q What part of the nervous system regulates involuntary actions such as heartbeat or digestion?
+^ autonomic nervous system
+A central nervous system
+B peripheral nervous system
+C involuntary nervous system
+D autonomic nervous system
+
+#Q Dental caries, commonly known as a cavity, is one of the most common health disorders, second only to this one.
+^ Cold
+A Cold
+B Mumps
+C Fever
+D Sore throat

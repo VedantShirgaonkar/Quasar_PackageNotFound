@@ -1,0 +1,1685 @@
+#Q This drink contains caffeine.
+^ Coffee
+A Mineral water
+B Orange juice
+C Coffee
+D Beer
+
+#Q Finish the proverb:
+
+Poets are born, ________.
+^ ...not made.
+A ...not made.
+B ...but can also be made.
+C ...but thats not for sure.
+D ..., long live the poets!
+
+#Q If a TV program is rated G then this is true.
+^ It is suitable for all audiences.
+A It contains moderate violence.
+B It contains mild sexual situations.
+C It is suitable for all audiences.
+D It is suitable for young children.
+
+#Q The theory of relativity was introduced in physics by this man.
+^ Albert Einstein
+A Galileo Galilei
+B Albert Einstein
+C Archimedes
+D Isaac Newton
+
+#Q The symbol for the chemical element iron is this.
+^ Fe
+A I
+B Fe
+C Zn
+D Br
+
+#Q The author of the novel A Portrait of the Artist as a Young Man is this writer.
+^ James Joyce
+A T. S. Eliot
+B Samuel Beckett
+C William Faulkner
+D James Joyce
+
+#Q The capital of Mongolia is this city.
+^ Ulaanbaatar
+A Davao
+B Islamabad
+C Quezon
+D Ulaanbaatar
+
+#Q Mitochondrias function in cells is to perform this.
+^ To convert organic materials into energy
+A To control chemical reactions within the cytoplasm
+B To store information needed for cellular division
+C To convert organic materials into energy
+D To process proteins targeted to the plasma membrane
+
+#Q The US bought Alaska in this year.
+^ 1867
+A 1942
+B 1882
+C 1854
+D 1867
+
+#Q The 23rd US President was in office during this period.
+^ 1889 - 1893
+A 1909 - 1913
+B 1889 - 1893
+C 1837 - 1841
+D 1877 - 1881
+
+#Q One of these actors did not star in the 1971 movie A Clockwork Orange.
+^ Warren Brown
+A Michael Bates
+B Patrick Magee
+C Warren Brown
+D Malcolm McDowell
+
+#Q The first Bulgarian state was formed in this year.
+^ 681 AD
+A 429 AD
+B 681 AD
+C 712 AD
+D 651 AD
+
+#Q The 1962 Soccer World Cup tournament was held in this country.
+^ Chile
+A Switzerland
+B Mexico
+C Chile
+D Italy
+
+#Q The Meryas were a probably Finno-Ugric tribe who lived in the region of modern Russia. This is the first historian to mention them.
+^ Jordanes
+A Eusebius of Caesarea
+B Jordanes
+C Priscus
+D Sima Guang
+
+#Q The word abacus derives from a Hebrew word, meaning this.
+^ Dust
+A Movement
+B Sky
+C Dust
+D Wood
+
+#Q The Chevy Nova sold poorly in Mexico because no va means doesnt go in Spanish.
+^ False
+A False
+B True
+
+#Q A car that gets over 200 miles per gallon is reclaimed by the factory, after its owner calls to congratulate the manufacturers about its excellent performance.
+^ False
+A True
+B False
+
+#Q A very complicated Honda Accord commercial required 606 takes and was done without the use of any computer-generated images.
+^ True
+A True
+B False
+
+#Q Putting sugar in the gas tank of a carburetor-equipped vehicle will ruin the engine.
+^ False
+A False
+B True
+
+#Q Man bought an old motorcycle only to discover that it was once owned by Elvis Presley.
+^ False
+A False
+B True
+
+#Q Cars were stolen by thieves who wrote down VINs (car serial numbers)  and used them to obtain duplicate keys through auto dealerships.
+^ True
+A True
+B False
+
+#Q After an earthquake in  1989, a car thief was found crushed under a collapsed freeway overpass in the vehicle hed stolen.
+^ False
+A False
+B True
+
+#Q An artist painted a 60 ft. tall image of a naked woman above a tunnel in Malibu Canyon in 1966.
+^ True
+A False
+B True
+
+#Q Police officers who use slimjims to assist locked out motorists have been killed by airbags.
+^ False
+A False
+B True
+
+#Q A speeder caught by photo radar, sends the police a photograph of money to pay his fine.
+^ True
+A True
+B False
+
+#Q Sean Connery, George Lazenby, Roger Moore, Timothy Dalton and Pierce Brosnan have all played the role of a fictional British spy. Who was that character?
+^ James Bond
+A James Bond
+B Johnny English
+C Jim Malone
+D Eliot Ness
+
+#Q Man On The Moon, Amadeus and One Flew Over the Cuckoos Nest are all movies directed by him.
+^ Miloš Forman
+A Stanley Kubrick
+B Miloš Forman
+C Pedro Almodóvar
+D Martin Scorsese
+
+#Q Across the Hall, Friends Like Us, Insomnia Caf� and Six of One are all working titles of one of famous US TV-series.  Name the series.
+^ Friends
+A Friends
+B Sex and the City
+C ALF
+D One Tree Hill
+
+#Q The common link between these four movies -Chicken Run, Harry Potter, The Mummy Returns and Cast Away, is that...?
+^ They all are produced by one and the same company.
+A They all treat one and the same social problem.
+B They all are produced by one and the same company.
+C One and the same actor is starring in all of them.
+D They all refer to one and the same social class.
+
+#Q Three of the following movies are produced by 20th Century Fox. Which is the odd one?
+^ House of Wax
+A Me, Myself  Irene
+B Dr. Dolittle 2
+C Cast Away
+D House of Wax
+
+#Q David Suchet and Peter Ustinov are two actors who have played the role of the famous detective Sherlock Holmes.
+^ False
+A False
+B True
+
+#Q Tom Cruise had a lead role in all, but one of these movies.  Which one?
+^ Endless Love
+A Rain Man
+B The Firm
+C Magnolia
+D Endless Love
+
+#Q All but one of these statements represents a common bond between the movies, The Terminal and Catch Me if You Can.
+^ Leonardo DiCaprio stars in them both.
+A They both can be classified as dramas.
+B They both are produced by Spielberg.
+C Tom Hanks stars in them both.
+D Leonardo DiCaprio stars in them both.
+
+#Q Brad Pitt starred in all these movies, except one. Can you spot it?
+^ The Beach
+A Meet Joe Black
+B Mr.  Mrs. Smith
+C Oceans Eleven
+D The Beach
+
+#Q Robin Williams starred in Mrs. Doubtfire. Another great actor, Dustin Hoffman starred in Tootsie. Both characters pretended to be this.
+^ Women
+A Women
+B Dead
+C Insane
+D Bed-ridden and sick
+
+#Q A ghost is a supernatural entity thought to be the spirit of a person remaining on Earth after their death to seek revenge.
+^ False
+A False
+B True
+
+#Q There is something specific about Anne Boleyns ghost. What is it?
+^ Her ghost is without a head.
+A She does not have a ghost.
+B Her ghost is male.
+C Her ghost is without hands.
+D Her ghost is without a head.
+
+#Q Which of the following statements about ghosts is incorrect?
+^ They are always depicted of a human size and shape.
+A They are always depicted of a human size and shape.
+B Ghosts do not have a gross physical body.
+C Sometimes they might manifest their presence by moving other objects or producing noises.
+D They are usually portrayed as silvery, shadowy and fog-like.
+
+#Q The ghost of the Roman Emperor Caligula was said to haunt this place.
+^ The Lamian Gardens of Rome
+A Basilica di San Giovanni in Laterano
+B Amphitheatrum Castrense
+C The Lamian Gardens of Rome
+D Great Synagogue of Rome
+
+#Q Ghosts have taken a significant place in literature and art since this period.
+^ Renaissance
+A Renaissance
+B Middle Ages
+C Romanticism
+D Baroque
+
+#Q What does Suetonius, Geoffrey of Monmouth and Herodotus have in common?
+^ They are three writers that produced the first urban legends.
+A They are three writers that produce modern urban legends.
+B They are three writers that produced the first urban legends.
+C They are three ghost from the modern urban legends.
+D They are three ghosts from the first urban legends.
+
+#Q Is there a difference between a poltergeist and a ghost?
+^ Yes
+A Yes
+B No
+
+#Q The Epic of Gilgamesh is the oldest written story, containing a lot of references to the spirits of the dead.
+^ True
+A False
+B True
+
+#Q In 1993 an interesting study about Friday the 13th was published in the British Medical Journal. Its authors investigated if this mystical date is really dangerous. They compared the ratio of traffic volume to the number of vehicular accidents on two different days throughout several years. What was the conclusion of the study?
+^ Friday the 13th actually affects the number of vehicular accidents
+A The number of vehicular accidents is lower on Friday the 13th
+B The results were inconclusive
+C Friday the 13th doesnt have any affect on the number of vehicular accidents
+D Friday the 13th actually affects the number of vehicular accidents
+
+#Q The fear of the fatal date is called this.
+^ Paraskevidekatriaphobia
+A Paraskevidekatriaphobia
+B Aphenphosmphobia
+C Chronomentrophobia
+D Coitophobia
+
+#Q Chinese people believe that 13 is a lucky number.
+^ True
+A True
+B False
+
+#Q There are countless theories about the origins of fear of number 13. One says that the phobia comes from Norse mythology. According to a legend, the 13th god, the god of mischief, turned up at a gathering of the 12 Viking gods and caused the death of Balder the Good.  What was the god of mischief called?
+^ Loki
+A Loki
+B Tor
+C Odin
+D Hod
+
+#Q People fear Friday for many reasons. For example, Jesus Christ was crucified on Friday, the Great Flood began on Friday and Adam and Eve were banned from the Garden of Eden on Friday. Do you know what type of day Friday was in the pagan Roman empire?
+^ Execution day
+A Parade day
+B Tax day
+C Execution day
+D Day for prayers
+
+#Q Most estate agents find it difficult to sell a house, numbered thirteen.
+^ True
+A False
+B True
+
+#Q The bad name of both Friday and number 13 can be explained by many historical and religious facts. However, the reason why they are linked together to form this powerful superstition, cant be explained so easily. According to one theory, the ill-fame of Friday 13th dates back to 13 October 1307, when King Philip IV of France arrested most of the knights of one famous Order. What was the name of the Order?
+^ The Knights Templar
+A The Ancient and Illustrious Order Knights of Malta
+B Ancient Order Knights of the Mystic Chain
+C The Knights Templar
+D Teutonic Order
+
+#Q Female drivers have more traffic accidents on Friday the 13th.
+^ False
+A True
+B False
+
+#Q Having in mind the mysterious background of Black Friday, it is quite natural that the TV series Friday the 13th were so popular. The main character, Jason, is one of the biggest celebrities in the world of horror movies. What is Jasons family name?
+^ Vorhees
+A Hardy
+B Vorhees
+C Christy
+D Burrell
+
+#Q Over any given 400-year cycle the 13th day of the month occurs 4800 times. The 13th most often falls on this day of the week.
+^ Friday
+A Sunday
+B Monday
+C Wednesday
+D Friday
+
+#Q What movie stars George Peppard as a WWI ace pilot?
+^ The Blue Max
+A The Blue Max
+B The Blue Baron
+C The Red Baron
+D The Black Knight
+
+#Q This movie, directed by Stanley Kubrick, stars Malcolm McDowell as Alex DeLarge.
+^ A Clockwork Orange
+A A Backward Peach
+B A Future of  Red
+C A Clockwork Orange
+D Soylent Green
+
+#Q Actors Patrick Swayze, Jennifer Gray, Charlie Sheen and C.Thomas Howell played in both Red Dawn and The Outsiders.
+^ False
+A False
+B True
+
+#Q In Black Sunday, Michael Lander played by Bruce Dern, conspires with a Palestinian terrorist group to kill masses of innocent people in what way?
+^ by detonating a bomb, housed in the undercarriage of a blimp, over a football stadium during the Super Bowl
+A by detonating a nuclear device inside the Pentagon
+B by detonating a bomb, housed in the undercarriage of a blimp, over a football stadium during the Super Bowl
+C by hijacking a 747 and taking it to Syria
+D by infecting a water supply with the black plague
+
+#Q In Pretty in Pink, the character played by Molly Ringwald has a guest, named Long Duk Dong, who is a  foreign exchange student.
+^ False
+A False
+B True
+
+#Q In the film The Hunt For Red October, what was the unique quality of the Russian submarine Red October?
+^ It was built with a revolutionary stealth propulsion system called the caterpillar drive,
+A It was a laser guided sub that tracks 24 targets at the same time.
+B It was built with a revolutionary stealth propulsion system called the caterpillar drive,
+C Its stealth armor confuses the enemy sonar
+D None of these
+
+#Q Which 1985 comedy film starred Tom Hanks, Jim Belushi and Lori Singer?
+^ The Man With One Red Shoe
+A The Man With One Red Shoe
+B The Woman In Red
+C The Masque of the Red Death
+D Reds
+
+#Q In the movie Goldfinger, which one of the following characters does not die?
+^ Pussy Galore
+A Tilly Masterson
+B Pussy Galore
+C Goldfinger
+D Oddjob
+
+#Q What was unique about The Green Berets, a film starring John Wayne?
+^ It was the only Vietnam War film that was produced during the war itself
+A None of these
+B It was John Waynes first movie without a female co-star
+C It was the only non-western John Wayne movie in color
+D It was the only Vietnam War film that was produced during the war itself
+
+#Q In White Men Cant Jump, Sidney Deane, played by Wesley Snipes is married to Rosie Perez character, Gloria Clemente.
+^ False
+A False
+B True
+
+#Q One of the first known blondes was this Greek goddess, whose hair was described by Homer as golden.
+^ Aphrodite
+A Demeter
+B Aphrodite
+C Hera
+D Medusa
+
+#Q The hairs of a natural blonde can be described as this.
+^ More than those of a brunette
+A More than those of a brunette
+B Thinner than those of a brunette
+C The same number as those of a brunette
+D Fewer than those of a brunette
+
+#Q Researchers in England found this to be true of  blond cashiers in supermarkets.
+^ Gather greater queues
+A Have frequent technical issues with the registers
+B Gather greater queues
+C Receive more tips from customers
+D Have higher chances of not balancing the register at the end of the day
+
+#Q During The Restoration period blond hair became a symbol of this.
+^ Prostitution
+A Stupidity
+B High class
+C Intelligence
+D Prostitution
+
+#Q Most fairy tale characters have this color hair.
+^ Blonde
+A Blonde
+B Dark
+C Green
+D Red
+
+#Q Blonde hair was important to Hitler, according to him it symbolized this.
+^ The purity of the Aryan race
+A Valor
+B German nationality
+C Innocence
+D The purity of the Aryan race
+
+#Q She is regarded as the most famous blonde of all times.
+^ Marilyn Monroe
+A Marlene Dietrich
+B Eva Brown
+C Marilyn Monroe
+D Madonna
+
+#Q Strange as it may be, there are paintings, depicting a blonde one of her.
+^ Cleopatra
+A Madamme Butterfly
+B Cleopatra
+C Beyonce
+D Aretha Franklyn
+
+#Q Red is the color of all these except one.
+^ Sadness
+A Danger
+B Warmth
+C Passion
+D Sadness
+
+#Q Red is believed to provoke hunger.
+^ True
+A True
+B False
+
+#Q The movie Trois couleurs: Rouge (Three Colors: Red) is about a girl who discovers her neighbour is keen on invading peoples privacy. This is her profession.
+^ Model
+A Photographer
+B Teacher
+C Model
+D Actress
+
+#Q The Rothschilds were one of the most successful business families in history. Their family name literally means this.
+^ Red Shield
+A Red Shire
+B Red Sheath
+C Red Shield
+D Red Sheave
+
+#Q Three of the following albums are by the band Red Hot Chili Peppers. Which is the odd one?
+^ In Another Land
+A Blood Sugar Sex Magik
+B Freaky Styley
+C In Another Land
+D By the Way
+
+#Q Red River College (RRC) is a large and very comprehensive institute of applied learning, located in this city.
+^ Winnipeg
+A Ottawa
+B Toronto
+C Vancouver
+D Winnipeg
+
+#Q Red Lobster is a U.S. chain of seafood restaurants. Its original name was this.
+^ Harbor for Seafood Lovers
+A Harbor for Seafood Lovers
+B Lobster Lovers
+C Lobster Barbecue
+D Red Harbor
+
+#Q Manfred Albrecht Freiherr von Richthofen was a German pilot and is still regarded today as the ace of aces. Which of the following pairs (nickname - nation calling him that) is wrong?
+^ They are all true.
+A Red Battle-Flyer - the Germans
+B Red Devil - the French
+C Red Baron - the British
+D They are all true.
+
+#Q Simply Red is a British band. The bands name is related to this soccer team.
+^ Manchester United
+A Arsenal
+B Liverpool
+C Manchester United
+D Middlesbrough
+
+#Q One of these four countries does not border the Red Sea.
+^ Oman
+A Jordan
+B Egypt
+C Oman
+D Sudan
+
+#Q Internationally, blue is the color of these political parties.
+^ Conservative parties
+A Labour parties
+B Liberal parties
+C Communist parties
+D Conservative parties
+
+#Q The term blue blood, meaning aristocracy or related to aristocracy, originated in this country.
+^ Spain
+A England
+B Germany
+C Spain
+D France
+
+#Q Eiffel 65 is a trio of Italian musicians who play electronic music. One of their biggest hits is Blue (Da Ba Dee). The album featured this hit.
+^ Europop
+A Eiffel 65
+B Contact!
+C Europop
+D Suggested Title - Crash Test
+
+#Q In German the word for blue is used to describe that a person is this.
+^ Drunk
+A Married
+B Crazy
+C Rich
+D Drunk
+
+#Q Blue is a British boy band consisting of four members. The song Signed, Sealed, Delivered, Im Yours is performed by them and this musician.
+^ Stevie Wonder
+A Jim Morrison
+B Stevie Wonder
+C Elton John
+D Steve Lawrence
+
+#Q In The Hitchhikers Guide to the Galaxy there are several references to a super-intelligent shade of the color blue, called this.
+^ Hooloovoo
+A Cyan
+B Volo-loco
+C Hooloovoo
+D Gobo
+
+#Q Blue pages are a telephone directory of these.
+^ Government offices
+A Business offices
+B Celebrities home numbers
+C Brothels numbers
+D Government offices
+
+#Q This huge company is often referred to as Big Blue.
+^ IBM
+A Hewlett-Packard
+B Microsoft
+C IBM
+D Cisco Systems, Inc.
+
+#Q What did electrical engineering professor, Dr. Brent Townshend, invent in 1996?
+^ The 56K modem
+A The 56K modem
+B Potato Chips
+C Bookshelf speakers
+D The remote control locator
+
+#Q What did George Crum invent at the Moon Lake Lodge resort in Saratoga Springs, New York?
+^ The potato chips
+A The remote control locator
+B The potato chips
+C Bookshelf speakers
+D The 56K modem
+
+#Q In 1971, this programmer implemented the first email system capable of sending mail between users on different hosts connected to the ARPANET.
+^ Ray Tomlinson
+A David Thomson
+B John Tomlinson
+C Mark Thomson
+D Ray Tomlinson
+
+#Q This device, named Missing Link,  was invented by twin sisters Kelli and Vanessa Dunn.
+^ The remote control locator
+A The remote control locator
+B The bookshelf speakers
+C The 56K modem
+D The microphone
+
+#Q In 1986, this musician, famous for performing the song  Johnny B. Goode, became the first person inducted into the Rock and Roll Hall of Fame.
+^ Chuck Berry
+A Bill Haley
+B Chuck Berry
+C Elvis Presley
+D Jerry Lee Lewis
+
+#Q This actor, who plays Dr. Norman in What Lies Beneath, is also a licensed pilot of both planes and helicopters.
+^ Harrison Ford
+A John Travolta
+B Anthony LaPaglia
+C Ralph Finnes
+D Harrison Ford
+
+#Q How old was Cio-Cio-San, a character in Giacomo Puccinis opera, Madame Butterfly ?
+^ 15
+A 15
+B 20
+C 19
+D 21
+
+#Q This number is usually associated with the unknown and the bad luck. A fear of this number is known as triskaidekaphobia.
+^ 13
+A 6
+B 13
+C 9
+D 666
+
+#Q This is the number of heavens in Islamic tradition. It is also the figurative number of seas.
+^ 7
+A 11
+B 3
+C 4
+D 7
+
+#Q 50 years of marriage are known as this.
+^ Gold anniversary
+A Pearl anniversary
+B Diamond anniversary
+C Gold anniversary
+D Platinum anniversary
+
+#Q The first Soviet nuclear ballistic submarine was called K-(this number).
+^ 19
+A 18
+B 17
+C 19
+D 21
+
+#Q This is the number of points outlined by president Woodrow Wilson for reconstructing a new Europe following World War I.
+^ 14
+A 12
+B 24
+C 14
+D 27
+
+#Q One of these statements about the enigmatic number 23 is wrong.
+^ All statements are in fact true.
+A Each parent contributes 23 chromosomes to the DNA of a child.
+B Julius Caesar was stabbed 23 times when he was assassinated.
+C All statements are in fact true.
+D The Knights Templar had 23 Grand Masters, the last being Jacques de Molay.
+
+#Q According to Douglas Adams book The Hitchhikers Guide to the Galaxy, this number is the answer to the Ultimate Question of Life, the Universe and Everything.
+^ 42
+A 37
+B 53
+C 42
+D 27
+
+#Q Muslims pray to Allah five times a day.
+^ True
+A False
+B True
+
+#Q This is the number of syllables in a haiku (a very short Japanese poetic form).
+^ 17
+A 41
+B 35
+C 28
+D 17
+
+#Q This is the total number of books in the New Testament of the Holy Bible.
+^ 27
+A 27
+B 57
+C 37
+D 17
+
+#Q In this movie Eminem plays the main character, whose name is Jimmy B-Rabbit Smith, Jr.
+^ 8 Mile
+A Torrance Rises
+B The Wash
+C 8 Mile
+D The Slim Shady Show
+
+#Q This comedian stars in Who Framed Roger Rabbit (a 1988 motion picture).
+^ Bob Hoskins
+A Jim Varney
+B Bob Hoskins
+C Jim Carrey
+D Danny DeVito
+
+#Q The young of which of these animals is not called a joey?
+^ dog
+A dog
+B opossum
+C wombat
+D kangaroo
+
+#Q In these fractions, used by ancient Egyptians, the numerator is 1 and the denominator is a positive integer.
+^ unit fractions
+A algebraic fractions
+B decimals
+C continued fractions
+D unit fractions
+
+#Q What is the name of the informal association of people who can trace their ancestry to the original Virginian colonists from England?
+^ First Families of Virginia
+A First children of Virginia
+B First Settlers of Virginia
+C First Families of Virginia
+D Founders of Virginia
+
+#Q Which collective noun denotes a group of owls?
+^ parliament
+A parliament
+B descent
+C dule
+D covey
+
+#Q Which battleship of the Imperial Japanese Navy was sent on a suicide mission in 1945, during the invasion of Okinawa?
+^ Yamato
+A Yamato
+B Kamikaze
+C Tojo
+D Noh
+
+#Q This word deriving from Latin refers to the act of throwing someone or something out of a window.
+^ defenestration
+A defenestration
+B sylvan
+C peloton
+D homunculus
+
+#Q Which word was coined by philosopher and theologian, William Whewell in 1833?
+^ scientist
+A holography
+B magenta
+C scientist
+D trastevere
+
+#Q What was the first word addressed to Mission Control by Neil Armstrong, when his craft landed on the Moon on July 20, 1969?
+^ Houston
+A One
+B Buzz
+C Roger
+D Houston
+
+#Q The Cretaceous-Tertiary event, also known as KT boundary, refers to what?
+^ a period of massive extinction of species
+A a period of massive extinction of species
+B The destruction of the largest pyramid in the Western hemisphere
+C the first recorded devastating tsunami
+D None of these
+
+#Q Sapphire is usually associated with this month.
+^ September
+A November
+B December
+C October
+D September
+
+#Q One of the following pairs (month - the gem associated with it) is wrong.
+^ February - Peridot
+A February - Peridot
+B December - Turquoise
+C March - Aquamarine
+D June - Pearl
+
+#Q Is the diamond linked with a spring month?
+^ Yes
+A Yes
+B No
+
+#Q There is a particular connection between birth stones and months.
+^ False
+A True
+B False
+
+#Q The birth stones associated with March, September and December can all be found in this color.
+^ Blue
+A Blue
+B Green
+C Pink
+D White
+
+#Q History records the fact that a Roman senator named Nonius chose exile rather than surrender his precious stone to Mark Anthony. This is Nonius gem stone.
+^ Opal
+A Ruby
+B Opal
+C Tourmaline
+D Zircon
+
+#Q In chemistry, if you mix an acid with a base you would get these chemicals.
+^ Water and a salt
+A Water and carbon dioxide
+B Carbon dioxide and water
+C Water and a salt
+D A salt and oxygen
+
+#Q Which was the first car model to sell one million cars in one year?
+^ Chevy Impala
+A Corvette
+B Chevy Impala
+C Volkswagon Beetle
+D Toyota Corolla
+
+#Q Which company built the A6M, aka Zero -- the fighter aircraft  that was used in the attack on Pearl Harbor?
+^ Mitsubishi
+A Toshiba
+B Isuzu
+C Mitsubishi
+D Mikayashi
+
+#Q Which U.S. President is famous for saying I choose not to run?
+^ Calvin Coolidge
+A Calvin Coolidge
+B Herbert Hoover
+C John Tyler
+D Warren G. Harding
+
+#Q What type of chocolate contains the most  flavonoids and may help lower your cholesterol?
+^ Dark chocolate
+A Chocolate with almonds
+B Milk chocolate
+C White chocolate
+D Dark chocolate
+
+#Q How much did the USA pay Russia for Alaska?
+^ $7.2 million
+A $72 million
+B $720 million
+C $720,000
+D $7.2 million
+
+#Q At what temperature is the Fahrenheit temperature equal the Celsius temperature?
+^ -40 degrees
+A 0 degrees
+B -40 degrees
+C 4 degrees
+D -4 degrees
+
+#Q What musical instrument made jazz performer Lionel Hampton famous?
+^ Vibes
+A Trombone
+B Drums
+C Clarinet
+D Vibes
+
+#Q What are the only two landlocked countries in South America ?
+^ Bolivia and Paraguay
+A Bolivia and Paraguay
+B Paraguay and Uruguay
+C Bolivia and Uruguay
+D Colombia and  Ecuador
+
+#Q The real McCoy refers to the man who invented this.
+^ The locomotive self-lubricator
+A The train throttle
+B The sewing machine
+C The train coupling
+D The locomotive self-lubricator
+
+#Q Which word means a practitioner of the martial art of Okinawan origin, karate?
+^ Karateka
+A Konyico
+B Karateka
+C Sojin
+D Samurai
+
+#Q Which of these Biblical characters is known to have the greatest number of children?
+^ David
+A Jacob
+B King Saul
+C David
+D Joshua
+
+#Q Which device was patented in 1970 by  Douglas Engelbart, an American inventor of Norwegian descent?
+^ The computer mouse
+A The traffic light
+B The computer mouse
+C The internal combustion engine
+D The can opener
+
+#Q When did the famous American crooner Nat King Cole and his daughter Natalie Cole record their hit song, Unforgettable”?
+^ Never
+A in 1989
+B Never
+C in 1990
+D The date was never officially revealed
+
+#Q What does the Yiddish word Bupkis mean in English?
+^ Nothing
+A None
+B Nothing
+C Never
+D Rubbish
+
+#Q In ancient times, which stone was believed to protect from drunkenness?
+^ amethyst
+A amethyst
+B ruby
+C emerald
+D onyx
+
+#Q Nicknamed Mighty Mo (or Big Mo), this Iowa-class battleship from the end of World War II was the last battleship built by the United States.
+^ USS Missouri
+A USS Missouri
+B USS Illinois
+C USS Idaho
+D USS Minnesota
+
+#Q British musician, singer, and songwriter Elvis Costello was born Declan Patrick Aloysius MacManus.
+^ False
+A True
+B False
+
+#Q In what year did French mechanic Nicolas Joseph Cugnot invent the first self-propelled road vehicle?
+^ 1769
+A 1891
+B 1824
+C 7874
+D 1769
+
+#Q This is the only RB/soul singer asked by Johnny Carson to perform twice in the same week in The Tonight Show.
+^ Patti LaBelle
+A Gladys Knight
+B Aretha Franklin
+C Patti LaBelle
+D Whitney Houston
+
+#Q 3M Company was formed in 1902 in Two Harbors, Minnesota near Lake Superior with the intent of selling sandpaper. The company made $22.923 billion USD in 2006 and is famous for several inventions, including Scotch tape. What does 3M stand for?
+^ Minnesota Mining and Manufacturing Company
+A The number 3000
+B Minnesota Mining and Manufacturing Company
+C The year 3000 A.D.
+D Michaels, McCallister and Murphy
+
+#Q Having won 6 Tony Awards, including Best Musical, this 1950s production is a modern retelling of the Faust legend. Its main characters are Mr. Applegate, Joe Boyd and Lola.
+^ Damn Yankees
+A Hello, Dolly!
+B The Music Man
+C Guys and Dolls
+D Damn Yankees
+
+#Q Born in Vladivostok, Russia in 1920, this Academy Award-winning actor is best know for playing King Mongkut of Siam 4,626 times onstage. He also reprised the role in the film version of the musical.
+^ Yul Brenner
+A Telly Savalas
+B Yul Brenner
+C Lee J. Cobb
+D Peter Sellers
+
+#Q This country is a founding member of the European Union and the United Nations and one of the five permanent members of the United Nations Security Council. It is visited by over 75 millions tourists annually.
+^ France
+A Germany
+B France
+C Spain
+D England
+
+#Q Originally entitled Desert Song and released in 1972 by the band America, this song was banned in Kansas City for its supposed drug references.
+^ A Horse with No Name
+A Im Waiting for the Man
+B A Horse with No Name
+C Puff the Magic Dragon
+D Heart of Gold
+
+#Q Author Marianna Mayer describes this mythical creature as the only fabulous beast that does not seem to have been conceived out of human fears. In even the earliest references he is fierce yet good, selfless yet solitary, but always mysteriously beautiful. He could be captured only by unfair means. What creature is this?
+^ Unicorn
+A Satyr
+B Griffin
+C Unicorn
+D Phoenix
+
+#Q This Shakespearean play is referred to as The Scottish Play or The Scottish King by most actors and theater people since it is considered bad luck to mention the name of the play.
+^ Macbeth
+A King Lear
+B Othello
+C Macbeth
+D Hamlet
+
+#Q The average person can live this number of days without water.
+^ 11
+A 11
+B 4
+C 21
+D 31
+
+#Q Clocks made before 1687 had only one hand.
+^ True
+A True
+B False
+
+#Q The first couple to be shown in bed together on prime time television was this.
+^ Johnny and Mary Kay Stearns
+A Johnny and Mary Kay Stearns
+B The Simpsons
+C The Jetsons
+D The Adams
+
+#Q He was the only US President to win the Pulitzer Prize.
+^ John F. Kennedy
+A Woodrow Wilson
+B Dwight D. Eisenhower
+C Lyndon B. Johnson
+D John F. Kennedy
+
+#Q Some sources claim the youngest pope was Benedict IX (1032 A.D.), elected at this age.
+^ 12
+A 21
+B 9
+C 16
+D 12
+
+#Q Each king in a deck of playing cards represents a great king from history.
+^ True
+A True
+B False
+
+#Q According to GlobalNet UK, less than what percentage of 500 Chinese cities surveyed have clean air?
+^ 1%
+A 15%
+B 24%
+C 30%
+D 1%
+
+#Q Tegestology is the hobby of collecting this.
+^ Beer mats
+A Beer mats
+B Coffee spoons
+C Bottle labels
+D Bottle lids
+
+#Q Who invented the ball point pen?
+^ Jozsef Laszlo Biro
+A Elias Schaeffer
+B Elias Howe
+C John Fitzsimmons Waterman
+D Jozsef Laszlo Biro
+
+#Q The idea of a helicopter was first documented by this man.
+^ Leonardo Da Vinci
+A Sikorsky
+B Einstein
+C Aristotle
+D Leonardo Da Vinci
+
+#Q What was the first product to have a bar code?
+^ Wrigleys gum
+A Scotts Tissue
+B Pez candy
+C Bounty bar
+D Wrigleys gum
+
+#Q What do we call a storage place for bees?
+^ Apiary
+A A bee zoo
+B Apiary
+C Asterciary
+D Aviary
+
+#Q Former NBA coach Frank Layton once fined small forward Adrian Dantley thirty pieces of silver.  What did Layton say the fine was for?
+^ Betrayal
+A Being late to three  practices in a row
+B Betrayal
+C Asking to be traded
+D Missing three foul shots in a row
+
+#Q Which of these elements has the highest melting point?
+^ Carbon
+A Nitrogen
+B Hydrogen
+C Oxygen
+D Carbon
+
+#Q King John Sobieski of Poland saved Vienna from Ottoman invaders. In his honor something new was invented.  What was it ?
+^ The bagel
+A The Polish saddle
+B The  epee
+C Heeled boots
+D The bagel
+
+#Q It has an unemployment rate  of 15%. According to the 2000 Census it is the poorest of   the 100 largest US Cities.  Which city is it?
+^ Detroit
+A Newark
+B New Haven
+C Detroit
+D Boca Raton
+
+#Q This historical event occured in 1881 in the United States. It has been the  story line for at least 4 major motion pictures. What was this event?
+^ The Gunfight at the O.K. Corral
+A The Little Big Horn
+B The Gunfight at the O.K. Corral
+C The  Rise of the KKK
+D The  Attack of the 600
+
+#Q Which President ended Reconstruction ?
+^ Hayes
+A Hayes
+B Grant
+C Garfield
+D Arthur
+
+#Q What percentage of women do not wear the correct bra size?
+^ 50-75%
+A 50-75%
+B 20-40%
+C 30-40%
+D 10-15%
+
+#Q How often should a woman change her bra?
+^ every 6 months
+A every 9 months
+B every 6 months
+C every 5 weeks
+D once a 1year
+
+#Q What price did someone pay for Marilyn Monroes bra that she wore in the 1959 movie Some Like It Hot?
+^ $14,000
+A $4,000
+B $14,000
+C $10,000
+D $1,000
+
+#Q What year did the bra first appear?
+^ 2000 BC
+A 4000 BC
+B 2000 BC
+C 1000 BC
+D 3000 BC
+
+#Q What year did Mary Phelps Jacobs create the first modern bra after getting mad at her hard bodice? She covered its bones with silk handkerchief and attached it with a couple of cords.
+^ 1913
+A 1912
+B 1920
+C 1925
+D 1913
+
+#Q This famous bra brand was introduced to the USA in May 1994.  It started selling at a rate of one every 15 seconds at the initial retail price of $26.
+^ Wonderbra
+A Bali
+B Wonderbra
+C La Perla
+D Victorias Secret
+
+#Q The average woman will wear different bra sizes in her life, due to gravity, pregnancy and weight changes. How many times will she change her size?
+^ 6
+A 8
+B 3
+C 6
+D 5
+
+#Q A woman in the final stage of her pregnancy should not wear under-wired bras.
+^ True
+A True
+B False
+
+#Q There are cases of heterosexual men wearing bras to hide his enlarged chest.  What is the name of the disease that causes this hormonal defect?
+^ Gynecomastia
+A Hepatitis
+B Gynecomastia
+C Budd-Chiari Syndrome
+D Caroli Disease
+
+#Q Studies have proven that there is a relation between wearing bras and this disease.   Research found that 3 out of 4 women wearing bras 24 hours a day had the chance to get this disease, while women wearing bras for less than 12 hours a day had a 1 out of 152 chance.
+^ Breast cancer
+A Gynecomastia
+B Breast cancer
+C Anemia
+D Asthma
+
+#Q What is the missing word in these lyrics taken from a traditional folk song of the Southern United States?
+Theres a yellow rose of ______ Im goin for to see, 
+No other soldier knows her, nobody only me.?
+^ Texas
+A Jasper
+B Texas
+C Kansas
+D Mine
+
+#Q The Yellow River is the second largest river after the Yangtze in what country?
+^ China
+A Australia
+B Japan
+C South Africa
+D China
+
+#Q A yellow ribbon is worn to recognize the struggle that men and women face when battling cancer.
+^ False
+A True
+B False
+
+#Q Which of the American states below does not have part of the Yellow Stone National Park in it?
+^ Utah
+A Wyoming
+B Montana
+C Idaho
+D Utah
+
+#Q What type of insects are yellowjackets which live in colonies and build globular paper nests?
+^ wasps
+A ants
+B crickets
+C wasps
+D butterflies
+
+#Q What type of animal is Old Yeller featured in the 1957 classic film Old Yeller?
+^ Dog
+A Panther
+B Dog
+C Grizzly Bear
+D Mountain Lion
+
+#Q The Yellow Sea is connected to what ocean?
+^ Pacific
+A Atlantic
+B Arctic
+C Indian
+D Pacific
+
+#Q What company produces and distributes the citrus flavored soft drink Mello Yello?
+^ Coca-Cola
+A Pepsi
+B Coca-Cola
+C Dr Pepper/Seven Up
+D Cadbury-Schweppes
+
+#Q Two earthquakes with epicenter in northeast Arkansas, caused landslides and geological changes along the Mississippi River. On what date did these two earthquakes take place?
+^ December 16, 1811
+A April 27, 1815
+B July 23, 1809
+C August 12, 1823
+D December 16, 1811
+
+#Q Nails appear on fingers and toes during the 18th week of the development of a fetus.
+^ True
+A True
+B False
+
+#Q The term lachanophobia means a fear of what?
+^ vegetables
+A vegetables
+B beds
+C doors
+D llamas
+
+#Q Which statement, concerning the vision of owls is true?
+^ All of these
+A Owls must turn their entire head to change views.
+B All of these
+C Owls are far-sighted and unable to clearly see within a few inches of their eyes.
+D Owls have binocular vision.
+
+#Q The oldest surviving violin, date-stamped on the inside, is the Charles IX, made in 1564 by which luthier?
+^ Andrea Amati
+A Antonio Stradivari
+B Pietro Guarneri
+C Andrea Amati
+D Andrea Guarneri
+
+#Q The painting Mona Lisa by Leonardo da Vinci was stolen on August 21, 1911.
+^ True
+A False
+B True
+
+#Q Slugs have how many tentacles on their head?
+^ 4
+A 8
+B 4
+C 7
+D 3
+
+#Q Moe Berg was a professional baseball player, a catcher. Which one of these statements about him is correct?
+^ He was an international spy.
+A He  was the only catcher to catch three no hitters.
+B He was the last out in Don Larsens perfect game.
+C He was an international spy.
+D He was on base when Ruth hit home run number 60.
+
+#Q How many legs does a dragonfly have?
+^ 6
+A 8
+B 0
+C 4
+D 6
+
+#Q Which is the only food that never spoils?
+^ Honey
+A Honey
+B Potatoes
+C Pasta
+D Peanut butter
+
+#Q Although opponents tried to spread rumors that he was in the KKK, this President completely integrated the U.S. Armed Forces.
+^ Truman
+A Andrew Johnson
+B Lyndon Johnson
+C Hoover
+D Truman
+
+#Q Where did the Black Plague  originate?
+^ India
+A Turkey
+B Italy
+C Russia
+D India
+
+#Q Who was Aristotles teacher?
+^ Plato
+A Plato
+B Ptolemy
+C Socrates
+D Alexander
+
+#Q Who was Aristotles most famous student?
+^ Alexander
+A Phillippus Magnus
+B Alexander
+C Erasmus
+D Ptolemy
+
+#Q What is the largest mountain in the western hemisphere?
+^ Aconcagua
+A McKinley
+B Pissis
+C Aconcagua
+D K2
+
+#Q What is the largest city on the worlds largest island?
+^ Godthaab
+A Rabaul
+B Frobisher Bay
+C Godthaab
+D Weser
+
+#Q What is covered by the 19th amendment to the US constitution?
+^ Voting rights for women
+A Voting rights for citizens of Washington, D.C.
+B Repeal of Prohibition
+C Voting rights for women
+D Voting rights for people of Guam
+
+#Q The 1.5 million square mile area, known as the Bermuda Triangle, has its equivalent in the Pacific ocean. What is it called?
+^ Devils Sea
+A Satans Triangle
+B Dark Triangle
+C Triangle of Death
+D Devils Sea
+
+#Q The first mention of any disappearances in the region was made in this year.
+^ 1950
+A 1950
+B 1894
+C 1974
+D 1912
+
+#Q The term Bermuda Triangle was popularized by Charles Berlitz in 1964.
+^ False
+A False
+B True
+
+#Q Lawrence Kusche was one of the first people to conduct a comprehensive research on the topic of strange disappearances of ships. His conclusions proved to some extent that there was nothing extraordinary about this region.  One of the following statements was not a conclusion that he made.
+^ The disappearance of three of the missing ships can be explained through the interference of the US Military Force.
+A The number of such disappearances was exaggerated by sloppy research and fuzzy math.
+B The disappearance of three of the missing ships can be explained through the interference of the US Military Force.
+C The proportion of losses was no greater than anywhere else.
+D The number of ships which disappeared in supposedly still, calm weather, did not jibe with press weather reports published at the time.
+
+#Q Does the Bermuda Triangle actually have official boundaries?
+^ No
+A No
+B Yes
+
+#Q The Bermuda Triangle has been responsible for the disappearances of this number of planes and ships, which have been lost till the end of the 20th century.
+^ 66
+A 78
+B 66
+C 52
+D 113
+
+#Q Who was baseball announcer Joe Garagiolas best friend in childhood ?
+^ Yogi Berra
+A Stan Musial
+B Yogi Berra
+C Red Barber
+D Chris Schenkel
+
+#Q Ladino is a language composed of  which two other languages ?
+^ Hebrew and Spanish
+A Spanish and Portuguese
+B Spanish and Arabic
+C Hebrew and Spanish
+D Portuguese and Italian
+
+#Q King Edward VIII abdicated the English throne for the woman I love. He later became the Gouverneur of what land ?
+^ The  Bahamas
+A Fiji
+B The  Bahamas
+C Jamaica
+D Barbados
+
+#Q Excluding Englands cities, which city built the first subway in Europe?
+^ Budapest
+A Rome
+B Paris
+C Budapest
+D Barcelona
+
+#Q Al the languages of Europe, except three, are derived from Indian languages, probably Sanskrit or Tamil. Which three are the exceptions?
+^ Hungarian, Estonian, and Finnish
+A Norwegian, Danish, and Swedish
+B Andorran, Catalan, and Provencal
+C Romanian, Romansch, and English
+D Hungarian, Estonian, and Finnish
+
+#Q Name all the Scandinavian countries.
+^ Sweden, Denmark, Norway, Iceland
+A Sweden, Norway, Denmark, Finland, Iceland, Lithuania
+B Sweden, Denmark, Norway, Finland
+C Sweden, Denmark, Norway, Finland, Iceland
+D Sweden, Denmark, Norway, Iceland
+
+#Q Alligators and crocodiles exist together in only one place in the world, where?
+^ Florida
+A Samoa
+B North Carolina
+C Florida
+D Australia
+
+#Q What animals were the Canary Islands named after ?
+^ Dogs
+A Lions
+B Dogs
+C Cats
+D Canaries
+
+#Q President Kennedy had a secretary named Lincoln and Lincoln had a secretary named Kennedy.
+^ False
+A False
+B True
+
+#Q The Persian Empire was divided into 20 provinces, each called this.
+^ Satrapy
+A Satrapy
+B Larsa
+C Uruk
+D Assur
+
+#Q What was the first name of the character Masterson in the musical comedy Guys and Dolls?
+^ Sky
+A Uri
+B Dom
+C Sky
+D Job
+
+#Q What is the first name of the comedian, who in 1999 became host of The Daily Show?
+^ Jon
+A Stu
+B Lou
+C Jon
+D Ray
+
+#Q Finish the title of the Johnny Cash song, which tells the story of a man who wants to take revenge on his father for giving him a girls name: A Boy Named.....
+^ Sue
+A Amy
+B Sue
+C Liz
+D May
+
+#Q By what nickname was shipping magnate Onasis better known?
+^ Ari
+A Psi
+B Ari
+C Soc
+D Uri
+
+#Q Complete the title of this 1990 film, starring Tom Hanks: ....Versus the Volcano.
+^ Joe
+A Gus
+B Joe
+C Pat
+D Tom
+
+#Q Which of the following is the name of one of The Three Stooges?
+^ Moe
+A Moe
+B Sep
+C Ham
+D Lou
+
+#Q Which famous 19th century author had the pen-name Boz?
+^ Charles Dickens
+A Mark Twain
+B Bozzie Haversham
+C Daniel Defoe
+D Charles Dickens
+
+#Q What was the name of Ted Dansons character in Cheers?
+^ Sam
+A Dan
+B Sam
+C Dom
+D Joe
+
+#Q Which of these is a character featured in the movie Ghostbusters?
+^ Ray
+A Van
+B Tom
+C Ray
+D Joe
+
+#Q What is the first name of the actress who married David Duchovny in 1997?
+^ Tea
+A Lea
+B Bea
+C Mia
+D Tea
+
+#Q Who was the long-suffering character from the Bibles Old Testament?
+^ Job
+A Zeb
+B Job
+C Set
+D Uri
+
+#Q Ava and Mia were two of the wives of which famous persons?
+^ Frank Sinatra
+A Henry VIII
+B Artie Shaw
+C Frank Sinatra
+D Louis XIV
+
+#Q What is the name of the cartoon cat that terrorizes the mouse, Jerry?
+^ Tom
+A Gat
+B Tom
+C Cat
+D Gus
+
+#Q What was the name of the bartender character created and played by Jackie Gleason?
+^ Joe
+A Joe
+B Tom
+C Sam
+D Gus
+
+#Q What is the first name of the actress who played the main character on Maude?
+^ Bea
+A Amy
+B Bea
+C Liz
+D Pat
+
+#Q This word is used to denote a group of cobras.
+^ Quiver
+A Sedge
+B Knot
+C Quiver
+D Bale
+
+#Q What is the main symptom of the uncommon blood disorder, known as methemoglobinemia?
+^ Bluish complexion of the skin
+A 10% greater blood volume than normal
+B Bluish complexion of the skin
+C Abnormally enlarged lungs
+D Faster breathing because of lack of haemoglobin
+
+#Q Turtles employ numerous survival techniques,  Which one is not among these natural devices for survival?
+^ Their shells, impervious to attacks by any animals other than humans
+A Their ability to breathe out of their mouth and out of their anus
+B Their shells, impervious to attacks by any animals other than humans
+C Their ability to live both on land and in the water
+D Their incredible orientation skills - they get back to lay eggs where they were born
+
+#Q Which anatomical term defines the midline groove connecting the upper lip to the nose?
+^ Philtrum
+A Tachyon
+B Edaphadium
+C Serein
+D Philtrum
+
+#Q What is the name of the historic attack on Normandy on June 6, 1944, which was part of World War II military operations of the Allied Powers against Nazi Germany?
+^ Operation Neptune
+A Operation Overlord
+B Operation  Belgrani
+C Operation Barbarosa
+D Operation Neptune
+
+#Q Bobby Leach, a circus stuntman from Cornwell, England, famous for surviving a barrel ride over the Niagara Falls, died in what way?
+^ He slipped on a orange peel and died.
+A He was one of the first casualties of WWI.
+B He slipped on a orange peel and died.
+C He died during an attempt to swim the English Channel.
+D In 1912 he was aboard the Titanic and drowned.
+
+#Q Suppose Mr. Jones works with ANOVA, regression lines, the sign-test, and the Gaussian distribution. What field of mathematics does Mr. Jones work in?
+^ Statistics
+A Algebra
+B Statistics
+C Geometry
+D Calculus
+
+#Q Which of these actions has remained in history as the first official act of President Abraham Lincolns new administration?
+^ Hiring a secretary named Nicolay
+A Hiring a secretary named Kennedy
+B Hiring a secretary named Nicolay
+C Giving Winfield Scott command of the US Army
+D Abolishing slavery
+
+#Q A mixture of water and honey can be used for what unconventional purpose?
+^ Antifreeze for cars
+A Antifreeze for cars
+B A treatment for throat infections
+C A means of greasing a muffin pan
+D Silver cleaner
+
+#Q What device was invented in the early 1910s by American race-car driver, Ray Harroun?
+^ The rear view mirror
+A The internal combustion engine
+B The brake
+C The rear view mirror
+D The tire iron
+
+#Q According to Islamic beliefs, the Devil was created out of what?
+^ Smokeless fire
+A Unbreakable rocks
+B Smokeless fire
+C Clay
+D Polluted soil
+
+#Q The first novel of this Nobel Prize-winning author was called Lord of the Flies. The title is a literal English translation of one of the alternate names of the Devil -- Beelzebub.
+^ William Golding
+A William Golding
+B J. R. R. Tolkien
+C Peter Sinfield
+D Steven Brust
+
+#Q This man established The Church of Satan. It is an organization that promotes an interesting form of Satanism - everyone views himself as his or her own god and is therefore responsible for his or her own destiny.
+^ Anton Szandor LaVey
+A Ambrose Bierce
+B Marquis De Sade
+C Friedrich Nietzsche
+D Anton Szandor LaVey
+
+#Q In the 1997 movie Devils Advocate, Keanu Reeves character, Kevin Lomax, starts work in John Miltons huge law firm. Which one of these actors played Milton?
+^ Al Pacino
+A Jeffrey Jones
+B Al Pacino
+C Val Kilmer
+D Robert De Niro
+
+#Q Not surprisingly, the Devil is a major Arcana Tarot card. The image on the card depicts a Satyr standing over two naked human-like demons, who are chained together. What is the interpretation of this Tarot card?
+^ Self bondage
+A Death
+B Self bondage
+C Marriage
+D Bad luck
+
+#Q In this fifth novel in Anne Rices The Vampire Chronicles, Lestat is offered a job by the devil himself. The Devil explains to him many things about heaven and hell, and reveals some of the secrets of the world. What is the title of the novel?
+^ Memnoch the Devil
+A Tale of the Body Thief
+B Inferno
+C Memnoch the Devil
+D Devils
