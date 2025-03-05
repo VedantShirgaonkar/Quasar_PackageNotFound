@@ -1,35 +1,50 @@
-import re
-import spacy
-from PyPDF2 import PdfReader
+import fitz  # PyMuPDF
+import pdfplumber
+import pytesseract
+from PIL import Image
+import io
 
-# Load spaCy model for sentence tokenization
-nlp = spacy.load("en_core_web_sm")
+def extract_text_from_pdf(pdf_path):
+    """Extracts text from any type of PDF (normal or scanned)."""
+    text = ""
 
-def clean_text(text):
-    """Cleans extracted text by removing unnecessary characters and spaces."""
-    text = re.sub(r'\n+', ' ', text)  # Replace multiple new lines with spaces
-    text = re.sub(r'\s+', ' ', text).strip()  # Remove extra spaces
-    text = re.sub(r'[^a-zA-Z0-9.,?!"\'\-:/() ]+', '', text)  # Keep only useful characters
-    return text
+    try:
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                extracted_text = page.extract_text()
+                if extracted_text:
+                    text += extracted_text + "\n"
+    except Exception as e:
+        print(f"pdfplumber extraction failed: {e}")
 
-def extract_text(pdf_path):
-    """Extracts text from a PDF file and restructures it into proper sentences."""
-    with open(pdf_path, "rb") as f:
-        reader = PdfReader(f)
-        text = ' '.join([page.extract_text() or '' for page in reader.pages])
+    if not text:
+        try:
+            # Fallback to PyMuPDF
+            doc = fitz.open(pdf_path)
+            for page in doc:
+                text += page.get_text("text") + "\n"
+        except Exception as e:
+            print(f"PyMuPDF extraction failed: {e}")
 
-    text = clean_text(text)
+    if not text:
+        try:
+            # Fallback to OCR for scanned PDFs
+            with fitz.open(pdf_path) as doc:
+                for page in doc:
+                    pix = page.get_pixmap()
+                    img = Image.open(io.BytesIO(pix.tobytes()))
+                    text += pytesseract.image_to_string(img) + "\n"
+        except Exception as e:
+            print(f"OCR extraction failed: {e}")
 
-    # Use spaCy for sentence segmentation
-    doc = nlp(text)
-    structured_sentences = [sent.text.strip() for sent in doc.sents if len(sent.text.split()) > 5]
-    
-    return structured_sentences
+    return text.strip()
 
-if __name__ == "__main__":
-    test_file = "data/sample.pdf"
-    sentences = extract_text(test_file)
+def extract_text_from_paragraph(paragraph):
+    """Handles direct paragraph input."""
+    return paragraph.strip()
 
-    print("\n🔹 Preprocessed Sentences:")
-    for i, sentence in enumerate(sentences, 1):
-        print(f"{i}. {sentence}")
+def extract_text(source):
+    """Universal function that works for PDF, text, or paragraph input."""
+    if source.lower().endswith(".pdf"):
+        return extract_text_from_pdf(source)
+    return extract_text_from_paragraph(source)
