@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is Donald Trump's net worth as of 2023?",
+        "options": {
+            "A": "$30 billion",
+            "B": "$40 billion",
+            "C": "$50 billion",
+            "D": "$60 billion"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which political party does Donald Trump belong to?",
+        "options": {
+            "A": "Republican Party",
+            "B": "Democrat Party",
+            "C": "Independent Party",
+            "D": "Green Party"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is Donald Trump's height?",
+        "options": {
+            "A": "6 feet 4 inches",
+            "B": "6 feet 6 inches",
+            "C": "6 feet 8 inches",
+            "D": "6 feet 10 inches"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In what year did Donald Trump become president of the United States?",
+        "options": {
+            "A": "2017",
+            "B": "2018",
+            "C": "2019",
+            "D": "2020"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which policy did Donald Trump introduce to protect American businesses?",
+        "options": {
+            "A": "Tax cuts",
+            "B": "Trade wars",
+            "C": "Environmental regulations",
+            "D": "Healthcare reform"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is Donald Trump's current job?",
+        "options": {
+            "A": "Former President of the United States",
+            "B": "Reality television star",
+            "C": "Businessman",
+            "D": "Ambassador"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which book did Donald Trump write?",
+        "options": {
+            "A": "The Art of the Deal",
+            "B": "The 27 Club",
+            "C": "Make America Great Again",
+            "D": "The Road to Success"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which business did Donald Trump acquire in 2016?",
+        "options": {
+            "A": "Tesla",
+            "B": "SpaceX",
+            "C": "Amazon",
+            "D": "Disney"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is Donald Trump's political ideology?",
+        "options": {
+            "A": "Conservatism",
+            "B": "Libertarianism",
+            "C": "Socialism",
+            "D": "Communism"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which political slogan did Donald Trump use in his 2016 presidential campaign?",
+        "options": {
+            "A": "Make America Great Again",
+            "B": "Drain the Swamp",
+            "C": "The People's Choice",
+            "D": "I am America"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "What is Donald Trump's wife's name?",
+        "options": {
+            "A": "Melania Trump",
+            "B": "Ivana Trump",
+            "C": "Tiffany Trump",
+            "D": "Jill Trump"
+        },
+        "answer": "A"
+    }
+]
