@@ -1,33 +1,35 @@
 import json 
 import re
 
+
 def extract_mcqs(text):
-    # Improved regex pattern
-    pattern = re.compile(
-        r'\{\s*"question":\s*"(.*?)",\s*'  # Match question text
-        r'"A":\s*"?([^",]+)"?,\s*'  # Match Option A (handle optional quotes)
-        r'"B":\s*"?([^",]+)"?,\s*'  # Match Option B
-        r'"C":\s*"?([^",]+)"?,\s*'  # Match Option C
-        r'"D":\s*"?([^",]+)"?,\s*'  # Match Option D
-        r'"answer":\s*"?([ABCD])"?\s*\}'  # Match answer (A/B/C/D only)
-    )
+    # Find potential JSON objects using regex (loosely match MCQ structures)
+    matches = re.findall(r'\{.*?\}', text, re.DOTALL)
 
     mcqs = []
-
-    for match in pattern.finditer(text):
-        mcq = {
-            "question": match.group(1).strip(),
-            "options": {
-                "A": match.group(2).strip(),
-                "B": match.group(3).strip(),
-                "C": match.group(4).strip(),
-                "D": match.group(5).strip()
-            },
-            "answer": match.group(6).strip()
-        }
-        mcqs.append(mcq)
+    
+    for match in matches:
+        try:
+            mcq_data = json.loads(match)  # Parse JSON
+            mcqs.append({
+                "question": mcq_data["question"],
+                "options": {
+                    "A": mcq_data["A"],
+                    "B": mcq_data["B"],
+                    "C": mcq_data["C"],
+                    "D": mcq_data["D"]
+                },
+                "answer": mcq_data["answer"]
+            })
+        except (json.JSONDecodeError, KeyError):
+            continue  # Skip invalid JSON blocks
 
     return mcqs
+
+
+
+def extract_mcqs_explnation():
+    pass
 
 if __name__ == "__main__":
     input_text = '''(Paste your text here)'''

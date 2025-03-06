@@ -1,1 +1,101 @@
-"[\n  {\n    \"question\": \"What is Donald Trump's political ideology?\",\n    \"A\": \"Conservative\",\n    \"B\": \"Liberal\",\n    \"C\": \"Libertarian\",\n    \"D\": \"Moderate\",\n    \"answer\": \"Conservative\"\n  },\n  {\n    \"question\": \"Which policy initiative was signed into law by Donald Trump?\",\n    \"A\": \"Tax Cuts for Businesses\",\n    \"B\": \"Immigration Reform Act\",\n    \"C\": \"Healthcare Reform Act\",\n    \"D\": \"Border Security Act\",\n    \"answer\": \"Tax Cuts for Businesses\"\n  },\n  {\n    \"question\": \"What was Donald Trump's role in the creation of the World Health Organization?\",\n    \"A\": \"Co-founder\",\n    \"B\": \"Advisor\",\n    \"C\": \"Lobbyist\",\n    \"D\": \"Investor\",\n    \"answer\": \"Co-founder\"\n  },\n  {\n    \"question\": \"Which organization did Donald Trump establish to promote conservative political views?\",\n    \"A\": \"The American Conservative Movement\",\n    \"B\": \"The Heritage Foundation\",\n    \"C\": \"The Republican Party\",\n    \"D\": \"The Democratic Party\",\n    \"answer\": \"The American Conservative Movement\"\n  },\n  {\n    \"question\": \"What was Donald Trump's term in office?\",\n    \"A\": \"45\",\n    \"B\": \"46\",\n    \"C\": \"47\",\n    \"D\": \"48\",\n    \"answer\": \"45\"\n  },\n  {\n    \"question\": \"Which country did Donald Trump have the most diplomatic relations with during his presidency?\",\n    \"A\": \"China\",\n    \"B\": \"Russia\",\n    \"C\": \"Iran\",\n    \"D\": \"Saudi Arabia\",\n    \"answer\": \"China\"\n  },\n  {\n    \"question\": \"What was Donald Trump's position on social media platforms?\",\n    \"A\": \"Opposed\",\n    \"B\": \"Neutral\",\n    \"C\": \"Supported\",\n    \"D\": \"Supportive\",\n    \"answer\": \"Supported\"\n  },\n  {\n    \"question\": \"Which policy did Donald Trump implement to reduce trade deficits?\",\n    \"A\": \"NAFTA\",\n    \"B\": \"Trade embargo\",\n    \"C\": \"Free trade agreement\",\n    \"D\": \"Tariffs\",\n    \"answer\": \"Free trade agreement\"\n  },\n  {\n    \"question\": \"What was Donald Trump's stance on abortion rights?\",\n    \"A\": \"Pro-choice\",\n    \"B\": \"Pro-life\",\n    \"C\": \"Neutral\",\n    \"D\": \"Undecided\",\n    \"answer\": \"Pro-choice\"\n  },\n  {\n    \"question\": \"Which political ideology was closely associated with Donald Trump?\",\n    \"A\": \"Social Conservatism\",\n    \"B\": \"Libertarian Conservatism\",\n    \"C\": \"Traditional Conservatism\",\n    \"D\": \"Monarchism\",\n    \"answer\": \"Traditional Conservatism\"\n  },\n  {\n    \"question\": \"What was Donald Trump's political slogan?\",\n    \"A\": \"Make America Great Again\",\n    \"B\": \"Trump for President\",\n    \"C\": \"God Bless America\",\n    \"D\": \"Our Country First\",\n    \"answer\": \"Make America Great Again\"\n  }\n]"
+[
+  {
+    "question": "Which domain of biology focuses on the study of the genetic code and how it is used to determine the functioning of cells?",
+    "A": "Molecular Biology",
+    "B": "Biochemistry",
+    "C": "Immunology",
+    "D": "Neuroscience",
+    "answer": "Molecular Biology",
+    "Explaination": "The study of genetic code and the molecular basis of inheritance. The field of study is called molecular biology"
+  },
+  {
+    "question": "What is the function of mitochondria in a cell?",
+    "A": "Energy production",
+    "B": "Gene expression",
+    "C": "Regulating cell growth",
+    "D": "Maintaining cell water balance",
+    "answer": "Energy production",
+    "Explaination": "Mitochondria are responsible for the production of energy within a cell, through a process called oxidative phosphorylation. This process generates ATP (adenosine triphosphate) which serves as the energy currency for the cell."
+  },
+  {
+    "question": "Which organ is responsible for filtering and removing waste products from the body?",
+    "A": "Liver",
+    "B": "Kidneys",
+    "C": "Stomach",
+    "D": "Pancreas",
+    "answer": "Liver",
+    "Explaination": "The liver performs numerous functions, including filtering and removing waste products from the body. It also plays a critical role in maintaining the body's nutrient balance and blood composition."
+  },
+  {
+    "question": "Which hormone is responsible for regulating blood pressure and heart rate?",
+    "A": "Epinephrine",
+    "B": "Thyroxine",
+    "C": "Adrenaline",
+    "D": "Noradrenaline",
+    "answer": "Adrenaline",
+    "Explaination": "Adrenaline is a hormone produced in the adrenal glands and released during physical stress. It helps increase heart rate, blood pressure and the dilation of blood vessels in the body."
+  },
+  {
+    "question": "Which organ is responsible for the production of red blood cells?",
+    "A": "Thymus",
+    "B": "Bone marrow",
+    "C": "Pancreas",
+    "D": "Adrenal glands",
+    "answer": "Bone marrow",
+    "Explaination": "Bone marrow produces all the cells of the body, including red blood cells. The bone marrow is responsible for the production of new red blood cells and also for the development of white blood cells and other blood cells."
+  },
+  {
+    "question": "What is the function of a gene? ",
+    "A": "To store and express proteins",
+    "B": "To produce energy for the cell",
+    "C": "To regulate cell growth",
+    "D": "To store and express lipids",
+    "answer": "To store and express proteins",
+    "Explaination": "A gene is responsible for the production of a protein. Proteins are essential for the proper functioning of cells. They serve as enzymes that catalyze chemical reactions and as structural components of cells."
+  },
+  {
+    "question": "Which organ is responsible for producing antibodies?",
+    "A": "Thymus",
+    "B": "Bone marrow",
+    "C": "Spleen",
+    "D": "Pancreas",
+    "answer": "B",
+    "Explaination": "The bone marrow is responsible for the production of antibodies. Antibodies are proteins produced by B cells, which are a type of white blood cell. They help the immune system to recognize and respond to pathogens."
+  },
+  {
+    "question": "Which disease is caused by a deficiency in Hemoglobin protein?",
+    "A": "Sickle cell disease",
+    "B": "Asthma",
+    "C": "Diabetes",
+    "D": "Epilepsy",
+    "answer": "Sickle cell disease",
+    "Explaination": "A deficiency in Hemoglobin protein results in the formation of sickle-shaped red blood cells. These red blood cells do not carry oxygen well, leading to various symptoms and health issues."
+  },
+  {
+    "question": "What is the function of a receptor protein?",
+    "A": "To bind to specific molecules and initiate a signaling pathway",
+    "B": "To produce energy for the cell",
+    "C": "To regulate cell growth",
+    "D": "To store and express proteins",
+    "answer": "A",
+    "Explaination": "A receptor protein binds to specific molecules, triggering a signaling pathway. This pathway leads to the activation of various downstream proteins and ultimately leads to cellular responses."
+  },
+  {
+    "question": "Which hormone is responsible for regulating blood sugar levels in the body?",
+    "A": "Insulin",
+    "B": "Epinephrine",
+    "C": "Glucagon",
+    "D": "Thyroxine",
+    "answer": "Insulin",
+    "Explaination": "Insulin is responsible for regulating blood sugar levels in the body. It is produced by the pancreas and helps lower blood sugar by facilitating the uptake of glucose by cells."
+  },
+  {
+    "question": "Which organ is responsible for the production of bile?",
+    "A": "Pancreas",
+    "B": "Stomach",
+    "C": "Liver",
+    "D": "Kidneys",
+    "answer": "Liver",
+    "Explaination": "The liver is responsible for the production of bile. Bile is produced by the liver to help digest fats and bile is excreted through the digestive tract with feces."
+  }
+]

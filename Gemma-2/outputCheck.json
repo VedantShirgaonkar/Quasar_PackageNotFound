@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the name of the central organ in the human body responsible for coordinating and controlling the entire body?",
+    "A": "Brain",
+    "B": "Heart",
+    "C": "Lungs",
+    "D": "Liver",
+    "answer": "A"
+  },
+  {
+    "question": "Which book of the Bible is considered the foundation of Christian theology?",
+    "A": "The Bible",
+    "B": "Genesis",
+    "C": "Psalm",
+    "D": "Proverbs",
+    "answer": "A"
+  },
+  {
+    "question": "What is the term for the belief in Jesus Christ as the son of God and the savior of humanity?",
+    "A": "Evangelicalism",
+    "B": "Orthodoxy",
+    "C": "Protestantism",
+    "D": "Catholicism",
+    "answer": "D"
+  },
+  {
+    "question": "What is the main purpose of the Eucharist, or Holy Communion, in Christianity?",
+    "A": "To celebrate the sacrifice of Jesus Christ",
+    "B": "To symbolize the union of the body and blood of Jesus Christ",
+    "C": "To provide salvation for the faithful",
+    "D": "To bring God's forgiveness to the repentant",
+    "answer": "B"
+  },
+  {
+    "question": "Which major Christian denomination is known for its strict adherence to biblical teachings and conservative practices?",
+    "A": "Lutheranism",
+    "B": "Catholicism",
+    "C": "Jehovah's Witnesses",
+    "D": "Orthodox Christian Church",
+    "answer": "D"
+  }
+]
