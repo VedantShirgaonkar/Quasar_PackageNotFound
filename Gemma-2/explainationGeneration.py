@@ -4,15 +4,10 @@ from outputFormatter import extract_mcqs
 
 MODEL_NAME = "gemma:2b"  
 
-num = 10
-domain = "Biology"
-
-
-
-def generateMCQExplain(domain,numOfQuestions):
+def generateMCQExplain(domain="Fundamentals Of Operating System",numOfQuestions=10):
 
   PROMPT = f"""
-  You are an expert in {domain}. Generate {num} domain-specific multiple-choice questions (MCQs) in JSON format.
+  You are an expert in {domain}. Generate {numOfQuestions} domain-specific multiple-choice questions (MCQs) in JSON format.
   Each MCQ should follow this exact JSON structure:
 
   [
@@ -41,7 +36,7 @@ def generateMCQExplain(domain,numOfQuestions):
   - The output is strictly valid JSON.
   - Each question has exactly **four options**.
   - The correct answer must be one of the options.
-  - Explanation must be given in brief to justify the correct answers. 
+  - Explanation or Hint must be given in brief to justify the correct answers. 
   - only JSON output should be provided.
   """
   # Call the Ollama model
@@ -50,7 +45,32 @@ def generateMCQExplain(domain,numOfQuestions):
   # Extract the response text
   mcq_text = response['message']['content']
 
+  return mcq_text
 
+
+def convertToJSON(modelTextOutput,fileName):   
+  try:
+      mcq_json = json.loads(modelTextOutput)  
+      # Printing the JSON output 
+      print(json.dumps(mcq_json, indent=2))  
+      with open(fileName, "w", encoding="utf-8") as f:
+        json.dump(mcq_json, f, indent=2)
+
+  except json.JSONDecodeError:
+      print("Error: The model response is not valid JSON.")
+      print("Raw response:", modelTextOutput)
+
+      print("Passing the Output Formatter : ")
+      list=extract_mcqs(modelTextOutput)
+
+      print(list)
+      print("Trying to save the converted json file")
+
+      with open(fileName, "w", encoding="utf-8") as json_file:
+        json.dump(list, json_file, indent=4, ensure_ascii=False)
+
+
+convertToJSON(generateMCQExplain(),"outputCheckExplain.json")
 
 
 
