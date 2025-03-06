@@ -72,16 +72,30 @@ def store_mcq(user_id, domain, question_data):
     conn.close()
     return question_id
 
-def store_user_performance(user_id, question_id, user_answer, correct):
+def store_user_performance(user_id, question_text, user_answer, correct):
     """Logs user responses for adaptive learning."""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
+
+    # Get the question ID from the `questions` table
+    cursor.execute("SELECT id FROM questions WHERE question = ?", (question_text,))
+    question_id = cursor.fetchone()
+
+    if question_id is None:
+        print(f"❌ Error: Question '{question_text}' not found in the database.")
+        conn.close()
+        return
+
+    question_id = question_id[0]
+
     cursor.execute("""
     INSERT INTO user_performance (user_id, question_id, user_answer, correct)
     VALUES (?, ?, ?, ?)
     """, (user_id, question_id, user_answer, correct))
+
     conn.commit()
     conn.close()
+    print("✅ User performance recorded successfully.")
 
 def hash_password(password):
     """Hashes password using SHA-256 for security."""

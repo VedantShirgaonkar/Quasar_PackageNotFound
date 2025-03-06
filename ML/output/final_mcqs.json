@@ -1,57 +1,57 @@
 [
     {
-        "question": "Which of the following best describes how Artificial Intelligence (AI) is impacting healthcare?",
+        "question": "Which of the following is NOT an area where Artificial Intelligence (AI) is improving in the healthcare industry?",
         "options": {
-            "A": "Artificial Intelligence (AI) has no influence on the healthcare sector.",
-            "B": "Artificial Intelligence (AI) is used in medical research only.",
-            "C": "Artificial Intelligence (AI) enhances diagnostics and patient care but not medical research.",
-            "D": "Artificial Intelligence (AI) improves diagnostics, patient care, and medical research."
+            "A": "Patient care",
+            "B": "Medical research",
+            "C": "Sports",
+            "D": "Diagnostics"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary focus of ongoing AI research in healthcare?",
+        "options": {
+            "A": "Making healthcare less accessible worldwide",
+            "B": "Improving accuracy but neglecting fairness",
+            "C": "Ensuring fairness while decreasing accuracy",
+            "D": "Ongoing research aimed at improving accuracy, ensuring fairness, and making healthcare more accessible worldwide"
         },
         "answer": "D",
         "difficulty": "Hard"
     },
     {
-        "question": "Which of the following best describes the future development focus in AI healthcare?",
+        "question": "What is a key advantage of AI-powered medical systems compared to human doctors?",
         "options": {
-            "A": "Improving accuracy, ensuring fairness, and making healthcare less accessible worldwide.",
-            "B": "Developing AI to provide entertainment in healthcare settings.",
-            "C": "Focusing on reducing costs instead of improving accuracy and accessibility.",
-            "D": "Concentrating on research for improving AI's ability to play board games."
-        },
-        "answer": "A",
-        "difficulty": "Hard"
-    },
-    {
-        "question": "Which of the following is a capability of AI-powered systems in medical field?",
-        "options": {
-            "A": "AI can make medical diagnoses without human intervention",
-            "B": "AI can analyze vast amounts of medical data and detect patterns that might be overlooked by human doctors",
-            "C": "AI cannot analyze images or lab results",
-            "D": "AI can perform surgeries with minimal human guidance"
-        },
-        "answer": "B",
-        "difficulty": "Hard"
-    },
-    {
-        "question": "Which of the following best describes the relationship between AI and doctors in healthcare decision-making as stated in the text?",
-        "options": {
-            "A": "AI works independently and replaces doctors entirely",
-            "B": "AI enhances doctors' work but can replace them when necessary",
-            "C": "Doctors rely solely on AI for healthcare decisions",
-            "D": "AI complements doctors rather than replacing them"
+            "A": "They can work faster",
+            "B": "They don't make mistakes",
+            "C": "They cannot analyze vast amounts of data",
+            "D": "They cannot detect patterns in medical data that might be overlooked by human doctors"
         },
         "answer": "D",
         "difficulty": "Hard"
     },
     {
-        "question": "Which of the following is a disease that deep learning algorithms in AI can accurately identify in medical imaging?",
+        "question": " According to the given text, AI in healthcare is best described as:",
         "options": {
-            "A": "Broken Leg",
-            "B": "Cancer",
-            "C": "Common Cold",
-            "D": "High Blood Pressure"
+            "A": "A tool that replaces doctors entirely",
+            "B": "An assistant that enhances doctors' decision-making abilities",
+            "C": "A replacement for hospital staff other than doctors",
+            "D": "A device used to make healthcare decisions independently"
         },
         "answer": "B",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is one significant application of AI in healthcare?",
+        "options": {
+            "A": "Driving autonomous vehicles",
+            "B": "Predicting stock market trends",
+            "C": "Accurately identifying diseases such as cancer, pneumonia, and brain tumors in X-rays and MRIs",
+            "D": "Managing agricultural operations"
+        },
+        "answer": "C",
         "difficulty": "Hard"
     }
 ]
