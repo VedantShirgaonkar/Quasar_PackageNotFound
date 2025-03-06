@@ -1,52 +1,57 @@
 [
     {
-        "question": "Which of the following is a key area where Artificial Intelligence (AI) is having a significant impact in the healthcare industry?",
+        "question": "Which of the following best describes how Artificial Intelligence (AI) is impacting healthcare?",
         "options": {
-            "A": "Pharmaceutical research",
-            "B": "Television production",
-            "C": "Improving diagnostics, patient care, and medical research",
-            "D": "Textile manufacturing"
+            "A": "Artificial Intelligence (AI) has no influence on the healthcare sector.",
+            "B": "Artificial Intelligence (AI) is used in medical research only.",
+            "C": "Artificial Intelligence (AI) enhances diagnostics and patient care but not medical research.",
+            "D": "Artificial Intelligence (AI) improves diagnostics, patient care, and medical research."
         },
-        "answer": "C"
+        "answer": "D",
+        "difficulty": "Hard"
     },
     {
-        "question": "What is the primary focus of ongoing research in AI for healthcare?",
+        "question": "Which of the following best describes the future development focus in AI healthcare?",
         "options": {
-            "A": "Decreasing accuracy",
-            "B": "Ensuring fairness",
-            "C": "Making healthcare less accessible worldwide",
-            "D": "Improving efficiency in non-healthcare sectors"
+            "A": "Improving accuracy, ensuring fairness, and making healthcare less accessible worldwide.",
+            "B": "Developing AI to provide entertainment in healthcare settings.",
+            "C": "Focusing on reducing costs instead of improving accuracy and accessibility.",
+            "D": "Concentrating on research for improving AI's ability to play board games."
         },
-        "answer": "B"
+        "answer": "A",
+        "difficulty": "Hard"
     },
     {
-        "question": "What is a primary advantage of AI-powered medical systems?",
+        "question": "Which of the following is a capability of AI-powered systems in medical field?",
         "options": {
-            "A": "They can provide emotional support to patients",
-            "B": "They have unlimited work hours",
-            "C": "They can analyze vast amounts of medical data and detect patterns that might be overlooked by human doctors",
-            "D": "They are capable of performing surgeries without human assistance"
+            "A": "AI can make medical diagnoses without human intervention",
+            "B": "AI can analyze vast amounts of medical data and detect patterns that might be overlooked by human doctors",
+            "C": "AI cannot analyze images or lab results",
+            "D": "AI can perform surgeries with minimal human guidance"
         },
-        "answer": "C"
+        "answer": "B",
+        "difficulty": "Hard"
     },
     {
-        "question": "Which of the following statements best describes the role of AI in healthcare decision-making as per the given text?",
+        "question": "Which of the following best describes the relationship between AI and doctors in healthcare decision-making as stated in the text?",
         "options": {
-            "A": "AI should replace doctors entirely",
-            "B": "AI enhances and complements doctors' roles",
-            "C": "Doctors can rely solely on AI for decision-making",
-            "D": "Doctors have no role in healthcare decisions with AI"
+            "A": "AI works independently and replaces doctors entirely",
+            "B": "AI enhances doctors' work but can replace them when necessary",
+            "C": "Doctors rely solely on AI for healthcare decisions",
+            "D": "AI complements doctors rather than replacing them"
         },
-        "answer": "B"
+        "answer": "D",
+        "difficulty": "Hard"
     },
     {
-        "question": "Which of the following is a significant application of AI in healthcare?",
+        "question": "Which of the following is a disease that deep learning algorithms in AI can accurately identify in medical imaging?",
         "options": {
-            "A": "Identifying common cold in X-rays and MRIs",
-            "B": "Predicting weather patterns",
-            "C": "Accurately identifying diseases such as cancer, pneumonia, and brain tumors in X-rays and MRIs",
-            "D": "Analyzing financial market trends"
+            "A": "Broken Leg",
+            "B": "Cancer",
+            "C": "Common Cold",
+            "D": "High Blood Pressure"
         },
-        "answer": "C"
+        "answer": "B",
+        "difficulty": "Hard"
     }
 ]

@@ -1,24 +1,27 @@
 import subprocess
 import json
 import os
-from scripts.key_sentence_extraction import extract_key_sentences
-from scripts.text_processing import extract_text
-from scripts.output_formatter import extract_mcq_components  # Fallback formatter
+from scripts.key_sentence_extraction import extract_key_sentences  
+from scripts.text_processing import extract_text  
+from scripts.db_manager import store_mcq
+from scripts.adaptive_learning import AdaptiveLearning
 
 # Suppress Hugging Face tokenizer parallelism warning
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-def generate_mcq(text):
-    """Generates an MCQ based on extracted key sentences using Mistral via Ollama (subprocess)."""
+def generate_mcq(text, user_id, domain, adaptive_engine):
+    """
+    Generates an MCQ using Mistral via Ollama and stores it in the database.
+    - `text`: Input text from which the MCQ is generated.
+    - `user_id`: ID of the user generating the MCQ.
+    - `domain`: "Input-based" or a specific subject category.
+    - `adaptive_engine`: Adaptive learning instance to determine difficulty.
+    """
 
-    # Extract key sentences from the text
-    key_sentences = extract_key_sentences(text.split(". "))  # Split text into meaningful parts
+    key_sentences = extract_key_sentences(text.split(". "))  # Extract important sentences
 
     if not key_sentences:
-        print("Error: No key sentences extracted.")
         return None
-
-    print("\n📝 Sending to Mistral:\n", key_sentences)
 
     prompt = f"""
     Generate a multiple-choice question (MCQ) based on the following text:
@@ -39,7 +42,6 @@ def generate_mcq(text):
     Only return the JSON object and nothing else.
     """
 
-    # Run Ollama via subprocess
     try:
         response = subprocess.run(
             ["ollama", "run", "mistral", prompt],
@@ -48,33 +50,16 @@ def generate_mcq(text):
             check=True
         )
         mcq_response = response.stdout.strip()
+        mcq_json = json.loads(mcq_response)
 
-        print("\n🔄 Raw Model Output:\n", mcq_response)
+        # Assign default difficulty as "Medium" initially
+        mcq_json["difficulty"] = "Medium"
 
-        # First, attempt direct JSON parsing
-        try:
-            mcq_json = json.loads(mcq_response)
-            return mcq_json  # If successful, return it
-        except json.JSONDecodeError:
-            print("⚠️ Warning: Model did not return valid JSON. Attempting to format output...")
-        
-        # Fallback: Try extracting MCQ components from text
-        formatted_mcq = extract_mcq_components(mcq_response)
-        if formatted_mcq:
-            return formatted_mcq
-        else:
-            print("❌ Failed to extract valid MCQ format.")
-            return None
+        # Store the MCQ in the database
+        store_mcq(user_id, domain, mcq_json)
 
-    except subprocess.CalledProcessError as e:
-        print("❌ Error running Ollama:", e)
+        return mcq_json
+    except json.JSONDecodeError:
         return None
-
-# Example Usage
-if __name__ == "__main__":
-    sample_text = "data/sample.pdf"  # Can be a PDF or direct text
-    mcq = generate_mcq(sample_text)
-    if mcq:
-        print(json.dumps(mcq, indent=4))
-    else:
-        print("MCQ generation failed.")
+    except subprocess.CalledProcessError:
+        return None
