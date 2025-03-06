@@ -1,51 +1,51 @@
 [
     {
-        "question": "Which of the following best describes a significant impact of the transition from hand-made goods to machine-produced items?",
+        "question": "Which of the following is a key area where Artificial Intelligence (AI) is having a significant impact in the healthcare industry?",
         "options": {
-            "A": "It resulted in a decrease in productivity and economic growth.",
-            "B": "It led to a decline in the quality of products produced.",
-            "C": "It significantly increased productivity and economic growth.",
-            "D": "It had no impact on production efficiency or economic prosperity."
+            "A": "Pharmaceutical research",
+            "B": "Television production",
+            "C": "Improving diagnostics, patient care, and medical research",
+            "D": "Textile manufacturing"
         },
         "answer": "C"
     },
     {
-        "question": "What is one of the negative consequences of the Industrial Revolution?",
+        "question": "What is the primary focus of ongoing research in AI for healthcare?",
         "options": {
-            "A": "It led to increased life expectancy and improved standards of living.",
-            "B": "It resulted in widespread employment opportunities for people.",
-            "C": "It brought about a significant decrease in pollution levels.",
-            "D": "It caused environmental degradation, urban population growth, and working conditions issues."
+            "A": "Decreasing accuracy",
+            "B": "Ensuring fairness",
+            "C": "Making healthcare less accessible worldwide",
+            "D": "Improving efficiency in non-healthcare sectors"
         },
-        "answer": "D"
+        "answer": "B"
     },
     {
-        "question": "What can be said about the Industrial Revolution which began in the late 18th century?",
+        "question": "What is a primary advantage of AI-powered medical systems?",
         "options": {
-            "A": "It was a minor turning point in history.",
-            "B": "It occurred in the early 20th century.",
-            "C": "It marked a significant shift in agricultural practices.",
-            "D": "It is considered a major turning point in history."
-        },
-        "answer": "D"
-    },
-    {
-        "question": "What was one of the most notable innovations during this era that significantly impacted transportation and industry?",
-        "options": {
-            "A": "Electricity",
-            "B": "Internet",
-            "C": "Steam Engine",
-            "D": "Telephone"
+            "A": "They can provide emotional support to patients",
+            "B": "They have unlimited work hours",
+            "C": "They can analyze vast amounts of medical data and detect patterns that might be overlooked by human doctors",
+            "D": "They are capable of performing surgeries without human assistance"
         },
         "answer": "C"
     },
     {
-        "question": " Why did factory owners seek child labor?",
+        "question": "Which of the following statements best describes the role of AI in healthcare decision-making as per the given text?",
         "options": {
-            "A": "To ensure high-quality products",
-            "B": "To promote education among children",
-            "C": "To reduce labor costs",
-            "D": "To improve working conditions"
+            "A": "AI should replace doctors entirely",
+            "B": "AI enhances and complements doctors' roles",
+            "C": "Doctors can rely solely on AI for decision-making",
+            "D": "Doctors have no role in healthcare decisions with AI"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a significant application of AI in healthcare?",
+        "options": {
+            "A": "Identifying common cold in X-rays and MRIs",
+            "B": "Predicting weather patterns",
+            "C": "Accurately identifying diseases such as cancer, pneumonia, and brain tumors in X-rays and MRIs",
+            "D": "Analyzing financial market trends"
         },
         "answer": "C"
     }

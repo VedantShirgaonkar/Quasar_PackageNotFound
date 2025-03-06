@@ -1,8 +1,9 @@
 import subprocess
 import json
 import os
-from scripts.key_sentence_extraction import extract_key_sentences  # Import extraction function
-from scripts.text_processing import extract_text  # Import text extraction
+from scripts.key_sentence_extraction import extract_key_sentences
+from scripts.text_processing import extract_text
+from scripts.output_formatter import extract_mcq_components  # Fallback formatter
 
 # Suppress Hugging Face tokenizer parallelism warning
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -50,14 +51,23 @@ def generate_mcq(text):
 
         print("\n🔄 Raw Model Output:\n", mcq_response)
 
-        # Ensure valid JSON format
-        mcq_json = json.loads(mcq_response)
-        return mcq_json
-    except json.JSONDecodeError:
-        print("Error: Model did not return valid JSON.")
-        return None
+        # First, attempt direct JSON parsing
+        try:
+            mcq_json = json.loads(mcq_response)
+            return mcq_json  # If successful, return it
+        except json.JSONDecodeError:
+            print("⚠️ Warning: Model did not return valid JSON. Attempting to format output...")
+        
+        # Fallback: Try extracting MCQ components from text
+        formatted_mcq = extract_mcq_components(mcq_response)
+        if formatted_mcq:
+            return formatted_mcq
+        else:
+            print("❌ Failed to extract valid MCQ format.")
+            return None
+
     except subprocess.CalledProcessError as e:
-        print("Error running Ollama:", e)
+        print("❌ Error running Ollama:", e)
         return None
 
 # Example Usage
