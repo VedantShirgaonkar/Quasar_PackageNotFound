@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/mcq_css.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-container glassmorphism">
+            <div class="question-number"></div>
+            <div class="question-text"></div>
+            <div class="answers"></div>
+
+            <div class="buttons">
+                <button class="btn next-btn" onclick="save_cont()">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentQuestion = 0;
+        let questions = {{ questions | tojson }};
+        let answer = {};
+
+        // Initialize answer storage
+        for (let i = 0; i < questions.length; i++) {
+            answer[i] = null;
+        }
+
+        function showQuestion() {
+            if (currentQuestion >= questions.length) {
+                alert("Quiz Completed!");
+                console.log(answer); // Display collected answers
+                return;
+            }
+
+            let q = questions[currentQuestion];
+
+            // Update question number and text
+            document.querySelector(".question-number").innerText = `Question ${q[0]}`;
+            document.querySelector(".question-text").innerText = q[1];
+
+            // Update answer choices dynamically
+            let answersDiv = document.querySelector(".answers");
+            answersDiv.innerHTML = ""; // Clear previous options
+            let options = ['A', 'B', 'C', 'D']; // Define labels
+
+            for (let i = 0; i < 4; i++) {
+                let div = document.createElement("div");
+                div.classList.add("answer");
+                div.innerText = `${options[i]}) ${q[i + 2]}`; // A) Option 1, B) Option 2, etc.
+                div.dataset.index = i; // Store index
+                div.addEventListener("click", function () {
+                    document.querySelectorAll(".answer").forEach(ans => ans.classList.remove("selected"));
+                    div.classList.add("selected");
+                });
+                answersDiv.appendChild(div);
+            }
+
+            document.querySelector(".next-btn").disabled = true; // Disable Next until an answer is selected
+        }
+
+        function save_cont() {
+            let selected = document.querySelector(".answer.selected");
+            if (!selected) return;
+
+            answer[currentQuestion] = selected.dataset.index;
+            currentQuestion++;
+
+            if (currentQuestion < questions.length) {
+                showQuestion();
+            } else {
+                alert("Quiz Completed!");
+            }
+        }
+
+        // Enable Next button when an answer is selected
+        document.addEventListener("click", (e) => {
+            if (e.target.classList.contains("answer")) {
+                document.querySelector(".next-btn").disabled = false;
+            }
+        });
+
+        // Load the first question
+        showQuestion();
+    </script>
+</body>
+</html>

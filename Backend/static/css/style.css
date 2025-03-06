@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .Logincontainer {
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    width: 750px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    animation: fadeIn 1s ease-in-out;
+    position: relative;
+}
+.left {
+    flex: 1;
+    background: url('image.png');
+    opacity: 0.8;
+     background-size: cover; /* Ensure the image covers the entire space */  
+     opacity: 1;
+} 
+ 
+.right {
+    flex: 1;
+    padding: 30px;
+}
+h2 {
+    text-align: center;
+} 
+.radio-group {
+    display: flex;
+    align-items: center;
+    max-width: 60%;
+    margin: 6px 0;
+}
+.error {
+    color: red;
+    font-size: 0.6em;
+}
+.auth-card {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    /* text-align: center; */
+    color: #00e6e6;
+    animation: slideIn 0.8s ease-in-out;
+}
+.auth-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+.auth-card input:focus {
+    box-shadow: 0 0 10px #00e6e6;
+}
+.auth-card button {
+    width: 100%;
+    padding: 12px;
+    background: #00e6e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.auth-card button:hover {
+    background: #0099cc;
+    box-shadow: 0 0 10px #00e6e6;
+}
+.auth-card p {
+    margin-top: 10px;
+    color: #00e6e6;
+}
+.auth-card a {
+    color: #00e6e6;
+    cursor: pointer;
+    text-decoration: none;
+}
+.auth-card a:hover {
+    text-decoration: underline;
+}
+.hidden {
+    display: none;
+}
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    color: white;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+@keyframes slideIn {
+    from { transform: translateY(-30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
