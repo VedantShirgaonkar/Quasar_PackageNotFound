@@ -5,7 +5,7 @@ from outputFormatter import extract_mcqs
 MODEL_NAME = "gemma:2b"  
 
 
-def generateMCQ(domain="Anatomy",numOfQuestions=5):
+def generateMCQ(domain="Alzeihmer",numOfQuestions=10):
   PROMPT = f"""
   You are an expert in {domain}. Generate {numOfQuestions} domain-specific multiple-choice questions (MCQs) in JSON format.
   Each MCQ should follow this exact JSON structure:
@@ -57,7 +57,8 @@ def convertToJSON(modelTextOutput,fileName):
       print(json.dumps(mcq_json, indent=2))  
       with open(fileName, "w", encoding="utf-8") as f:
         json.dump(mcq_json, f, indent=2)
-
+      # @changes for api implementation
+      # Returning parsed JSON so that we are able properly implement the api
         
   except json.JSONDecodeError:
       print("Error: The model response is not valid JSON.")
@@ -72,9 +73,11 @@ def convertToJSON(modelTextOutput,fileName):
       with open(fileName, "w", encoding="utf-8") as json_file:
         json.dump(list, json_file, indent=4, ensure_ascii=False)
 
+      # @changes for api implementation
+      return list;
 
-convertToJSON(generateMCQ(),"outputCheck.json")
 
+convertToJSON(generateMCQ(),"sample.json")
 
 
 

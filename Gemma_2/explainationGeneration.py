@@ -4,7 +4,7 @@ from outputFormatter import extract_mcqs
 
 MODEL_NAME = "gemma:2b"  
 
-def generateMCQExplain(domain="Fundamentals Of Operating System",numOfQuestions=10):
+def generateMCQExplain(domain,numOfQuestions):
 
   PROMPT = f"""
   You are an expert in {domain}. Generate {numOfQuestions} domain-specific multiple-choice questions (MCQs) in JSON format.

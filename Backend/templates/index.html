@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Logincontainer" id="auth-container">
+        <div class="left">
+        </div>
+        <div class="right">
+            <div id="login-card" class="auth-card">
+                <h2>Login</h2>
+                <input type="text" id="login-username" placeholder="Username">
+                <input type="password" id="login-password" placeholder="Password">
+                <button>Log In</button>
+                <p style="text-align: center;">Don't have an account? <a onclick="toggleForm()">Sign up</a></p>
+            </div>
+            <div id="signup-card" class="auth-card hidden">
+                <h2>Sign Up</h2>
+                <input type="text" id="signup-username" placeholder="Username">
+                <span class="error" id="nameError"></span>
+                <input type="password" id="signup-password" placeholder="Set Password">
+                <span class="error" id="passwordError"></span>
+                <input type="password" id="signup-confirm-password" placeholder="Confirm Password">
+                <span class="error" id="confirmpasswordError"></span>
+                <div class="radio-group">
+                    <input type="radio" name="role" id="student" value="student" checked>
+                    <label for="student">Student</label>
+                    <input type="radio" name="role" id="teacher" value="teacher">
+                    <label for="teacher">Teacher</label>
+                </div>
+                <button onclick="return validateForm()">Sign Up</button>
+                <p style="text-align: center;">Already have an account? <a onclick="toggleForm()">Log in</a></p>
+            </div>
+        </div>
+        <span class="close-btn" onclick="closeContainer()">&times;</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

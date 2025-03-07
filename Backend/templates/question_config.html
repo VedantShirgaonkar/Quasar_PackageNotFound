@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamified Question Configuration</title>
+  <link rel="stylesheet" href="/static/css/question_config.css">
+</head>
+
+<body>
+
+
+  <div class="config-card">
+    <h1>Quest Configuration</h1>
+    <form id="configForm">
+      <div class="form-group">
+        <label for="numQuestions">Number of Questions</label>
+        <div class="slider-container">
+          <input type="range" class="slider" id="numQuestions" min="1" max="30" value="10">
+          <div class="slider-value" id="questionValue">10</div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="domain">Domain Selection</label>
+        <div class="dropdown">
+          <input type="text" id="domain" readonly placeholder="Select a domain" data-value="">
+          <div class="dropdown-options" id="domainOptions">
+            <div class="dropdown-option" data-value="mathematics">Mathematics</div>
+            <div class="dropdown-option" data-value="science">Science</div>
+            <div class="dropdown-option" data-value="history">History</div>
+            <div class="dropdown-option" data-value="literature">Literature</div>
+            <div class="dropdown-option" data-value="technology">Technology</div>
+          </div>
+        </div>
+        <div class="error-message" id="domainError">Please select a domain or upload a PDF</div>
+      </div>
+      <div class="form-group">
+        <label>Difficulty Level</label>
+        <div class="difficulty-container">
+          <div class="difficulty-btn" data-difficulty="easy">Easy</div>
+          <div class="difficulty-btn" data-difficulty="medium">Medium</div>
+          <div class="difficulty-btn" data-difficulty="hard">Hard</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Timer (Minutes)</label>
+        <div class="timer-container">
+          <div class="dial">
+            <div class="dial-markers" id="dialMarkers"></div>
+            <div class="dial-hand" id="dialHand"></div>
+            <div class="dial-center"></div>
+          </div>
+          <div class="dial-value" id="timerValue">10</div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>PDF Upload</label>
+        <div class="file-upload" id="fileUpload">
+          <p>Drag & drop your PDF here or click to browse</p>
+          <input type="file" id="pdfFile" accept=".pdf" hidden>
+          <div class="file-preview" id="filePreview">
+            <p>Selected file: <span class="file-name" id="fileName"></span></p>
+          </div>
+        </div>
+        <div class="error-message" id="fileError">Please select a domain or upload a PDF</div>
+      </div>
+
+      <button type="submit" class="submit-btn">Generate Questions</button>
+    </form>
+  </div>
+
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="spinner"></div>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar"></div>
+    </div>
+    <div class="loading-text" id="loadingText">Generating questions...</div>
+  </div>
+
+  <script src="/static/js/question_config.js"></script>
+
+</body>
+
+</html>

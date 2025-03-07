@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the purpose of the Alzeihmer's database?",
+    "A": "To store and manage patient records",
+    "B": "To hold and share information across different departments",
+    "C": "To provide access to medical records for patients",
+    "D": "To facilitate drug distribution",
+    "answer": "C"
+  },
+  {
+    "question": "Which department is responsible for managing Alzeihmer's finances?",
+    "A": "Finance Department",
+    "B": "Marketing Department",
+    "C": "Research Department",
+    "D": "Administration Department",
+    "answer": "D"
+  },
+  {
+    "question": "What is the primary purpose of the Alzeihmer's IT infrastructure?",
+    "A": "To handle patient data and records",
+    "B": "To manage the hospital's network",
+    "C": "To provide telemedicine solutions",
+    "D": "To develop and distribute medical imaging tools",
+    "answer": "A"
+  },
+  {
+    "question": "Which department is responsible for ensuring the safety and quality of medical equipment and supplies?",
+    "A": "Quality Assurance Department",
+    "B": "Medical Supplies Department",
+    "C": "Research Department",
+    "D": "Maintenance Department",
+    "answer": "A"
+  },
+  {
+    "question": "What is the main purpose of the Alzeihmer's research department?",
+    "A": "To develop new medical treatments and technologies",
+    "B": "To conduct clinical trials for new medical products",
+    "C": "To analyze patient data and improve healthcare outcomes",
+    "D": "To manage the hospital's budget and finances",
+    "answer": "C"
+  },
+  {
+    "question": "Which department is responsible for handling complaints and grievances from patients and visitors?",
+    "A": "Patient Relations Department",
+    "B": "Medical Records Department",
+    "C": "Customer Support Department",
+    "D": "Human Resources Department",
+    "answer": "A"
+  },
+  {
+    "question": "What is the primary purpose of the Alzeihmer's education department?",
+    "A": "To provide training and education programs for healthcare professionals",
+    "B": "To conduct research and development in the field of medicine",
+    "C": "To manage the hospital's finances and resources",
+    "D": "To develop and implement new medical technologies",
+    "answer": "A"
+  },
+  {
+    "question": "Which department is responsible for maintaining and developing the hospital's physical facilities and infrastructure?",
+    "A": "Facilities Department",
+    "B": "Maintenance Department",
+    "C": "Construction Department",
+    "D": "Purchasing Department",
+    "answer": "B"
+  },
+  {
+    "question": "What is the main purpose of the Alzeihmer's finance department?",
+    "A": "To handle all financial transactions and accounting",
+    "B": "To manage the hospital's payroll and benefits",
+    "C": "To invest in new medical equipment and technology",
+    "D": "To manage the hospital's risk management and compliance",
+    "answer": "D"
+  },
+  {
+    "question": "Which department is responsible for ensuring compliance with all applicable laws and regulations?",
+    "A": "Compliance Department",
+    "B": "Legal Department",
+    "C": "Regulatory Compliance Department",
+    "D": "Human Resources Department",
+    "answer": "A"
+  }
+]
