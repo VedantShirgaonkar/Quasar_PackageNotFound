@@ -25,6 +25,6 @@ def extract_key_sentences(sentences, top_n=5):
     scores = util.cos_sim(embeddings, embeddings).mean(dim=1)
 
     # Select indices of top-N most important sentences
-    top_indices = scores.argsort(descending=True)[:top_n]
+    top_indices = scores.argsort(descending=True)[:top_n]   
 
     return [sentences[i] for i in top_indices]

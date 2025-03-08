@@ -78,6 +78,7 @@ def checkmcqdone():
     domain = data['domain']
     if domain == '':
         domain = 'Input-Based'
+        # Call the function for the pdf evaluation
     
     print(data['pdf_filename'])
     

@@ -1,57 +1,46 @@
 [
     {
-        "question": "Which of the following is an area where Artificial Intelligence (AI) significantly impacts the healthcare industry?",
+        "question": "What is the role of wildlife in maintaining balance within ecosystems?",
         "options": {
-            "A": "Improving diagnostics, patient care, and medical research",
-            "B": "Developing new medications",
-            "C": "Managing hospital finances",
-            "D": "Providing mental health support"
+            "A": "Wildlife disturbs the balance of ecosystems",
+            "B": "Wildlife has no impact on ecosystem balance",
+            "C": "Wildlife plays a crucial role in maintaining the balance of ecosystems",
+            "D": "Wildlife disrupts the growth of plants and animals"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the main goal of conservation efforts like national parks, wildlife sanctuaries, and breeding programs?",
+        "options": {
+            "A": "To increase human population for better economic growth",
+            "B": "To encourage unsustainable practices that harm biodiversity",
+            "C": "To protect endangered species and preserve biodiversity for future generations",
+            "D": "To exploit wildlife resources for immediate profit"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of the following animals, as mentioned in the text, help regulate populations within their habitats?",
+        "options": {
+            "A": "Lions, Elephants, and Deer",
+            "B": "Tigers, Rhinos, and Penguins",
+            "C": "Whales, Dolphins, and Sharks",
+            "D": "Kangaroos, Wallabies, and Emus"
         },
         "answer": "A",
-        "difficulty": "Hard"
+        "difficulty": "Easy"
     },
     {
-        "question": "What is the primary goal of ongoing research in AI for healthcare?",
+        "question": "Which of the following is NOT a reason for many species facing extinction according to the given text?",
         "options": {
-            "A": "Making AI more expensive",
-            "B": "Reducing accessibility of healthcare worldwide",
-            "C": "Improving accuracy and ensuring fairness in AI for healthcare",
-            "D": "Decreasing the focus on accuracy and fairness"
-        },
-        "answer": "C",
-        "difficulty": "Hard"
-    },
-    {
-        "question": "Which of the following statements best describes the advantage of AI-powered systems in medical analysis?",
-        "options": {
-            "A": "AI-powered systems can process more data at a slower rate than human doctors",
-            "B": "AI-powered systems are prone to mistakes and require constant supervision",
-            "C": "AI-powered systems can analyze vast amounts of medical data and detect patterns that might be overlooked by human doctors",
-            "D": "AI-powered systems cannot provide interpretations or recommendations based on analyzed data"
-        },
-        "answer": "C",
-        "difficulty": "Hard"
-    },
-    {
-        "question": "Regarding AI in healthcare, which of the following statements is most accurate?",
-        "options": {
-            "A": "AI should replace doctors in decision-making.",
-            "B": "AI can assist doctors but not make decisions on its own.",
-            "C": "Doctors should be replaced by AI for better healthcare decisions.",
-            "D": "While AI enhances healthcare decision-making, it should complement doctors rather than replace them."
+            "A": "Illegal poaching",
+            "B": "Deforestation",
+            "C": "Climate change",
+            "D": "Overpopulation"
         },
         "answer": "D",
-        "difficulty": "Hard"
-    },
-    {
-        "question": "What is one significant application of AI in healthcare as mentioned in the text?",
-        "options": {
-            "A": "Diagnosing skin diseases",
-            "B": "Predicting stock market trends",
-            "C": "Accurately identifying diseases such as cancer, pneumonia, and brain tumors in X-rays and MRIs",
-            "D": "Writing medical prescriptions"
-        },
-        "answer": "C",
-        "difficulty": "Hard"
+        "difficulty": "Easy"
     }
 ]
