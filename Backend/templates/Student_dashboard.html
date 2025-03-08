@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard1</title>
+    <link rel="stylesheet" href="/static/css/S_dash_style.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="logo">Q</div>
+                <div class="logo-text">
+                    <span style="color: #6e56cf; font-size: 1.5rem; font-weight: 700;">Quiz</span><span style="color: white;">Genius</span>
+                </div>
+            </div>
+
+            <ul class="menu">
+                <li class="menu-item active">
+                    <div class="menu-item-icon">D</div>
+                    Dashboard
+                </li>
+                <li class="menu-item" onclick="location.href='/question_config'">
+                    <div class="menu-item-icon">Q</div>
+                    Quiz Library
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">P</div>
+                    Performance
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">S</div>
+                    Settings
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">H</div>
+                    Help
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <div class="section">
+                <div class="profile-section">
+                    <div class="profile-avatar" id="initial"></div>
+                    <div class="profile-details">
+                        <h3 id="student-name"></h3>
+                        <p id="student-email"></p>
+                        <p id="student-institution">University of Technology</p>
+                        <p id="student-grade">Grade: Junior (Year 3)</p>
+                    </div>
+                </div>
+
+                <div class="section-title">Quick Stats</div>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <img src="/static/media/attempted.png" alt="MCQs Icon" class="stat-image">
+                        <div class="stat-label">MCQs Attempted</div>
+                        <div class="stat-value" id="mcqs-attempted">487</div>
+                        <div class="stat-label">questions</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <img src="/static/media/accuracy.png" alt="MCQs Icon" class="stat-image">
+                        <div class="stat-label">Overall Accuracy</div>
+                        <div class="stat-value" id="accuracy-percentage">76.4%</div>
+                        <div class="stat-label">correct answers</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <img src="/static/media/clock.png" alt="MCQs Icon" class="stat-image">
+                        <div class="stat-label">Average Time</div>
+                        <div class="stat-value" id="avg-time">42</div>
+                        <div class="stat-label">seconds per question</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <img src="/static/media/fire.png" alt="MCQs Icon" class="stat-image">
+                        <div class="stat-label">Study Streak</div>
+                        <div class="stat-value" id="study-streak">8</div>
+                        <div class="stat-label">days</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Performance Analysis</div>
+
+                <div class="chart-container">
+                    <canvas id="accuracy-trend-chart"></canvas>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Topic Analysis</div>
+
+                <div class="charts-grid">
+                    <div class="chart-item">
+                        <h3>Strengths & Weaknesses</h3>
+                        <div class="radar-chart">
+                            <canvas id="radar-chart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-item">
+                        <h3>Performance by Topic</h3>
+                        <div class="bar-chart">
+                            <canvas id="bar-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Leaderboard</div>
+
+                <table class="leaderboard">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Accuracy</th>
+                            <th>Questions</th>
+                            <th>Progress</th>
+                        </tr>
+                    </thead>
+                    <tbody id="leaderboard-body">
+                        <!-- Leaderboard data will be inserted here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const studentData = {
+            name: "{{username.capitalize()}}",
+            email: "{{username}}@university.edu",
+            institution: "University of Technology",
+            grade: "Junior (Year 3)",
+            stats: {
+                mcqsAttempted: 487,
+                accuracyPercentage: 76.4,
+                avgTime: 42,
+                studyStreak: 8
+            },
+        };
+    </script>
+    <script src="/static/js/S_dashboard_script.js"></script>
+</body>
+
+</html>

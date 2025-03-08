@@ -3,7 +3,7 @@ import sqlite3
 DB_PATH = "data/mcq_database.db"
 
 def view_user_performance():
-    """Fetches and displays user performance records."""
+    """Fetches and displays user performance records from the database."""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
@@ -21,7 +21,7 @@ def view_user_performance():
     conn.close()
 
     if not performance_records:
-        print("No user performance data found.")
+        print("\n🚨 No user performance data found.")
         return
 
     print("\n📊 **User Performance Records:**\n")
@@ -32,7 +32,7 @@ def view_user_performance():
         print(f"❓ **User's Answer:** {user_answer}")
         print(f"✅ **Correct Answer:** {correct_answer}")
         print(f"📌 **Result:** {result}")
-        print(f"📅 **Attempted On:** {timestamp}\n" + "-"*50)
+        print(f"📅 **Attempted On:** {timestamp}\n" + "-"*60)
 
 if __name__ == "__main__":
     view_user_performance()
