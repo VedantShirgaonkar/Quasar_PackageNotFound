@@ -1,1 +1,57 @@
-[]
+[
+    {
+        "question": "Which of the following is an area where Artificial Intelligence (AI) significantly impacts the healthcare industry?",
+        "options": {
+            "A": "Improving diagnostics, patient care, and medical research",
+            "B": "Developing new medications",
+            "C": "Managing hospital finances",
+            "D": "Providing mental health support"
+        },
+        "answer": "A",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary goal of ongoing research in AI for healthcare?",
+        "options": {
+            "A": "Making AI more expensive",
+            "B": "Reducing accessibility of healthcare worldwide",
+            "C": "Improving accuracy and ensuring fairness in AI for healthcare",
+            "D": "Decreasing the focus on accuracy and fairness"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which of the following statements best describes the advantage of AI-powered systems in medical analysis?",
+        "options": {
+            "A": "AI-powered systems can process more data at a slower rate than human doctors",
+            "B": "AI-powered systems are prone to mistakes and require constant supervision",
+            "C": "AI-powered systems can analyze vast amounts of medical data and detect patterns that might be overlooked by human doctors",
+            "D": "AI-powered systems cannot provide interpretations or recommendations based on analyzed data"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Regarding AI in healthcare, which of the following statements is most accurate?",
+        "options": {
+            "A": "AI should replace doctors in decision-making.",
+            "B": "AI can assist doctors but not make decisions on its own.",
+            "C": "Doctors should be replaced by AI for better healthcare decisions.",
+            "D": "While AI enhances healthcare decision-making, it should complement doctors rather than replace them."
+        },
+        "answer": "D",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is one significant application of AI in healthcare as mentioned in the text?",
+        "options": {
+            "A": "Diagnosing skin diseases",
+            "B": "Predicting stock market trends",
+            "C": "Accurately identifying diseases such as cancer, pneumonia, and brain tumors in X-rays and MRIs",
+            "D": "Writing medical prescriptions"
+        },
+        "answer": "C",
+        "difficulty": "Hard"
+    }
+]

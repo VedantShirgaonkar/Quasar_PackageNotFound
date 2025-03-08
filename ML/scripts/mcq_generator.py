@@ -3,7 +3,13 @@ import json
 import os
 from scripts.key_sentence_extraction import extract_key_sentences  
 from scripts.text_processing import extract_text  
-from scripts.db_manager import store_mcq
+import sys
+import os
+
+# Add Backend directory to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "Backend")))
+
+from database import store_mcq
 from scripts.adaptive_learning import AdaptiveLearning
 
 # Suppress Hugging Face tokenizer parallelism warning
@@ -15,11 +21,13 @@ def generate_mcq(text, user_id, domain, adaptive_engine):
     - `text`: Input text from which the MCQ is generated.
     - `user_id`: ID of the user generating the MCQ.
     - `domain`: "Input-based" or a specific subject category.
-    - `adaptive_engine`: Adaptive learning instance to determine difficulty.
     """
 
-    key_sentences = extract_key_sentences(text.split(". "))  # Extract important sentences
+    # Initialize adaptive learning to fetch user's current difficulty
+    adaptive_engine = AdaptiveLearning(user_id)
+    difficulty = adaptive_engine.get_difficulty_label()
 
+    key_sentences = extract_key_sentences(text.split(". "))  # Extract important sentences
     if not key_sentences:
         return None
 
@@ -28,6 +36,8 @@ def generate_mcq(text, user_id, domain, adaptive_engine):
 
     "{' '.join(key_sentences)}"
 
+    The difficulty level is '{difficulty}', so adjust question complexity accordingly.
+    
     Ensure the output is strictly in this JSON format:
     {{
         "question": "<Generated MCQ Question>",
@@ -52,8 +62,8 @@ def generate_mcq(text, user_id, domain, adaptive_engine):
         mcq_response = response.stdout.strip()
         mcq_json = json.loads(mcq_response)
 
-        # Assign default difficulty as "Medium" initially
-        mcq_json["difficulty"] = "Medium"
+        # Assign the current difficulty level to the MCQ before storing
+        mcq_json["difficulty"] = difficulty
 
         # Store the MCQ in the database
         store_mcq(user_id, domain, mcq_json)

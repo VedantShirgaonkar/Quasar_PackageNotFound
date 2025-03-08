@@ -2,19 +2,34 @@ import re
 import json
 
 def extract_mcq_components(mcq_text):
-    """Extracts structured MCQ components from raw model output."""
+    """
+    Extracts structured MCQ components from raw model output.
     
-    # Strict regex to enforce correct MCQ format
-    pattern = (
+    Expected input format:
+    Question: <MCQ Question>
+    A) <Option A>
+    B) <Option B>
+    C) <Option C>
+    D) <Option D>
+    Answer: <Correct Option (A/B/C/D)>
+    
+    Returns:
+        dict: Structured MCQ if valid, else None.
+    """
+
+    # Regex pattern to strictly enforce the expected MCQ format
+    pattern = re.compile(
         r'Question:\s*(.+?)\s*\n'  # Capture question
-        r'A\)\s*(.+?)\s*\n'  # Capture option A
-        r'B\)\s*(.+?)\s*\n'  # Capture option B
-        r'C\)\s*(.+?)\s*\n'  # Capture option C
-        r'D\)\s*(.+?)\s*\n'  # Capture option D
-        r'Answer:\s*([A-D])'  # Capture correct answer
+        r'A\)\s*(.+?)\s*\n'        # Capture option A
+        r'B\)\s*(.+?)\s*\n'        # Capture option B
+        r'C\)\s*(.+?)\s*\n'        # Capture option C
+        r'D\)\s*(.+?)\s*\n'        # Capture option D
+        r'Answer:\s*([A-D])',      # Capture correct answer
+        re.MULTILINE | re.DOTALL   # Ensure multi-line matching
     )
 
-    match = re.search(pattern, mcq_text, re.DOTALL)
+    match = pattern.search(mcq_text)
+    
     if match:
         question, opt_a, opt_b, opt_c, opt_d, correct_answer = match.groups()
         return {
@@ -28,9 +43,4 @@ def extract_mcq_components(mcq_text):
             "answer": correct_answer.strip()
         }
 
-    return None  # No match means format is incorrect
-
-def format_mcqs_to_json(mcqs):
-    """Converts a list of MCQs to JSON format."""
-    formatted_mcqs = [extract_mcq_components(mcq) for mcq in mcqs if mcq]
-    return json.dumps(formatted_mcqs, indent=4)
+    return None  # Return None if format doesn't match
