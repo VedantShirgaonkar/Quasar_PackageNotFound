@@ -42,4 +42,4 @@ if __name__ == "__main__":
     with open("output.json", "w", encoding="utf-8") as json_file:
         json.dump(mcq_list, json_file, indent=4, ensure_ascii=False)
     
-    print("MCQs successfully extracted and saved as output.json")
+    # print("MCQs successfully extracted and saved as output.json")

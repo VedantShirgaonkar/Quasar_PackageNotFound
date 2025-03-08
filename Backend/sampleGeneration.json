@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "question": "What does I/O stand for?",
+    "A": "Input-Output",
+    "B": "Instruction-Output",
+    "C": "Input-Output Protocol",
+    "D": "Instruction-Output System",
+    "answer": "A"
+  },
+  {
+    "question": "Which device is responsible for collecting and processing data received from the user?",
+    "A": "Monitor",
+    "B": "Keyboard",
+    "C": "Mouse",
+    "D": "Storage",
+    "answer": "C"
+  },
+  {
+    "question": "What is the primary function of a control unit in a computer?",
+    "A": "To control the flow of data between input and output devices",
+    "B": "To fetch instructions from memory",
+    "C": "To perform mathematical calculations",
+    "D": "To control the processor",
+    "answer": "A"
+  },
+  {
+    "question": "Which bus is commonly used for transferring data between components in a system?",
+    "A": "PCI-E",
+    "B": "USB",
+    "C": "SATA",
+    "D": "HDMI",
+    "answer": "C"
+  },
+  {
+    "question": "What is the purpose of a signal in the context of input-based systems?",
+    "A": "To carry data between components",
+    "B": "To control the flow of data",
+    "C": "To initiate a process",
+    "D": "To perform an operation",
+    "answer": "A"
+  },
+  {
+    "question": "Which input device is typically used for capturing keystrokes and mouse clicks?",
+    "A": "Keyboard",
+    "B": "Mouse",
+    "C": "Touchpad",
+    "D": "Joystick",
+    "answer": "B"
+  },
+  {
+    "question": "What is the function of a buffer in input-based systems?",
+    "A": "To store data temporarily before it is processed",
+    "B": "To control the flow of data",
+    "C": "To perform a memory operation",
+    "D": "To store data for later use",
+    "answer": "A"
+  },
+  {
+    "question": "Which component in a computer is responsible for ensuring the safe and efficient transfer of data between various devices?",
+    "A": "Processor",
+    "B": "Hard disk",
+    "C": "Bus controller",
+    "D": "Memory controller",
+    "answer": "C"
+  },
+  {
+    "question": "Which type of input device allows a user to interact with the computer by typing characters and symbols?",
+    "A": "Keyboard",
+    "B": "Touchpad",
+    "C": "Mouse",
+    "D": "Joystick",
+    "answer": "A"
+  },
+  {
+    "question": "What is the primary purpose of input-based systems in modern technology?",
+    "A": "To perform complex calculations and data processing",
+    "B": "To store and retrieve data",
+    "C": "To control and monitor computer hardware",
+    "D": "To provide a graphical user interface",
+    "answer": "C"
+  },
+  {
+    "question": "Which input-based technology enables users to control devices and appliances remotely through a smartphone or other mobile device?",
+    "A": "Bluetooth",
+    "B": "Wi-Fi",
+    "C": "NFC",
+    "D": "Infrared",
+    "answer": "B"
+  }
+]
