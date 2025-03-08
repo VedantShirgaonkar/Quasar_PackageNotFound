@@ -24,10 +24,12 @@
         let currentQuestion = 0;
         let questions = {{ questions | tojson }};
         let answer = {};
+        const start = new Date();
+        
 
         // Initialize answer storage
         for (let i = 0; i < questions.length; i++) {
-            answer[i] = null;
+            answer[questions[currentQuestion][0]] = null;
         }
 
         function showQuestion() {
@@ -66,16 +68,56 @@
         function save_cont() {
             let selected = document.querySelector(".answer.selected");
             if (!selected) return;
-
-            answer[currentQuestion] = selected.dataset.index;
+            id = questions[currentQuestion][0];
+            answer[id] = selected.dataset.index;
             currentQuestion++;
 
             if (currentQuestion < questions.length) {
                 showQuestion();
             } else {
                 alert("Quiz Completed!");
+                submitmcq(JSON.stringify(answer));
+
             }
         }
+
+        const submitmcq = async (answer) => {
+  const apiUrl = "http://127.0.0.1:3000/submitmcq";
+
+  const end = new Date();
+let diffInSeconds = Math.abs((end - start) / 1000); // Convert milliseconds to seconds
+    let minutes = Math.floor(diffInSeconds / 60);
+    let seconds = diffInSeconds % 60;
+    diff = `${minutes}:${seconds}`;
+
+  const requestBody = {
+      answer,
+      diff
+  };
+
+  try {
+      const response = await fetch(apiUrl, {
+          method: "POST",
+          headers: {
+              "Content-Type": "application/json"
+          },
+          body: JSON.stringify(requestBody)
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+          console.log("Submit Successful:", result);
+          alert('Evaluation Completed!');
+          window.location.href = "/evaluation";
+      } else {
+          console.error("Signup failed:", result);
+          alert("Signup Failure, user id already exist. Please try again later");
+      }
+  } catch (error) {
+      console.error("Error during signup:", error);
+  }
+};
 
         // Enable Next button when an answer is selected
         document.addEventListener("click", (e) => {

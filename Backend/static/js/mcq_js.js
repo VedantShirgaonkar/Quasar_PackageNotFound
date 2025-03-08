@@ -24,7 +24,7 @@ let selectedAnswer = null;
 
         document.querySelectorAll(".answer").forEach((answer) => {
             answer.addEventListener("click", () => {
-                // Reset only previously selected answer
+
                 document.querySelectorAll(".answer").forEach((ans) => ans.classList.remove("selected"));
 
                 // Mark selected answer

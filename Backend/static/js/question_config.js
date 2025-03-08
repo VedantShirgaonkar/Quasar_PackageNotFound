@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let selectedDifficulty = 'medium';
     let timerMinutes = 10;
     let hasFile = false;
+    let pdf_filename = '';
     
     // Create dial markers
     for (let i = 0; i < 12; i++) {
@@ -130,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pdfFile.addEventListener('change', function() {
       if (this.files.length > 0) {
         hasFile = true;
+        pdf_filename = this.files[0].name;
         fileName.textContent = this.files[0].name;
         filePreview.style.display = 'block';
         
@@ -192,11 +194,13 @@ document.addEventListener('DOMContentLoaded', function() {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-           /* numQuestions: numQuestionsSlider.value,
+           
+            numQuestions: numQuestionsSlider.value,
             domain: domainInput.getAttribute('data-value'),
             difficulty: selectedDifficulty,
             timer: timerMinutes,
-            hasFile*/
+            hasFile: hasFile,
+            pdf_filename: pdf_filename
           })
         }).then(
           response => response.json()

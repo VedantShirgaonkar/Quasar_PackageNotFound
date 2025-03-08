@@ -4,6 +4,7 @@ from datetime import timedelta
 import uuid
 from database import get_db_connection
 import html
+import ast
 
 app = Flask(__name__)
 app.secret_key = 'quizgenius'
@@ -72,13 +73,24 @@ def question_config():
 
 @app.route('/checkmcqdone', methods=['POST'])
 def checkmcqdone():
+    data = request.get_json()
+    print(data)
+    domain = data['domain']
+    if domain == '':
+        domain = 'Input-Based'
+    
+    print(data['pdf_filename'])
+    
+    # call llm code with variable domain
+    # if llm code returns true then return jsonify({"status": "done"}), 200
+    
     conn = get_db_connection()
     cursor = conn.cursor()
-    sql_statement = "SELECT COUNT(*) FROM questions WHERE domain = 'Input-Based'"
+    sql_statement = "SELECT COUNT(*) FROM questions WHERE domain = '"+domain+"'"
     cursor.execute(sql_statement)
     count = cursor.fetchone()[0]  # Extract the count value
-
-# Check if count is greater than or equal to 10
+    
+    # Check if count is greater than or equal to 10
     if count >= 3:
         print("Count is greater than or equal to 10")
         return jsonify({"status": "done"}), 200
@@ -113,6 +125,69 @@ def showmcq():
     print(unescaped_questions)
     return render_template('mcq_html.html', questions=unescaped_questions)
     #return jsonify({"questions": questions}), 200
+
+@app.route('/submitmcq', methods=['POST'])
+def submitmcq():
+    data = request.get_json()
+    print(data['answer'])
+    answer = data['answer']
+    answer_dict = ast.literal_eval(answer)
+    diff = data['diff']
+
+    for key, value in answer_dict.items():
+        print(f"Key: {key}, Value: {value}")
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        if(value == '0'):
+            real_value = 'A'
+        if(value == '1'):
+            real_value = 'B'
+        if(value == '2'):
+            real_value = 'C'
+        else:
+            real_value = 'D'
+        #print(session_store[session['session_id']])
+        #print(session['session_id'])
+        sql_statement = "SELECT id FROM users WHERE username='"+session_store[session['session_id']]+"'"
+        cursor.execute(sql_statement)
+        user_id = cursor.fetchone()[0]
+        #print(user_id)
+
+        sql_statement = "SELECT correct_answer FROM questions WHERE id="+key
+        cursor.execute(sql_statement)
+        correct_ans = cursor.fetchone()[0]
+        #print(correct_ans)
+        cursor.execute('''
+        INSERT INTO user_performance (user_id, question_id, user_answer, correct,time_diff) VALUES (?, ?, ?, ?,?)
+        ''', (user_id, key, real_value, correct_ans, diff))
+        conn.commit()
+        conn.close()
+        return jsonify({"status": "done"}), 200
+    
+
+@app.route('/evaluation', methods=['POST','GET'])
+def evaluation():
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    score = 0
+    right_ans = 0
+    wrong_ans = 0
+    time_diff = 0
+    
+
+    sql_statement = "SELECT COUNT(*), SUM(correct = user_answer), MAX(time_diff) FROM user_performance WHERE user_id=(SELECT id FROM users WHERE username='"+session_store[session['session_id']]+"')"
+    cursor.execute(sql_statement)
+    resp = cursor.fetchall()
+    print(resp)
+    return render_template('evaluation.html',score=resp[0][0],right=resp[0][1],time=resp[0][2])
+
+
+
+
+    
+
+    ##return jsonify({"message": "MCQ submitted successfully!"}), 200
 
 
 if __name__ == '__main__':
