@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/mcq_css.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="quiz-container glassmorphism">
-            <div class="question-number"></div>
-            <div class="question-text"></div>
-            <div class="answers"></div>
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="logo">Q</div>
+                <div class="logo-text">
+                    <span style="color: #6e56cf; font-size: 1.5rem; font-weight: 700;">Quiz</span><span
+                        style="color: white;">Genius</span>
+                </div>
+            </div>
 
-            <div class="buttons">
-                <button class="btn next-btn" onclick="save_cont()">Next</button>
+            <ul class="menu">
+                <li class="menu-item " onclick="location.href='/Student_dashboard'">
+                    <div class="menu-item-icon">D</div>
+                    Dashboard
+                </li>
+                <li class="menu-item active" onclick="location.href='/question_config'">
+                    <div class="menu-item-icon">Q</div>
+                    Quiz Library
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">P</div>
+                    Performance
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">S</div>
+                    Settings
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">H</div>
+                    Help
+                </li>
+            </ul>
+        </div>
+        <div class="mcq-container">
+            <!-- timer -->
+            <div class="timer-container">
+                <svg width="100" height="100">
+                    <defs>
+                        <linearGradient id="gradientStroke">
+                            <stop class="gradient-start" offset="50%" />
+                            <stop class="gradient-mid" offset="100%" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="40" stroke="url(#gradientStroke)" stroke-width="8" fill="none"
+                        class="progress-ring-circle">
+                    </circle>
+                </svg>
+                <div class="timer-text">30</div>
+            </div>
+
+            <!-- mcq -->
+            <div class="quiz-container glassmorphism">
+                <div class="question-number"></div>
+                <div class="question-text"></div>
+                <div class="answers"></div>
+
+                <div class="buttons">
+                    <button class="btn next-btn" onclick="save_cont()">Next</button>
+                </div>
             </div>
         </div>
     </div>
@@ -87,5 +140,7 @@
         // Load the first question
         showQuestion();
     </script>
+    <script src="/static/js/mcq_js.js"></script>
 </body>
+
 </html>
