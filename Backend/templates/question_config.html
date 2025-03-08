@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gamified Question Configuration</title>
   <link rel="stylesheet" href="/static/css/question_config.css">
-</head>
-
-<body>
-
-
-  <div class="config-card">
+  </head>
+  <body>
+    
+  
+<div class="config-card">
     <h1>Quest Configuration</h1>
     <form id="configForm">
       <div class="form-group">
@@ -21,7 +19,7 @@
           <div class="slider-value" id="questionValue">10</div>
         </div>
       </div>
-
+      
       <div class="form-group">
         <label for="domain">Domain Selection</label>
         <div class="dropdown">
@@ -36,6 +34,7 @@
         </div>
         <div class="error-message" id="domainError">Please select a domain or upload a PDF</div>
       </div>
+      
       <div class="form-group">
         <label>Difficulty Level</label>
         <div class="difficulty-container">
@@ -44,6 +43,7 @@
           <div class="difficulty-btn" data-difficulty="hard">Hard</div>
         </div>
       </div>
+      
       <div class="form-group">
         <label>Timer (Minutes)</label>
         <div class="timer-container">
@@ -55,7 +55,7 @@
           <div class="dial-value" id="timerValue">10</div>
         </div>
       </div>
-
+      
       <div class="form-group">
         <label>PDF Upload</label>
         <div class="file-upload" id="fileUpload">
@@ -67,11 +67,11 @@
         </div>
         <div class="error-message" id="fileError">Please select a domain or upload a PDF</div>
       </div>
-
+      
       <button type="submit" class="submit-btn">Generate Questions</button>
     </form>
   </div>
-
+  
   <div class="loading-overlay" id="loadingOverlay">
     <div class="spinner"></div>
     <div class="progress-container">

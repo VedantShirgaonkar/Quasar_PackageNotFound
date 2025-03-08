@@ -21,26 +21,13 @@ def create_table():
     ''')
 
 
-# Difficulty is a Must in this Table Schema 
-#     cursor.execute('''
-#     CREATE TABLE IF NOT EXISTS questions (
-#     id INTEGER PRIMARY KEY AUTOINCREMENT,
-#     domain TEXT NOT NULL,
-#     difficulty TEXT NOT NULL,
-#     question TEXT NOT NULL,
-#     A TEXT NOT NULL,
-#     B TEXT NOT NULL,
-#     C TEXT NOT NULL,
-#     D TEXT NOT NULL,
-#     correct_answer TEXT NOT NULL
-# )
-# ''')
-
-    # Trying to Create a Table With No Difficult Level
+# The given table has the User Id Column
     cursor.execute('''
-    CREATE TABLE IF NOT EXISTS questions_without (
+    CREATE TABLE IF NOT EXISTS questions (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER NOT NULL,
     domain TEXT NOT NULL,
+    difficulty TEXT NOT NULL,
     question TEXT NOT NULL,
     A TEXT NOT NULL,
     B TEXT NOT NULL,
@@ -49,7 +36,6 @@ def create_table():
     correct_answer TEXT NOT NULL
 )
 ''')
-
 
     
     conn.commit()

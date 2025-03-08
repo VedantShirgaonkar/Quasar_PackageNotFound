@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let selectedDifficulty = 'medium';
     let timerMinutes = 10;
     let hasFile = false;
+    let pdf_filename = '';
     
     // Create dial markers
     for (let i = 0; i < 12; i++) {
@@ -130,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     pdfFile.addEventListener('change', function() {
       if (this.files.length > 0) {
         hasFile = true;
+        pdf_filename = this.files[0].name;
         fileName.textContent = this.files[0].name;
         filePreview.style.display = 'block';
         
@@ -173,46 +175,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
     
-    // Added the Functions  --> Generate MCQS's
-    function generateMCQs() {
-      const domainInput = document.getElementById("domain");
-      const domain = domainInput.getAttribute("data-value"); // Get selected domain
-      const errorDiv = document.getElementById("domainError");
-
-      if (!domain) {
-        errorDiv.style.display = "block"; // Show error if no selection
-        return;
-      }
-
-      // Send selected domain to Flask API
-      fetch("http://127.0.0.1:3000/generate_mcqs", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ domain: domain, numOfQuestions: numQues })  // Sending the selected domain
-      })
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById("output").innerText = JSON.stringify(data, null, 2); // Display JSON response
-        })
-        .catch(error => console.error("Error:", error));
-
-    }
-
-    // Adding the Event Listner File 
-    document.addEventListener("DOMContentLoaded", function () {
-      // Select the "Generate Questions" button
-      const generateBtn = document.querySelector(".submit-btn");
-  
-      // Attach event listener to call generateMCQs when the button is clicked
-      generateBtn.addEventListener("click", function (event) {
-          event.preventDefault(); // Prevent form submission if inside a form
-          generateMCQs(); // Call the function
-      });
-  });
-
-
     function clearFileInput() {
       pdfFile.value = '';
       filePreview.style.display = 'none';
@@ -232,11 +194,13 @@ document.addEventListener('DOMContentLoaded', function() {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({
-           /* numQuestions: numQuestionsSlider.value,
+           
+            numQuestions: numQuestionsSlider.value,
             domain: domainInput.getAttribute('data-value'),
             difficulty: selectedDifficulty,
             timer: timerMinutes,
-            hasFile*/
+            hasFile: hasFile,
+            pdf_filename: pdf_filename
           })
         }).then(
           response => response.json()
