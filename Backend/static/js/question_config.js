@@ -226,7 +226,7 @@ document.addEventListener('DOMContentLoaded', function() {
             window.location.href = "http://127.0.0.1:3000/showmcq";
           }
         });
-      }, 5000);
+      }, 4500);
 
       // Validation
       let isValid = true;

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What does CPU stand for?",
+    "A": "Central Processing Unit",
+    "B": "Computer Personal Unit",
+    "C": "Central Process Unit",
+    "D": "Control Processing Unit",
+    "answer": "A"
+  },
+  {
+    "question": "Which programming language is widely used for machine learning and data science?",
+    "A": "SQL",
+    "B": "Java",
+    "C": "Python",
+    "D": "R",
+    "answer": "C"
+  },
+  {
+    "question": "Which software development paradigm focuses on rapid prototyping and iterative development?",
+    "A": "Agile",
+    "B": "Waterfall",
+    "C": "Scrum",
+    "D": "Kanban",
+    "answer": "C"
+  },
+  {
+    "question": "What is the primary function of a compiler in a programming language?",
+    "A": "Interpreting source code",
+    "B": "Compiling code into machine instructions",
+    "C": "Running compiled code",
+    "D": "Storing compiled code",
+    "answer": "B"
+  },
+  {
+    "question": "Which programming paradigm emphasizes modularity and code reuse in software development?",
+    "A": "Microservices",
+    "B": "Agile",
+    "C": "Object-oriented programming",
+    "D": "Functional programming",
+    "answer": "A"
+  }
+]

@@ -62,7 +62,7 @@
                 <input type="radio" name="role" id="teacher" value="teacher">
                 <label for="teacher">Teacher</label>
             </div>
-            <button onclick="return validate_submitForm()">Sign Up</button>
+            <button onclick="window.location.href='/teacher_dashboard'">Sign Up</button>
             <p style="text-align: center;">Already have an account? <a onclick="toggleForm()">Log in</a></p>
         </div>
     </div>
@@ -404,6 +404,8 @@ function closeContainer() {
     const container = document.getElementById("auth-container");
     container.classList.remove("show");
 }
+
+
 
   </script>
     

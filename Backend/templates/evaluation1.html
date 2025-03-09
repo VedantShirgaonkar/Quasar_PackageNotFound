@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Quiz Results</title>
+    <link rel="stylesheet" href="/static/css/evaluation1.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Loading Screen -->
+        <div id="loading-screen">
+            <div class="scanner-line"></div>
+            <div class="loading-text">ANALYZING PERFORMANCE</div>
+            <div class="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+            <div class="loading-percentage">0%</div>
+        </div>
+
+        <!-- Results Dashboard -->
+        <div id="results-dashboard" class="hidden">
+            <div class="dashboard-header">
+                <h1>PERFORMANCE <span class="highlight">ANALYSIS</span></h1>
+                <div class="actions">
+                    <button id="replay-btn" class="neon-button">RETAKE QUIZ</button>
+                    <button id="leaderboard-btn" class="neon-button">LEADERBOARD</button>
+                </div>
+            </div>
+
+            <!-- Main Results Grid -->
+            <div class="results-grid">
+                <!-- Accuracy Display -->
+                <div class="grid-item accuracy-container">
+                    <h2>ACCURACY</h2>
+                    <div class="accuracy-display">
+                        <div id="accuracy-circle">
+                            <span id="accuracy-percentage">0%</span>
+                        </div>
+                    </div>
+                    <div id="accuracy-message">CALCULATING...</div>
+                </div>
+
+                <!-- Domain Performance -->
+                <div class="grid-item domains-container">
+                    <h2>DOMAIN PERFORMANCE</h2>
+                    <div class="canvas-container">
+                        <canvas id="domain-chart"></canvas>
+                        <div id="domain-tooltip" class="hidden">
+                            <div id="domain-name">Domain</div>
+                            <div id="domain-score">Score: 0%</div>
+                            <div id="domain-questions">Questions: 0</div>
+                        </div>
+                    </div>
+                    <div class="domain-legend" id="domain-legend"></div>
+                </div>
+
+                <!-- Performance Stats -->
+                <div class="grid-item stats-container">
+                    <h2>PERFORMANCE STATS</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-value" id="total-questions">0</div>
+                            <div class="stat-label">TOTAL QUESTIONS</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="correct-answers">0</div>
+                            <div class="stat-label">CORRECT</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="incorrect-answers">0</div>
+                            <div class="stat-label">INCORRECT</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="time-taken">0:00</div>
+                            <div class="stat-label">TIME</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question Breakdown -->
+            <div class="questions-breakdown-container">
+                <h2>QUESTION BREAKDOWN</h2>
+                <div class="questions-list" id="questions-list">
+                    <!-- Questions will be inserted here dynamically -->
+                </div>
+            </div>
+
+            <!-- Floating Elements for Cyberpunk Aesthetic -->
+            <div class="floating-elements">
+                <div class="floating-element" style="top: 20%; left: 5%;"></div>
+                <div class="floating-element" style="top: 70%; left: 15%;"></div>
+                <div class="floating-element" style="top: 30%; right: 10%;"></div>
+                <div class="floating-element" style="top: 80%; right: 5%;"></div>
+            </div>
+
+            <!-- Particle Container for Confetti -->
+            <div id="particles-container"></div>
+        </div>
+
+        <!-- Leaderboard Modal -->
+        <div id="leaderboard-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>GLOBAL LEADERBOARD</h2>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="leaderboard-list">
+                    <div class="leaderboard-item header">
+                        <div class="rank">RANK</div>
+                        <div class="user">USER</div>
+                        <div class="score">SCORE</div>
+                    </div>
+                    <div class="leaderboard-item your-rank">
+                        <div class="rank">#4</div>
+                        <div class="user">YOU</div>
+                        <div class="score" id="your-leaderboard-score">75%</div>
+                    </div>
+                    <div class="leaderboard-item">
+                        <div class="rank">#1</div>
+                        <div class="user">CYBER_MIND</div>
+                        <div class="score">98%</div>
+                    </div>
+                    <div class="leaderboard-item">
+                        <div class="rank">#2</div>
+                        <div class="user">NEON_HACKER</div>
+                        <div class="score">92%</div>
+                    </div>
+                    <div class="leaderboard-item">
+                        <div class="rank">#3</div>
+                        <div class="user">CIRCUIT_BREAKER</div>
+                        <div class="score">87%</div>
+                    </div>
+                    <div class="leaderboard-item">
+                        <div class="rank">#5</div>
+                        <div class="user">DATA_WRAITH</div>
+                        <div class="score">68%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/evaluation1.js"></script>
+</body>
+</html>

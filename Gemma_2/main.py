@@ -1,5 +1,5 @@
 # Integrate all the Funcitons in a Single File and Make it Menu Driven 
-from mcq_generator import generateMCQ,convertToJSON
+from Backend.mcq_generator import generateMCQ,convertToJSON
 
 # Generating MCQ from the User Domain Request and the Number of Questions Involved
 

@@ -7,8 +7,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # Importing all the Script Files for function access
-from scripts.text_processing import extract_text
-from scripts.output_formatter import format_mcqs_to_json
+from Backend.text_processing import extract_text
+from Backend.output_formatter import format_mcqs_to_json
 
 # Load TinyLlama model & tokenizer (offline mode)
 MODEL_PATH = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"

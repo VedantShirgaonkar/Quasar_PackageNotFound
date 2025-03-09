@@ -7,8 +7,20 @@ import html
 import ast
 import sqlite3
 import sys,os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+
+
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from Gemma_2.mcq_generator import generateMCQ,convertToJSON
+
+
+# Dependencies for the PDF processing
+import io
+import pdfplumber
+
+from Backend.mcq_generator import generate_mcq  # Your MCQ generator function
+from Backend.text_processing import extract_text  # Your text extraction function
+from Backend.key_sentence_extraction import extract_key_sentences
 
 app = Flask(__name__)
 app.secret_key = 'quizgenius'
@@ -20,6 +32,21 @@ session_store = {}
 def landing_page():
     return render_template('Landing.html')
 
+
+@app.route('/teacher_dashboard')
+def teacher_dashboard():
+    return render_template('teacher_dashboard.html')
+
+
+@app.route('/classes1')
+def classroom():
+    return render_template('classes1.html')
+
+# @app.route('/classes1')
+# def classroom():
+#     return render_template('classes1.html')
+
+
 @app.route('/signup', methods=['POST'])
 def signup():
     data = request.get_json()
@@ -30,10 +57,16 @@ def signup():
 
     if register_user(username, password, confirm_password,role):
         print("User registered successfull")
-        return jsonify({"message": "User registered successfully!"}),200
+       # return jsonify({"message": "User registered successfully!"}),200
+
     else:
         print('Error: User registration failed!')
         return jsonify({"message": "Error: User registration failed!"}), 400
+
+
+@app.route('/teacher_question')
+def teacher_question():
+    return render_template('teacher_question.html')
     
 @app.route('/login', methods=['POST'])
 def login():
@@ -74,6 +107,42 @@ def question_config():
     else:
         username = session_store[session_id]
         return render_template('question_config.html', username=username)
+
+def executePDF(pdfFileName):
+    session_id = session.get('session_id')  # Use get() to prevent KeyError
+    if not session_id:
+        return jsonify({"error": "Session ID not found"}), 400  # Handle missing session
+
+    username = session_store.get(session_id)
+    if not username:
+        return jsonify({"error": "User not found in session"}), 400  # Handle missing user
+
+    # sqlUserName = f"SELECT id FROM users WHERE username='{username}'"
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    sqlUserName = "SELECT id FROM users WHERE username='"+session_store[session['session_id']]+"'"
+    cursor.execute(sqlUserName)
+
+    user_id = cursor.fetchone()[0]
+    filePath=f"files/data/{pdfFileName}"
+    print(filePath)
+    extracted_text = extract_text(filePath)
+    print(extracted_text)
+    # key_sentences = extract_key_sentences(extracted_text.split("."))
+    # Generate MCQs from extracted text
+    # Insert data into the database
+    mcqs = generate_mcq(extracted_text,"Medium")  
+    print(mcqs)
+    insert_questions_into_db(sqlUserName,"Input-Based",mcqs)
+    
+    return jsonify({"status": "done"}) , 200
+        # conn = get_db_connection()
+        # cursor = conn.cursor()
+        # sql_statement = "SELECT COUNT(*) FROM questions WHERE domain = '"+domain+"'"
+        # cursor.execute(sql_statement)
+        # count = cursor.fetchone()[0]  # Extract the count value
+    
     
 
 @app.route('/checkmcqdone', methods=['POST'])
@@ -83,10 +152,17 @@ def checkmcqdone():
     domain = data['domain']
     numOfQuestions=data['numQuestions'] 
     if domain == '':
-        domain = 'Input-Based'
+        domain = "AI in Healthcare"
+        numOfQuestions=10
+        # Shifting the Session Domain Value
+        # session['domain']=domain
+        # pdfFileName = data['pdf_filename']
+        # return executePDF(pdfFileName)
+        # # Don't return the values wait for the above method to return a value
     
+
+    session['domain']=domain   
     print(data['pdf_filename'])
-    
     # call llm code with variable domain
     # if llm code returns true then return jsonify({"status": "done"}), 200
     mcq_text=generateMCQ(domain,numOfQuestions)
@@ -147,9 +223,6 @@ def insert_questions_into_db(user_id,domain, mcq_list):
         print("Database Error:", e)
         return False
 
-
-
-
 import html
 from flask import Flask, render_template
 
@@ -159,8 +232,10 @@ def showmcq():
     # domain = data['domain']
     conn = get_db_connection()
     cursor = conn.cursor()
+    domain=session['domain']
 
-    sql_statement = "SELECT id, question, A, B, C, D FROM questions WHERE domain = 'history' LIMIT 10"
+    # Domain is input-based for now (where we are uploading the pdf file)
+    sql_statement = "SELECT id, question, A, B, C, D FROM questions WHERE domain = '"+domain+"' LIMIT 10"
     cursor.execute(sql_statement)
     questions = cursor.fetchall()
     print(questions)
@@ -215,29 +290,45 @@ def submitmcq():
         return jsonify({"status": "done"}), 200
     
 
-@app.route('/evaluation', methods=['POST','GET'])
+@app.route('/evaluation1', methods=['POST','GET'])
 def evaluation():
-    conn = get_db_connection()
-    cursor = conn.cursor()
-    score = 0
-    right_ans = 0
-    wrong_ans = 0
-    time_diff = 0
+     return render_template('evaluation1.html')
     
-
-    sql_statement = "SELECT COUNT(*), SUM(correct = user_answer), MAX(time_diff) FROM user_performance WHERE user_id=(SELECT id FROM users WHERE username='"+session_store[session['session_id']]+"')"
-    cursor.execute(sql_statement)
-    resp = cursor.fetchall()
-    print(resp)
-    return render_template('evaluation.html',score=resp[0][0],right=resp[0][1],time=resp[0][2])
-
-
-
-
-    
-
     ##return jsonify({"message": "MCQ submitted successfully!"}), 200
 
 
+# Upload api for storing the pdf file 
+@app.route("/upload", methods=["POST"])
+def upload_pdf():
+    """Processes a PDF file directly from memory without saving."""
+    if "pdf" not in request.files:
+        return jsonify({"error": "No file uploaded"}), 400
+    domain=session['domain']
+    # get the user_id from the session and hardcode the difficulty level
+      # Connecting with the db to fetch the username 
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    sqlUserName = "SELECT id FROM users WHERE username='"+session_store[session['session_id']]+"'"
+    cursor.execute(sqlUserName)
+    user_id = cursor.fetchone()[0]
+
+    pdf_file = request.files["pdf"]  # Get the uploaded file
+
+    # Read PDF as byte stream
+    pdf_stream = io.BytesIO(pdf_file.read())  
+
+    # Extract text directly from the byte stream
+    extracted_text = extract_text(pdf_stream)
+    # Generate MCQs from extracted text
+    # Insert data into the database
+    mcqs = generate_mcq(extracted_text, user_id, domain="Input-Based")  
+    insert_questions_into_db(sqlUserName,'Input-Based',mcqs)
+    
+    return jsonify ({"status":"done"}) , 200
+    
+
+
+
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000, debug=True)
+    app.run(host='0.0.0.0', port=3000,debug=True)

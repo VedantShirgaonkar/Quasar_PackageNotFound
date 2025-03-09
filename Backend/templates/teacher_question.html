@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Generation & Assignment</title>
+    <link rel="stylesheet" href="/static/css/teacher_question.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"> <h1 class="section-title"><i class="fas fa-brain"></i> Quiz Generation & Assignment</h1></div>
+            <div id="toggle-view" class="button button-secondary">
+                <i class="fas fa-exchange-alt"></i> Switch to Student View
+            </div>
+        </header>
+
+        <!-- Teacher View -->
+        <div id="teacher-view">
+           
+
+            <div class="main-content">
+                <!-- Left Column -->
+                <div class="left-column">
+                    <div class="card">
+                        <h2 class="section-title"><i class="fas fa-file-upload"></i> Upload PDF</h2>
+                        <div id="upload-area" class="upload-area">
+                            <div class="upload-icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <div class="upload-text">
+                                Drag & drop your PDF file here <br>or <span>browse files</span>
+                            </div>
+                            <input type="file" id="file-input" class="file-input" accept=".pdf" />
+                        </div>
+
+                        <div class="loading" id="loading-animation">
+                            <div class="spinner"></div>
+                            <p>Generating MCQs from your PDF content...</p>
+                        </div>
+
+                        <div id="uploaded-file-info" style="display: none;">
+                            <div class="form-group">
+                                <label for="file-name">Uploaded File</label>
+                                <div class="form-control" id="file-name" style="display: flex; align-items: center;">
+                                    <i class="fas fa-file-pdf" style="color: #F44336; margin-right: 10px;"></i>
+                                    <span id="file-name-text">No file selected</span>
+                                </div>
+                            </div>
+
+                            <button id="generate-btn" class="button" style="width: 100%;">
+                                <i class="fas fa-magic"></i> Generate MCQs
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="section-title"><i class="fas fa-cog"></i> Quiz Settings</h2>
+                        <div class="quiz-settings">
+                            <div class="form-group">
+                                <label for="quiz-title">Quiz Title</label>
+                                <input type="text" id="quiz-title" class="form-control"
+                                    placeholder="Enter quiz title..." />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="quiz-description">Description</label>
+                                <textarea id="quiz-description" class="form-control"
+                                    placeholder="Enter quiz description..." rows="3"></textarea>
+                            </div>
+
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                                <div class="form-group">
+                                    <label for="time-limit">Time Limit (minutes)</label>
+                                    <input type="number" id="time-limit" class="form-control" min="1" value="30" />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="difficulty">Difficulty Level</label>
+                                    <select id="difficulty" class="form-control">
+                                        <option value="easy">Easy</option>
+                                        <option value="medium" selected>Medium</option>
+                                        <option value="hard">Hard</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Right Column -->
+                <div class="right-column">
+                    <div class="card">
+                        <h2 class="section-title">
+                            <i class="fas fa-question-circle"></i> Generated MCQs
+                            <span style="margin-left: auto; display: flex; gap: 10px;">
+                                <button id="add-question-btn" class="button button-secondary"
+                                    style="padding: 5px 10px; font-size: 12px;">
+                                    <i class="fas fa-plus"></i> Add Question
+                                </button>
+                                <button id="reorder-questions-btn" class="button button-secondary"
+                                    style="padding: 5px 10px; font-size: 12px;">
+                                    <i class="fas fa-random"></i> Shuffle
+                                </button>
+                            </span>
+                        </h2>
+
+                        <div id="question-list" class="question-list">
+                            <div id="no-questions-msg"
+                                style="text-align: center; color: var(--text-secondary); padding: 30px;">
+                                <i class="fas fa-info-circle"
+                                    style="font-size: 36px; margin-bottom: 15px; color: var(--primary-color);"></i>
+                                <p>Upload a PDF and generate MCQs to start creating your quiz.</p>
+                            </div>
+                            <!-- Questions will be added dynamically here -->
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2 class="section-title"><i class="fas fa-users"></i> Assign Quiz</h2>
+                        <div class="form-group">
+                            <label>Select Students or Class</label>
+
+                            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                                <button id="select-all-btn" class="button button-secondary">
+                                    <i class="fas fa-user-check"></i> Select All
+                                </button>
+                                <button id="clear-all-btn" class="button button-secondary">
+                                    <i class="fas fa-user-times"></i> Clear All
+                                </button>
+                            </div>
+
+                            <div class="students-container">
+                                <div class="form-group">
+                                    <label for="class-filter">Filter by Class</label>
+                                    <select id="class-filter" class="form-control">
+                                        <option value="all">All Classes</option>
+                                        <option value="class-10a">Class 10-A</option>
+                                        <option value="class-10b">Class 10-B</option>
+                                        <option value="class-11a">Class 11-A</option>
+                                    </select>
+                                </div>
+
+                                <div class="student-list" id="student-list">
+                                    <!-- Student items will be added dynamically -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="buttons-container">
+                            <button id="save-draft-btn" class="button button-secondary">
+                                <i class="fas fa-save"></i> Save as Draft
+                            </button>
+                            <button id="assign-quiz-btn" class="button assign-button" disabled>
+                                <i class="fas fa-paper-plane"></i> Assign Quiz
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student View -->
+        <div id="student-view" class="student-view">
+            <h1 class="section-title"><i class="fas fa-user-graduate"></i> Student Dashboard</h1>
+
+            <div class="card">
+                <h2 class="section-title"><i class="fas fa-calendar-alt"></i> Upcoming Quizzes</h2>
+                <div id="quiz-list" class="quiz-list">
+                    <div class="quiz-card">
+                        <div class="quiz-card-tag">Science</div>
+                        <h3 class="quiz-card-title">Cell Biology Basics</h3>
+                        <div class="quiz-card-info">
+                            <span><i class="fas fa-clock"></i> 30 minutes</span>
+                            <span><i class="fas fa-calendar"></i> Due: Mar 15, 2025</span>
+                            <span><i class="fas fa-signal"></i> Medium</span>
+                            <span><i class="fas fa-question-circle"></i> 20 questions</span>
+                        </div>
+                        <div class="quiz-card-footer">
+                            <button class="button">
+                                <i class="fas fa-play"></i> Start Quiz
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="quiz-card">
+                        <div class="quiz-card-tag">Math</div>
+                        <h3 class="quiz-card-title">Algebra Practice</h3>
+                        <div class="quiz-card-info">
+                            <span><i class="fas fa-clock"></i> 45 minutes</span>
+                            <span><i class="fas fa-calendar"></i> Due: Mar 18, 2025</span>
+                            <span><i class="fas fa-signal"></i> Hard</span>
+                            <span><i class="fas fa-question-circle"></i> 15 questions</span>
+                        </div>
+                        <div class="quiz-card-footer">
+                            <button class="button">
+                                <i class="fas fa-play"></i> Start Quiz
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Notification (hidden by default) -->
+        <div id="notification" class="notification" style="display: none;">
+            <div style="display: flex; align-items: center;">
+                <div class="notification-icon"><i class="fas fa-bell"></i></div>
+                <div class="notification-text">New Quiz Assigned! 🎯 Check now.</div>
+            </div>
+            <button id="close-notification" class="notification-close">×</button>
+        </div>
+
+        <!-- Mode Toggle Button -->
+        <div id="mode-toggle" class="mode-toggle">
+            <i class="fas fa-exchange-alt"></i>
+        </div>
+    </div>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <script src="/static/js/teacher_question.js"></script>
+    <script>
+    fetch('/signup', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            username, 
+            password,
+            confirmPassword,
+            role
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        if (data.redirect) {
+            window.location.href = data.redirect; // Redirect user
+        } else {
+            alert(data.message); // Show success message
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Signup failed. Please try again.');
+    });
+
+    </script>
+</body>
+
+</html>
