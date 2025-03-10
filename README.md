@@ -112,10 +112,6 @@ The **Teacher Dashboard** is designed to simplify quiz creation, assignment, and
 
 ---
 
-<div align="center>
-
----
-
 ## 🎉 **Thank You for Checking Out Our Project!**  
 
 🔗 **For Contributions & Issues:** [GitHub Issues](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/issues)  
