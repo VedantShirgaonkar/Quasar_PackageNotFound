@@ -88,20 +88,29 @@ The **Teacher Dashboard** is designed to simplify quiz creation, assignment, and
 
 ## 📸 **Live Demo & Screenshots**  
 
-<div align="center">
-
 🚀 **[Live Demo](#)** (Coming Soon)  
 
+<div align="center">
 
-![Homepage](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/10b1c147afb7908be1677439fa95d8d9540d20de/demo/Screenshot%20(1404).png)  
-![Quiz Interface](assets/quiz.png)  
-![Teacher Dashboard](assets/teacher-dashboard.png)  
+![Homepage](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/36bb9e5dd8c82a4a59b952f09c5ebc4d78b6eca8/demo/Untitled%20design.png)  
+![Teacher Dashboard](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/36bb9e5dd8c82a4a59b952f09c5ebc4d78b6eca8/demo/Untitled%20design%20(1).png)  
 
 </div>
 
 ---
 
 ## 📂 Project Structure  
+
+<div align="center">
+
+![structure](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/36bb9e5dd8c82a4a59b952f09c5ebc4d78b6eca8/demo/WhatsApp%20Image%202025-03-10%20at%2020.34.05.jpeg)  
+ 
+
+</div>
+
+---
+
+<div align="center>
 
 ---
 
