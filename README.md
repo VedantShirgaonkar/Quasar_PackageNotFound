@@ -92,8 +92,6 @@ The **Teacher Dashboard** is designed to simplify quiz creation, assignment, and
 
 🚀 **[Live Demo](#)** (Coming Soon)  
 
-📱 **Scan QR Code to Access**  
-![QR Code](assets/qr-code.png)  
 
 ![Homepage](assets/homepage.png)  
 ![Quiz Interface](assets/quiz.png)  
