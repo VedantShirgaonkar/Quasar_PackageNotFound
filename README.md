@@ -94,6 +94,7 @@ The **Teacher Dashboard** is designed to simplify quiz creation, assignment, and
 
 ![Homepage](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/36bb9e5dd8c82a4a59b952f09c5ebc4d78b6eca8/demo/Untitled%20design.png)  
 <br>
+<br>
 ![Teacher Dashboard](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/36bb9e5dd8c82a4a59b952f09c5ebc4d78b6eca8/demo/Untitled%20design%20(1).png)  
 
 </div>
