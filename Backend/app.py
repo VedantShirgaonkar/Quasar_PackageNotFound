@@ -5,6 +5,10 @@ import uuid
 from database import get_db_connection
 import html
 import ast
+import sqlite3
+import sys,os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),"..")))
+from Gemma_2.mcq_generator import generateMCQ,convertToJSON
 
 app = Flask(__name__)
 app.secret_key = 'quizgenius'
@@ -70,21 +74,35 @@ def question_config():
     else:
         username = session_store[session_id]
         return render_template('question_config.html', username=username)
+    
 
 @app.route('/checkmcqdone', methods=['POST'])
 def checkmcqdone():
     data = request.get_json()
     print(data)
     domain = data['domain']
+    numOfQuestions=data['numQuestions'] 
     if domain == '':
         domain = 'Input-Based'
-        # Call the function for the pdf evaluation
     
     print(data['pdf_filename'])
     
     # call llm code with variable domain
     # if llm code returns true then return jsonify({"status": "done"}), 200
-    
+    mcq_text=generateMCQ(domain,numOfQuestions)
+    jsonFormat=convertToJSON(mcq_text,"sampleGeneration.json")
+
+    # Connecting with the db to fetch the username 
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    sqlUserName = "SELECT id FROM users WHERE username='"+session_store[session['session_id']]+"'"
+    cursor.execute(sqlUserName)
+    user_id = cursor.fetchone()[0]
+
+    # inserting the values into the database by calling that functions
+    insert_questions_into_db(user_id,domain,jsonFormat)
+
     conn = get_db_connection()
     cursor = conn.cursor()
     sql_statement = "SELECT COUNT(*) FROM questions WHERE domain = '"+domain+"'"
@@ -92,7 +110,7 @@ def checkmcqdone():
     count = cursor.fetchone()[0]  # Extract the count value
     
     # Check if count is greater than or equal to 10
-    if count >= 3:
+    if count >= 10:
         print("Count is greater than or equal to 10")
         return jsonify({"status": "done"}), 200
     else:
@@ -106,16 +124,46 @@ def checkmcqdone():
         username = session_store[session_id]
         return jsonify({"status": "done"}), 200'''
 
+# Function for the Database Entries 
+# Function to insert questions into the database
+def insert_questions_into_db(user_id,domain, mcq_list):
+    try:
+        # Connect to SQLite database
+        conn = sqlite3.connect("quizgenius.db")
+        cursor = conn.cursor()
+        
+        # Insert each question into the table
+        for mcq in mcq_list:
+            cursor.execute('''
+        INSERT INTO questions (user_id, domain, difficulty, question, A, B, C, D, correct_answer)
+        VALUES (?, ?, 'Medium', ?, ?, ?, ?, ?, ?)
+    ''', (user_id, domain, mcq["question"], mcq["A"], mcq["B"], mcq["C"], mcq["D"], mcq["answer"]))
+
+        # Commit and close the connection
+        conn.commit()
+        conn.close()
+        return True
+    except Exception as e:
+        print("Database Error:", e)
+        return False
+
+
+
+
 import html
 from flask import Flask, render_template
 
 @app.route('/showmcq', methods=['POST', 'GET'])
 def showmcq():
+    # data = request.get_json()
+    # domain = data['domain']
     conn = get_db_connection()
     cursor = conn.cursor()
-    sql_statement = "SELECT id, question, A, B, C, D FROM questions WHERE domain = 'Input-Based'"
+
+    sql_statement = "SELECT id, question, A, B, C, D FROM questions WHERE domain = 'history' LIMIT 10"
     cursor.execute(sql_statement)
     questions = cursor.fetchall()
+    print(questions)
 
     # Unescape special characters in each string field
     unescaped_questions = [
@@ -125,7 +173,7 @@ def showmcq():
 
     print(unescaped_questions)
     return render_template('mcq_html.html', questions=unescaped_questions)
-    #return jsonify({"questions": questions}), 200
+    # return jsonify({"questions": questions}), 200
 
 @app.route('/submitmcq', methods=['POST'])
 def submitmcq():

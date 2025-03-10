@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const domainInput = document.getElementById('domain');
     const domainOptions = document.getElementById('domainOptions');
     const difficultyBtns = document.querySelectorAll('.difficulty-btn');
-    const dialHand = document.getElementById('dialHand');
-    const timerValue = document.getElementById('timerValue');
+    // const dialHand = document.getElementById('dialHand');
+    // const timerValue = document.getElementById('timerValue');
     const fileUpload = document.getElementById('fileUpload');
     const pdfFile = document.getElementById('pdfFile');
     const filePreview = document.getElementById('filePreview');
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const loadingOverlay = document.getElementById('loadingOverlay');
     const progressBar = document.getElementById('progressBar');
     const loadingText = document.getElementById('loadingText');
-    const dialMarkers = document.getElementById('dialMarkers');
+    // const dialMarkers = document.getElementById('dialMarkers');
     
     // Initialize values
     let selectedDifficulty = 'medium';
@@ -25,13 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let hasFile = false;
     let pdf_filename = '';
     
-    // Create dial markers
-    for (let i = 0; i < 12; i++) {
-      const marker = document.createElement('div');
-      marker.className = 'dial-marker';
-      marker.style.transform = `rotate(${i * 30}deg) translateX(-50%)`;
-      dialMarkers.appendChild(marker);
-    }
+    // // Create dial markers
+    // for (let i = 0; i < 12; i++) {
+    //   const marker = document.createElement('div');
+    //   marker.className = 'dial-marker';
+    //   marker.style.transform = `rotate(${i * 30}deg) translateX(-50%)`;
+    //   dialMarkers.appendChild(marker);
+    // }
     
     // Number of Questions Slider
     numQuestionsSlider.addEventListener('input', function() {
@@ -86,42 +86,56 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Timer Dial
-    let isDragging = false;
-    const minTimer = 5;
-    const maxTimer = 60;
+    // let isDragging = false;
+    // const minTimer = 5;
+    // const maxTimer = 60;
     
-    function updateDialPosition(e) {
-      if (!isDragging) return;
+    // function updateDialPosition(e) {
+    //   if (!isDragging) return;
       
-      const dial = document.querySelector('.dial');
-      const rect = dial.getBoundingClientRect();
-      const centerX = rect.left + rect.width / 2;
-      const centerY = rect.top + rect.height / 2;
+    //   const dial = document.querySelector('.dial');
+    //   const rect = dial.getBoundingClientRect();
+    //   const centerX = rect.left + rect.width / 2;
+    //   const centerY = rect.top + rect.height / 2;
       
-      const angle = Math.atan2(e.clientY - centerY, e.clientX - centerX);
-      const degrees = angle * (180 / Math.PI) + 90;
+    //   const angle = Math.atan2(e.clientY - centerY, e.clientX - centerX);
+    //   const degrees = angle * (180 / Math.PI) + 90;
       
-      // Normalize to 0-360
-      let normalizedDegrees = degrees < 0 ? degrees + 360 : degrees;
+    //   // Normalize to 0-360
+    //   let normalizedDegrees = degrees < 0 ? degrees + 360 : degrees;
       
-      // Map 0-360 degrees to minTimer-maxTimer minutes
-      const percentage = normalizedDegrees / 360;
-      timerMinutes = Math.floor(minTimer + percentage * (maxTimer - minTimer));
+      // // Map 0-360 degrees to minTimer-maxTimer minutes
+      // const percentage = normalizedDegrees / 360;
+      // timerMinutes = Math.floor(minTimer + percentage * (maxTimer - minTimer));
       
       // Update dial position
-      dialHand.style.transform = `translateX(-50%) rotate(${normalizedDegrees}deg)`;
-      timerValue.textContent = timerMinutes;
-    }
+    //   dialHand.style.transform = `translateX(-50%) rotate(${normalizedDegrees}deg)`;
+    //   timerValue.textContent = timerMinutes;
+    // }
     
-    document.querySelector('.dial').addEventListener('mousedown', function(e) {
-      isDragging = true;
-      updateDialPosition(e);
-    });
+    // document.querySelector('.dial').addEventListener('mousedown', function(e) {
+    //   isDragging = true;
+    //   updateDialPosition(e);
+    // });
     
-    document.addEventListener('mousemove', updateDialPosition);
-    document.addEventListener('mouseup', function() {
-      isDragging = false;
-    });
+    // document.addEventListener('mousemove', updateDialPosition);
+    // document.addEventListener('mouseup', function() {
+    //   isDragging = false;
+    // });
+
+    // @Adding Yati's Changes
+    const minutesInput = document.getElementById('minutes');
+  const secondsInput = document.getElementById('seconds');
+
+  const validateInput = (input, max) => {
+      let value = parseInt(input.value) || 0;
+      if (value > max) input.value = max.toString().padStart(2, '0');
+      else if (value < 0) input.value = '00';
+      else input.value = value.toString().padStart(2, '0');
+  };
+
+  minutesInput.addEventListener('change', () => validateInput(minutesInput, 59));
+  secondsInput.addEventListener('change', () => validateInput(secondsInput, 59));
     
     // File Upload
     fileUpload.addEventListener('click', function() {

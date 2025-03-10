@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,127 +8,181 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/mcq_css.css">
 </head>
-<body>
-    <div class="container">
-        <div class="quiz-container glassmorphism">
-            <div class="question-number"></div>
-            <div class="question-text"></div>
-            <div class="answers"></div>
 
-            <div class="buttons">
-                <button class="btn next-btn" onclick="save_cont()">Next</button>
+<body>
+
+    <div class="container">
+        <!-- Adding Yati's Changes  -->
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="logo">Q</div>
+                <div class="logo-text">
+                    <span style="color: #6e56cf; font-size: 1.5rem; font-weight: 700;">Quiz</span><span
+                        style="color: white;">Genius</span>
+                </div>
+            </div>
+
+            <ul class="menu">
+                <li class="menu-item " onclick="location.href='/Student_dashboard'">
+                    <div class="menu-item-icon">D</div>
+                    Dashboard
+                </li>
+                <li class="menu-item active" onclick="location.href='/question_config'">
+                    <div class="menu-item-icon">Q</div>
+                    Quiz Library
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">P</div>
+                    Performance
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">S</div>
+                    Settings
+                </li>
+                <li class="menu-item">
+                    <div class="menu-item-icon">H</div>
+                    Help
+                </li>
+            </ul>
+        </div>
+        <div class="mcq-container">
+            <!-- timer -->
+            <div class="timer-container">
+                <svg width="100" height="100">
+                    <defs>
+                        <linearGradient id="gradientStroke">
+                            <stop class="gradient-start" offset="50%" />
+                            <stop class="gradient-mid" offset="100%" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="40" stroke="url(#gradientStroke)" stroke-width="8" fill="none"
+                        class="progress-ring-circle">
+                    </circle>
+                </svg>
+                <div class="timer-text">30</div>
+            </div>
+
+                <!-- mcq -->
+            <div class="quiz-container glassmorphism">
+                <div class="question-number"></div>
+                <div class="question-text"></div>
+                <div class="answers"></div>
+
+                <div class="buttons">
+                    <button class="btn next-btn" onclick="save_cont()">Next</button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <script>
-        let currentQuestion = 0;
-        let questions = {{ questions | tojson }};
-        let answer = {};
-        const start = new Date();
-        
+        <script>
+            let currentQuestion = 0;
+            let questions = {{ questions | tojson }};
+            let answer = {};
+            const start = new Date();
 
-        // Initialize answer storage
-        for (let i = 0; i < questions.length; i++) {
-            answer[questions[currentQuestion][0]] = null;
-        }
 
-        function showQuestion() {
-            if (currentQuestion >= questions.length) {
-                alert("Quiz Completed!");
-                console.log(answer); // Display collected answers
-                return;
+            // Initialize answer storage
+            for (let i = 0; i < questions.length; i++) {
+                answer[questions[currentQuestion][0]] = null;
             }
 
-            let q = questions[currentQuestion];
+            function showQuestion() {
+                if (currentQuestion >= questions.length) {
+                    alert("Quiz Completed!");
+                    console.log(answer); // Display collected answers
+                    return;
+                }
 
-            // Update question number and text
-            document.querySelector(".question-number").innerText = `Question ${q[0]}`;
-            document.querySelector(".question-text").innerText = q[1];
+                let q = questions[currentQuestion];
 
-            // Update answer choices dynamically
-            let answersDiv = document.querySelector(".answers");
-            answersDiv.innerHTML = ""; // Clear previous options
-            let options = ['A', 'B', 'C', 'D']; // Define labels
+                // Update question number and text
+                // document.querySelector(".question-number").innerText = `Question ${q[0]}`;
+                document.querySelector(".question-text").innerText = q[1];
 
-            for (let i = 0; i < 4; i++) {
-                let div = document.createElement("div");
-                div.classList.add("answer");
-                div.innerText = `${options[i]}) ${q[i + 2]}`; // A) Option 1, B) Option 2, etc.
-                div.dataset.index = i; // Store index
-                div.addEventListener("click", function () {
-                    document.querySelectorAll(".answer").forEach(ans => ans.classList.remove("selected"));
-                    div.classList.add("selected");
-                });
-                answersDiv.appendChild(div);
+                // Update answer choices dynamically
+                let answersDiv = document.querySelector(".answers");
+                answersDiv.innerHTML = ""; // Clear previous options
+                let options = ['A', 'B', 'C', 'D']; // Define labels
+
+                for (let i = 0; i < 4; i++) {
+                    let div = document.createElement("div");
+                    div.classList.add("answer");
+                    div.innerText = `${options[i]}) ${q[i + 2]}`; // A) Option 1, B) Option 2, etc.
+                    div.dataset.index = i; // Store index
+                    div.addEventListener("click", function () {
+                        document.querySelectorAll(".answer").forEach(ans => ans.classList.remove("selected"));
+                        div.classList.add("selected");
+                    });
+                    answersDiv.appendChild(div);
+                }
+
+                document.querySelector(".next-btn").disabled = true; // Disable Next until an answer is selected
             }
 
-            document.querySelector(".next-btn").disabled = true; // Disable Next until an answer is selected
-        }
+            function save_cont() {
+                let selected = document.querySelector(".answer.selected");
+                if (!selected) return;
+                id = questions[currentQuestion][0];
+                answer[id] = selected.dataset.index;
+                currentQuestion++;
 
-        function save_cont() {
-            let selected = document.querySelector(".answer.selected");
-            if (!selected) return;
-            id = questions[currentQuestion][0];
-            answer[id] = selected.dataset.index;
-            currentQuestion++;
+                if (currentQuestion < questions.length) {
+                    showQuestion();
+                } else {
+                    alert("Quiz Completed!");
+                    submitmcq(JSON.stringify(answer));
 
-            if (currentQuestion < questions.length) {
-                showQuestion();
-            } else {
-                alert("Quiz Completed!");
-                submitmcq(JSON.stringify(answer));
-
+                }
             }
-        }
 
-        const submitmcq = async (answer) => {
-  const apiUrl = "http://127.0.0.1:3000/submitmcq";
+            const submitmcq = async (answer) => {
+                const apiUrl = "http://127.0.0.1:3000/submitmcq";
 
-  const end = new Date();
-let diffInSeconds = Math.abs((end - start) / 1000); // Convert milliseconds to seconds
-    let minutes = Math.floor(diffInSeconds / 60);
-    let seconds = diffInSeconds % 60;
-    diff = `${minutes}:${seconds}`;
+                const end = new Date();
+                let diffInSeconds = Math.abs((end - start) / 1000); // Convert milliseconds to seconds
+                let minutes = Math.floor(diffInSeconds / 60);
+                let seconds = diffInSeconds % 60;
+                diff = `${minutes}:${seconds}`;
 
-  const requestBody = {
-      answer,
-      diff
-  };
+                const requestBody = {
+                    answer,
+                    diff
+                };
 
-  try {
-      const response = await fetch(apiUrl, {
-          method: "POST",
-          headers: {
-              "Content-Type": "application/json"
-          },
-          body: JSON.stringify(requestBody)
-      });
+                try {
+                    const response = await fetch(apiUrl, {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(requestBody)
+                    });
 
-      const result = await response.json();
+                    const result = await response.json();
 
-      if (response.ok) {
-          console.log("Submit Successful:", result);
-          alert('Evaluation Completed!');
-          window.location.href = "/evaluation";
-      } else {
-          console.error("Signup failed:", result);
-          alert("Signup Failure, user id already exist. Please try again later");
-      }
-  } catch (error) {
-      console.error("Error during signup:", error);
-  }
-};
+                    if (response.ok) {
+                        console.log("Submit Successful:", result);
+                        alert('Evaluation Completed!');
+                        window.location.href = "/evaluation";
+                    } else {
+                        console.error("Signup failed:", result);
+                        alert("Signup Failure, user id already exist. Please try again later");
+                    }
+                } catch (error) {
+                    console.error("Error during signup:", error);
+                }
+            };
 
-        // Enable Next button when an answer is selected
-        document.addEventListener("click", (e) => {
-            if (e.target.classList.contains("answer")) {
-                document.querySelector(".next-btn").disabled = false;
-            }
-        });
+            // Enable Next button when an answer is selected
+            document.addEventListener("click", (e) => {
+                if (e.target.classList.contains("answer")) {
+                    document.querySelector(".next-btn").disabled = false;
+                }
+            });
 
-        // Load the first question
-        showQuestion();
-    </script>
+            // Load the first question
+            showQuestion();
+        </script>
 </body>
+
 </html>
