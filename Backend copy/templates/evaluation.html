@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="/static/css/evalution.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Results</h1>
+        </header>
+        
+        <div class="summary-panel">
+            <div class="stat-box" style="--i:1;">
+                <div class="stat-title">Total Score</div>
+                <div class="stat-value" id="total-score">0</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="score-bar"></div>
+                </div>
+            </div>
+            
+            <div class="stat-box" style="--i:2;">
+                <div class="stat-title">Accuracy</div>
+                <div class="circle-progress">
+                    <div class="circle-bg"></div>
+                    <div class="circle-fill" id="accuracy-circle"></div>
+                    <div class="circle-text" id="accuracy-text">0%</div>
+                </div>
+            </div>
+            
+            <div class="stat-box" style="--i:3;">
+                <div class="stat-title">Correct vs Incorrect</div>
+                <div>
+                    <span class="correct">✓ <span id="correct-count">0</span></span>
+                    <span class="incorrect">✗ <span id="incorrect-count">0</span></span>
+                </div>
+                <div class="progress-bar" style="display: flex; margin-top: 1rem;">
+                    <div id="correct-bar" style="height: 100%; background: var(--success-color); width: 0%;"></div>
+                    <div id="incorrect-bar" style="height: 100%; background: var(--error-color); width: 0%;"></div>
+                </div>
+            </div>
+            
+            <div class="stat-box" style="--i:4;">
+                <div class="stat-title">Time Taken</div>
+                <div class="stat-value" id="time-taken">00:00</div>
+                <div class="badge" id="performance-badge">🎉</div>
+            </div>
+        </div>
+        
+        <div class="message" id="message-box">
+            Loading your personalized feedback...
+        </div>
+        
+        <div class="questions-panel">
+            <h2>Question Review</h2>
+            <div id="questions-container">
+                <!-- Questions will be dynamically inserted here -->
+            </div>
+        </div>
+        
+        <div class="btn-container">
+            <button class="btn" id="retry-btn">Try Another Quiz</button>
+        </div>
+    </div>
+    
+    
+    <script>
+         quizData = {
+            score: {{score}},
+            maxScore: 100,
+            accuracy: {{score}},
+            correctCount: {{right}},
+            incorrectCount: parseInt({{score}})-parseInt({{right}}),   
+            timeTaken: '{{time}}', // seconds
+            questions: [
+                {
+                    question: "What is the capital of France?",
+                    yourAnswer: "Paris",
+                    correctAnswer: "Paris",
+                    isCorrect: true
+                },
+                {
+                    question: "Which planet is known as the Red Planet?",
+                    yourAnswer: "Mars",
+                    correctAnswer: "Mars",
+                    isCorrect: true
+                },
+                {
+                    question: "What is the largest mammal?",
+                    yourAnswer: "Blue Whale",
+                    correctAnswer: "Blue Whale",
+                    isCorrect: true
+                },
+                {
+                    question: "What is the chemical symbol for gold?",
+                    yourAnswer: "Au",
+                    correctAnswer: "Au",
+                    isCorrect: true
+                },
+                {
+                    question: "In which year did World War II end?",
+                    yourAnswer: "1945",
+                    correctAnswer: "1945",
+                    isCorrect: true
+                },
+                {
+                    question: "Which is the largest ocean on Earth?",
+                    yourAnswer: "Pacific Ocean",
+                    correctAnswer: "Pacific Ocean",
+                    isCorrect: true
+                },
+                {
+                    question: "Who wrote 'Romeo and Juliet'?",
+                    yourAnswer: "William Shakespeare",
+                    correctAnswer: "William Shakespeare",
+                    isCorrect: true
+                },
+                {
+                    question: "What is the tallest mountain in the world?",
+                    yourAnswer: "Mount Everest",
+                    correctAnswer: "Mount Everest",
+                    isCorrect: true
+                },
+                {
+                    question: "What is the hardest natural substance on Earth?",
+                    yourAnswer: "Graphite",
+                    correctAnswer: "Diamond",
+                    isCorrect: false
+                },
+                {
+                    question: "Who painted the Mona Lisa?",
+                    yourAnswer: "Vincent van Gogh",
+                    correctAnswer: "Leonardo da Vinci",
+                    isCorrect: false
+                }
+            ]
+        };
+        
+    </script>
+<script src="/static/js/evalution.js"></script>
+</body>
+</html>

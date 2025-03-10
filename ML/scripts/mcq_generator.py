@@ -15,7 +15,7 @@ from scripts.adaptive_learning import AdaptiveLearning
 # Suppress Hugging Face tokenizer parallelism warning
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
-def generate_mcq(text, user_id, domain, adaptive_engine):
+def generate_mcq(text, user_id, domain, difficulty):
     """
     Generates an MCQ using Mistral via Ollama and stores it in the database.
     - `text`: Input text from which the MCQ is generated.
@@ -23,8 +23,8 @@ def generate_mcq(text, user_id, domain, adaptive_engine):
     - `domain`: "Input-based" or a specific subject category.
     """
 
-    # Initialize adaptive learning to fetch user's current difficulty
-    adaptive_engine = AdaptiveLearning(user_id)
+   # Initialize adaptive learning to fetch user's current difficulty
+    adaptive_engine = AdaptiveLearning(user_id) 
     difficulty = adaptive_engine.get_difficulty_label()
 
     key_sentences = extract_key_sentences(text.split(". "))  # Extract important sentences
@@ -63,10 +63,10 @@ def generate_mcq(text, user_id, domain, adaptive_engine):
         mcq_json = json.loads(mcq_response)
 
         # Assign the current difficulty level to the MCQ before storing
-        mcq_json["difficulty"] = difficulty
+        # mcq_json["difficulty"] = difficulty
 
         # Store the MCQ in the database
-        store_mcq(user_id, domain, mcq_json)
+        # store_mcq(user_id, domain, mcq_json)
 
         return mcq_json
     except json.JSONDecodeError:

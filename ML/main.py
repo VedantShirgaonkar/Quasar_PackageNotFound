@@ -56,29 +56,33 @@ if __name__ == "__main__":
     if not key_sentences:
         print("❌ No key sentences extracted. Exiting.")
         exit()
-
+    print("Extracted Key Sentences:", key_sentences)
     # **Generate MCQs based on extracted sentences**
     mcqs = [generate_mcq(sent, user_id, "Input-Based", adaptive_engine) for sent in key_sentences if sent]
     mcqs = [mcq for mcq in mcqs if mcq]  # Filter out failed generations
 
     # **User Interaction with MCQs (Storing Performance)**
-    for mcq in mcqs:
-        print(f"\n{mcq['question']}")
-        for option, text in mcq["options"].items():
-            print(f"{option}: {text}")
+# User Interaction with MCQs (Storing Performance)
+for mcq in mcqs:
+    # Ensure the difficulty key exists, set default if missing
+    if 'difficulty' not in mcq:
+        mcq['difficulty'] = 'Medium'  # Default difficulty level
 
-        user_answer = input("Enter your answer (A/B/C/D): ").strip().upper()
-        correct = (user_answer == mcq["answer"])
+    print(f"\n{mcq['question']}")
+    for option, text in mcq["options"].items():
+        print(f"{option}: {text}")
 
-        # Store the user's performance in the database
-        question_id = store_mcq(user_id, "Input-Based", mcq)  # Store MCQ and get question ID
-        store_user_performance(user_id, question_id, user_answer, correct)  # Pass ID
+    user_answer = input("Enter your answer (A/B/C/D): ").strip().upper()
+    correct = (user_answer == mcq["answer"])
 
-    # **Adjust difficulty dynamically for the next quiz**
-    new_difficulty = adaptive_engine.adjust_difficulty_after_quiz()
-    updated_mcqs = [{**mcq, "difficulty": new_difficulty} for mcq in mcqs]
+    # Store the user's performance in the database
+    question_id = store_mcq(user_id, "Input-Based", mcq)  # Store MCQ and get question ID
+    store_user_performance(user_id, question_id, user_answer, correct)  # Pass ID
 
-    # **Save MCQs with updated difficulty level**
-    save_mcqs(updated_mcqs)
+    # Adjust difficulty dynamically for the next quiz based on user performance
+    new_difficulty = adaptive_engine.adjust_difficulty_after_quiz()  # Adjust difficulty based on performance
+    mcq['difficulty'] = new_difficulty  # Update difficulty level for the next MCQ
 
-    print(f"\n✅ Quiz completed! Difficulty for next quiz: {new_difficulty}")
+# **Save MCQs with updated difficulty level**
+save_mcqs(mcqs)
+print(f"\n✅ Quiz completed! Difficulty for next quiz: {new_difficulty}")

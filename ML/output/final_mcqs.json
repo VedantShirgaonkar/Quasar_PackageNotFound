@@ -1,46 +1,57 @@
 [
     {
-        "question": "What is the role of wildlife in maintaining balance within ecosystems?",
+        "question": "According to the India Chapter Summary 2012, what was the name of the organization referred to as 'AR'?",
         "options": {
-            "A": "Wildlife disturbs the balance of ecosystems",
-            "B": "Wildlife has no impact on ecosystem balance",
-            "C": "Wildlife plays a crucial role in maintaining the balance of ecosystems",
-            "D": "Wildlife disrupts the growth of plants and animals"
-        },
-        "answer": "C",
-        "difficulty": "Easy"
-    },
-    {
-        "question": "What is the main goal of conservation efforts like national parks, wildlife sanctuaries, and breeding programs?",
-        "options": {
-            "A": "To increase human population for better economic growth",
-            "B": "To encourage unsustainable practices that harm biodiversity",
-            "C": "To protect endangered species and preserve biodiversity for future generations",
-            "D": "To exploit wildlife resources for immediate profit"
-        },
-        "answer": "C",
-        "difficulty": "Easy"
-    },
-    {
-        "question": "Which of the following animals, as mentioned in the text, help regulate populations within their habitats?",
-        "options": {
-            "A": "Lions, Elephants, and Deer",
-            "B": "Tigers, Rhinos, and Penguins",
-            "C": "Whales, Dolphins, and Sharks",
-            "D": "Kangaroos, Wallabies, and Emus"
+            "A": "Asian Regional",
+            "B": "Association of Regions",
+            "C": "Assistance and Relief",
+            "D": "Another Region"
         },
         "answer": "A",
         "difficulty": "Easy"
     },
     {
-        "question": "Which of the following is NOT a reason for many species facing extinction according to the given text?",
+        "question": "What is the title of the given reference?",
         "options": {
-            "A": "Illegal poaching",
-            "B": "Deforestation",
-            "C": "Climate change",
-            "D": "Overpopulation"
+            "A": "Article",
+            "B": "Book",
+            "C": "Journal",
+            "D": "Thesis"
+        },
+        "answer": "C",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the total number of pages in the document 'Chapters/india 2012 two-pager.pdf'?",
+        "options": {
+            "A": "411",
+            "B": "413",
+            "C": "415",
+            "D": "412"
         },
         "answer": "D",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of the following sources discusses 'The Indian Congress' on page 48?",
+        "options": {
+            "A": "Books.Google.C",
+            "B": "Asher & Talbot 2006",
+            "C": "Unspecified Source",
+            "D": "Unknown"
+        },
+        "answer": "A",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the title of the book with ISBN 978-0-19-565789-0 mentioned in the text?",
+        "options": {
+            "A": "History of India",
+            "B": "India: A Comprehensive Guide",
+            "C": "The Culture and Traditions of India",
+            "D": "Exploring South Asia"
+        },
+        "answer": "A",
         "difficulty": "Easy"
     }
 ]
