@@ -93,7 +93,7 @@ The **Teacher Dashboard** is designed to simplify quiz creation, assignment, and
 🚀 **[Live Demo](#)** (Coming Soon)  
 
 
-![Homepage](assets/homepage.png)  
+![Homepage](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/blob/10b1c147afb7908be1677439fa95d8d9540d20de/demo/Screenshot%20(1404).png)  
 ![Quiz Interface](assets/quiz.png)  
 ![Teacher Dashboard](assets/teacher-dashboard.png)  
 
@@ -109,5 +109,3 @@ The **Teacher Dashboard** is designed to simplify quiz creation, assignment, and
 
 🔗 **For Contributions & Issues:** [GitHub Issues](https://github.com/VedantShirgaonkar/Quasar_PackageNotFound/issues)  
 📩 **Contact Us:** [Email](mailto:sianrods250@gmail.com)  
-🌐 **Project Website:** [Visit Here](https://yourprojectwebsite.com)
-
